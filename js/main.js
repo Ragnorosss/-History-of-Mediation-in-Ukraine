@@ -12,5 +12,3 @@ for (let anchor of anchors) {
     })
   })
 }
-
-// Test
