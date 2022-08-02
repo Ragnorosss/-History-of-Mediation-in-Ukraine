@@ -3,12 +3,10 @@ let targetTextContainers = document.querySelectorAll(".target");
 let btns = [];
 for (let i = 0; i < btnContainer.children.length; i++) {
   btns.push(btnContainer.children[i]);
-}
-for (let i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", onClickToggleInfo);
-}
-
-let previousId = 0;
+  for (let i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", onClickToggleInfo);
+  }
+  let previousId = 0;
 function onClickToggleInfo(e) {
   let id = btns.indexOf(e.target);
   if (previousId !== id) {
@@ -18,4 +16,5 @@ function onClickToggleInfo(e) {
     e.target.classList.toggle("active");
   }
   previousId = id;
+}
 }
