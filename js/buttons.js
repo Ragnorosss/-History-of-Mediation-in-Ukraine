@@ -21,7 +21,7 @@ function getElements(type) {
 	return [].slice.call(document.querySelectorAll('.' + type)).sort(function (targetNode1, targetNode2) {
 		var target1Num = extractId(targetNode1, TARGET_CLASS_NAME)
 		var target2Num = extractId(targetNode2, TARGET_CLASS_NAME)
-		return target1Num > target2Num
+		return target1Num < target2Num
 	})
 }
 function extractId(targetNode, baseClass) {
