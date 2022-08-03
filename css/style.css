@@ -305,13 +305,6 @@
   bottom: 12%;
 }
 
-/* line 29, ../New-project/Project/project/scss/_footer.scss */
-.container {
-  width: 100%;
-  max-width: 1188px;
-  margin: 0 auto;
-}
-
 /* line 38, ../New-project/Project/project/scss/_footer.scss */
 .social__subtitel {
   margin-bottom: 20px;
