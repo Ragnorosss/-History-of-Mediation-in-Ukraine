@@ -27,6 +27,12 @@
       color: $def-color;
       transition: 0.5s;
    }
+   .icons{
+      display: flex;
+      justify-content: start;
+      padding-left: 9%;
+      padding-top: 273px;
+   }
 }
 
 .nav {
