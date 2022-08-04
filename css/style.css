@@ -1,2 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&family=Jost&family=Lato:wght@700&family=Montserrat:ital,wght@1,200&family=Mulish:wght@400;600;700&family=Poppins:wght@400;600&family=Varela+Round&display=swap");
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #F4F6FB;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__button {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  border: 1px solid #3c64b1;
+  color: #3c64b1;
+  font-size: 16px;
+  margin-right: 24px;
+  padding: 14px 18px;
+}
+.header__button:hover {
+  background-color: #3c64b1;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.header .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-left: 9%;
+  padding-top: 273px;
+}
 
-/*# sourceMappingURL=style.css.map */
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+}
+
+.menu-item__link {
+  color: #373f41;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.menu-item__link:hover {
+  color: #3c64b1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* Test */
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  background-color: #373f41;
+  margin-top: 85px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.footer__wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 230px));
+  -webkit-column-gap: 94px;
+     -moz-column-gap: 94px;
+          column-gap: 94px;
+  margin-bottom: 41px;
+  padding-top: 58px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer__wrapper::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  border-top: 1px solid #737b7d;
+  left: 0;
+  padding-bottom: 24px;
+  bottom: 10%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1188px;
+  margin: 0 auto;
+}
+
+.social__subtitel {
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+
+.copyryight {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #737b7d;
+}
+
+.donate__list {
+  padding-left: 0;
+}
+
+.footer .titel {
+  color: #ffffff;
+}
+
+/* Test */
+@media (max-width: 1250px) {
+  .menu__btn {
+    display: block;
+  }
+
+  .header__wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+
+  .header__logo {
+    position: relative;
+    z-index: 1;
+  }
+
+  .button__item {
+    padding: 0 1%;
+  }
+
+  .hamburger-menu {
+    display: inline;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .language {
+    display: none;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .hero__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .hero__inner-titel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .button__item {
+    font-size: 22px;
+  }
+}
+@media (max-width: 826px) {
+  .button__item {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .video {
+    min-height: 280px;
+  }
+
+  .menu__button {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .button__item {
+    width: 50%;
+  }
+
+  .button__item:nth-child(2) {
+    border-radius: 0 21px 21px 0;
+  }
+
+  .button__item:nth-child(3) {
+    border-radius: 21px 0 0 21px;
+  }
+}
+@media (min-width: 280px) and (max-width: 410px) {
+  .hero__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+
+  .hero-button__link {
+    margin-right: 0;
+  }
+
+  .history__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+
+  .copyryight {
+    margin-top: 12px;
+  }
+
+  .card__inner {
+    row-gap: 55px;
+  }
+
+  .button__item {
+    width: 100%;
+  }
+
+  .button__item:nth-child(1), .button__item:nth-child(2), .button__item:nth-child(3), .button__item:nth-child(4) {
+    border-radius: 0;
+  }
+}
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.button {
+  background-color: #3c64b1;
+  color: #ffffff;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.titel {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+
+.subtitel {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737b7d;
+}
+
+#lang {
+  background-color: #ffffff;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-transform: none;
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.language option {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}

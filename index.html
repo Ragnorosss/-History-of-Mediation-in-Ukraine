@@ -6,15 +6,97 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/burger.css">
    <title>История медиации</title>
 </head>
 <body>
-   <header class="header">
-
-   </header>
+      <header class="header">
+         <div class="container">
+            <div class="header__wrapper">
+               <a href="#hero" class="header__logo" id="top"><img src="./img/logo.svg" alt="Logo image" class="header-logo__img"></a>
+            <div class="hamburger-menu">
+               <input id="menu__toggle" type="checkbox" />
+               <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+               </label>
+               <ul class="menu__box">
+                     <li><a class="menu__item-burger" href="#">Головна</a></li>
+                     <li><a class="menu__item-burger" href="#">Каталог</a></li>
+                     <li><a class="menu__item-burger" href="#">Форум</a></li>
+                     <li><a class="menu__item-burger" href="#">Часті питання</a></li>
+                     <li><a class="menu__item-burger" href="#">Контакти</a></li>
+                     <div class="icons">
+                        <a href="#" class="icon__link">
+                           <img src="./icons/facebook.png" alt="" class="icon__item">
+                        </a>
+                        <a href="#" class="icon__link">
+                           <img src="./icons/youtube.png" alt="" class="icon__item">
+                        </a>
+                     </div>
+                  </ul>
+            </div> 
+            <nav class="nav__menu">
+                  <ul class="menu__items">
+                     <li class="menu__item">
+                        <a href="#" class="menu-item__link">Спогади</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#" class="menu-item__link">Бібліотека</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#" class="menu-item__link">Контакти</a>
+                     </li>
+                  </ul>
+               </nav>
+               <a href="#" class="header__button">для авторов</a>
+               <div class="language">
+                  <img src="./icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
+                  <img src="./icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
+                  <img src="./icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
+                  <select name="lang" id="lang" onchange="changeFlag()">
+                     <option value="ukr" >Українська</option>
+                     <option value="rus">Русский</option>
+                     <option value="eng">English</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+      </header>
    <main class="main"></main>
    <footer class="footer">
-
+      <div class="container">
+         <div class="footer__wrapper">
+            <div class="contacts">
+               <h2 class="menu__titel titel">Контакти</h2>
+               <p class="menu__subtitel subtitel">Зверніться до нас на пошту з будь-якими пропозиціями <a class="subtitel__link subtitel" href="#">example@mail.com</a></p>
+            </div>
+            <div class="social">
+               <h2 class="social__titel titel">Наші медіа</h2>
+               <p class="social__subtitel subtitel"> Підпишіться на наш ютуб, фейсбук та інстаграм, щоб слідкувати за
+                  останніми оновленнями</p>
+               <div class="icons">
+                  <a href="#" class="icon__link">
+                     <img src="./icons/facebook.png" alt="" class="icon__item">
+                  </a>
+                  <a href="#" class="icon__link">
+                     <img src="./icons/youtube.png" alt="" class="icon__item">
+                  </a>
+               </div>
+            </div>
+            <div class="donate">
+               <h2 class="donate__titel titel">Корисні посилання</h2>
+               <ul class="donate__list">
+                  <li class="list__item subtitel">Огранізація 1</li>
+                  <li class="list__item subtitel">Огранізація 2</li>
+                  <li class="list__item subtitel">Огранізація 3</li>
+                  <a class="donate__link subtitel" href="#">Підтримати</a>
+                  <a class="donate__link subtitel" href="#">Проблема з сайтом? тиcніть сюди</a>
+               </ul>
+            </div>
+            </ul>
+         </div>
+         <p class="copyryight">© BrandName. All rights reserved.</p>
+      </div>
    </footer>
    <script src="js/burgerofset.js"></script>
    <script src="js/lang.js"></script>
