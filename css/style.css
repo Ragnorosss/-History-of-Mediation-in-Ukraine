@@ -21,7 +21,7 @@ li {
 
 /* Header */
 .header {
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 1;
   background-color: #f4f6fb;
@@ -80,6 +80,12 @@ li {
   justify-content: start;
   padding-left: 9%;
   padding-top: 273px;
+}
+
+/* Main */
+.main {
+  display: grid;
+  grid-template-areas: "aside main";
 }
 
 /* footer */

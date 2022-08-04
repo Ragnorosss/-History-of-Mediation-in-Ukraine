@@ -1,21 +1,26 @@
-#menu__toggle {
+  #menu__toggle {
     opacity: 0;
   }
+  
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
+
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
   }
+
   .menu__btn {
     display: none;
     align-items: center;
@@ -27,6 +32,7 @@
     height: 45px;
     cursor: pointer;
   }
+
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -37,14 +43,17 @@
     background-color: #616161;
     transition-duration: .25s;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -8px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 8px;
   }
+
   .menu__box {
     display: block;
     position: fixed;
@@ -61,6 +70,7 @@
     transition: all 0.5s ease;
     
   }
+
   .menu__item-burger {
     display: block;
     padding: 12px 24px;
@@ -71,7 +81,7 @@
     text-decoration: none;
     transition: all 0.5s ease;
   }
+
   .menu__item-burger:hover {
     background-color: #CFD8DC;
   }
-  /* Test */
