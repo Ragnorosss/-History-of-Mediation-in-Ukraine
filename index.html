@@ -57,7 +57,7 @@
                   <img src="./images/icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
                   <img src="./images/icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
                   <select name="lang" id="lang" onchange="changeFlag()">
-                     <option value="ukr" >Українська</option>
+                     <option value="ukr">Українська</option>
                      <option value="rus">Русский</option>
                      <option value="eng">English</option>
                   </select>
@@ -65,7 +65,29 @@
             </div>
          </div>
       </header>
-   <main class="main"></main>
+   <main class="main">
+      <section class="articles">
+         <div class="container">
+            <h2 class="articles-title">Мої статті:</h2>
+            <div class="articles-search">
+               <div class="articles-search__item" ><img src="./images/icons/search_logo.png" /><input class="search-input" type="text" placeholder="Пошук по статтям..."> </input><img src="./images/icons/filter logo.png" /></div>
+               <div class="articles-search__item"><img src="./images/icons/add-icon.png" /></div>
+               <div class="articles-search__item"><img src="./images/icons/change-mode.png" /></div>
+            </div>
+            <div class="articles-items"></div>
+            <div class="articles-pagination">
+               <div class="control-text">Назад</div>
+               <ul class="control-numbers">
+                  <li class="control-numbers__item control-numbers__item--active">1</li>
+                  <li class="control-numbers__item">2</li>
+                  <li class="control-numbers__item">3</li>
+                  <li class="control-numbers__item">4</li>
+               </ul>
+               <div class="control-text">Вперед</div>
+            </div> 
+         </div>
+      </section>
+   </main>
    <footer class="footer">
       <div class="footer__container">
          <div class="footer__wrapper">
