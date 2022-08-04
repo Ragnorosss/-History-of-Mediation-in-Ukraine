@@ -11,12 +11,13 @@ body {
   height: 100%;
 }
 
-.container {
+[class*= __container]{ 
   width: 100%;
-  max-width: 1360px;
+  max-width: 1814px;
   margin: 0 auto;
   padding: 0 10px;
 }
+
 
 #hamburger-menu {
   display: none;
