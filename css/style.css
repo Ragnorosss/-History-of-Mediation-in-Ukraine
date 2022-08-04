@@ -130,33 +130,30 @@
 /* line 54, ../Personal-area/Project-end/scss/_main.scss */
 .profile__link {
   font-family: Poppins;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 29px;
   color: #3379E3;
 }
 
-/* line 63, ../Personal-area/Project-end/scss/_main.scss */
+/* line 62, ../Personal-area/Project-end/scss/_main.scss */
 .profile__age {
   font-family: Poppins;
   font-size: 30px;
-  font-weight: 400;
 }
 
-/* line 71, ../Personal-area/Project-end/scss/_main.scss */
+/* line 69, ../Personal-area/Project-end/scss/_main.scss */
 .profile__city {
   font-family: Poppins;
   font-size: 30px;
-  font-weight: 400;
 }
 
-/* line 79, ../Personal-area/Project-end/scss/_main.scss */
+/* line 76, ../Personal-area/Project-end/scss/_main.scss */
 .bio {
   width: 100%;
   max-width: 1811px;
   margin: 0 auto;
 }
 
-/* line 84, ../Personal-area/Project-end/scss/_main.scss */
+/* line 81, ../Personal-area/Project-end/scss/_main.scss */
 .bio__titel {
   font-family: Poppins;
   font-size: 48px;
@@ -166,9 +163,8 @@
   margin-top: 94px;
 }
 
-/* line 92, ../Personal-area/Project-end/scss/_main.scss */
+/* line 89, ../Personal-area/Project-end/scss/_main.scss */
 .bio__text {
-  font-weight: 400;
   font-size: 30px;
 }
 
