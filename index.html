@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/burger.css">
    <link rel="stylesheet" href="css/SearchBar.css">
+   <link rel="stylesheet" href="css/pagination.css">
    <link rel="stylesheet" href="css/style.css">
    <title>История медиации в Украине</title>
 </head>
@@ -78,15 +79,26 @@
             aside
          </div>
          <div class="main-content">
-            <div class="search__bar">
-               <input type="text" placeholder="Введiть назву статi або iм’я автора">
-               <span>
-                  <img class="search__icon" src="/Library/icons/search-outline.svg" alt="">
-               </span>
-               <span>
-                  <img class="search__icon" src="/Library/icons/funnel-outline.svg" alt="">
-               </span>
+
+            <div class="articles-search">
+               <div class="articles-search__item" >
+                  <img class="search-img" src="/icons/search_logo.png" />
+                  <input class="search-input" type="text" placeholder="Введiть назву статi або iм’я автора"></input>
+                  <img class="search-img" src="/icons/filter_logo.png" />
+               </div>
+            </div> <!--/.search-->
+
+            <div class="articles-pagination">
+               <div class="control-text">Назад</div>
+               <ul class="control-numbers">
+                  <li class="control-numbers__item control-numbers__item--active">1</li>
+                  <li class="control-numbers__item">2</li>
+                  <li class="control-numbers__item">3</li>
+                  <li class="control-numbers__item">4</li>
+               </ul>
+               <div class="control-text">Вперед</div>
             </div>
+
          </div>
      </main>
 

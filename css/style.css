@@ -88,6 +88,11 @@ li {
   grid-template-areas: "aside main";
 }
 
+/* Aside */
+.aside {
+  width: 500px;
+}
+
 /* footer */
 
 .footer {
