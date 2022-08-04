@@ -11,12 +11,12 @@
     justify-content: center;
   }
   &-title {
-    font-family: $font-mulish;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 40px;
-    max-width: 786px;
-    margin: 47px auto;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0.2em;
+    text-align: center;
   }
   &-search {
     width: max-content;
@@ -33,8 +33,53 @@
       border-radius: 30px;
       font-size: 28px;
       font-family: $font-mulish;
+      .search-img {
+        padding-top: 10px;
+      }
       img {
         cursor: pointer;
+      }
+    }
+  }
+  &-items {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 36px 0px;
+    &__item {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 59px 5px;
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0.06em;
+      width: 1448px;
+      height: 77px;
+      background-color: $primary-background;
+      .more-info {
+        display: flex;
+        justify-content: end;
+        img {
+          cursor: pointer;
+          padding: 8px 8px 0px 0px;
+        }
+      }
+      .title {
+        display: flex;
+        justify-content: center;
+      }
+      .data {
+        display: flex;
+        justify-content: left;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.06em;
+        color: #797979;
+        padding: 0px 0px 8px 8px;
       }
     }
   }
@@ -59,6 +104,7 @@
       cursor: pointer;
     }
     .control-numbers {
+      all: unset;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -75,15 +121,17 @@
       }
     }
   }
-  ul {
-    all: unset;
-  }
 }
 .search-input {
   width: 1000px;
   padding-left: 15px;
   border: none;
   background-color: $primary-background;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
 }
 .profile {
   padding-top: 49px;
