@@ -13,12 +13,12 @@
       <header class="header">
          <div class="header__container">
             <div class="header__wrapper">
-            <a href="#hero" class="header__logo" id="top"><img src="./images/header-logo.svg" alt="Logo image" class="header-logo__img"></a>
-            <div class="hamburger-menu">
-               <input id="menu__toggle" type="checkbox" />
-               <label class="menu__btn" for="menu__toggle">
-                  <span></span>
-               </label>
+               <a href="#hero" class="header__logo" id="top"><img src="./images/header-logo.svg" alt="Logo image" class="header-logo__img"></a>
+               <div class="hamburger-menu">
+                  <input id="menu__toggle" type="checkbox" />
+                  <label class="menu__btn" for="menu__toggle">
+                     <span></span>
+                  </label>
                <ul class="menu__box">
                   <li><a class="menu__item-burger" href="#">Головна</a></li>
                   <li><a class="menu__item-burger" href="#">Каталог</a></li>
@@ -51,7 +51,6 @@
                      </li>
                   </ul>
                </nav>
-               <a href="#" class="header__button">для авторов</a>
                <div class="language">
                   <img src="./images/icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
                   <img src="./images/icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
@@ -85,6 +84,25 @@
                </ul>
                <div class="control-text">Вперед</div>
             </div> 
+      <section class="profile">
+         <div class="profile__conteiner">
+            <div class="profile__content">
+               <div class="profile__info">
+                  <h2>Квалiфiкацiя</h2>
+                  <a href="#">Профеciйний медiатор</a>
+                  <h2>Повне Им’я,</h2>
+                  <p>23 года
+                     Одесса </p>
+               </div>
+               <video class="profile__video"src=""></video>
+               <div class="profile__avatar">
+                  <img src="./images/avatar.png" alt="">
+               </div>
+            </div>
+            <div class="bio">
+               <h2 class="bio__titel titel"></h2>
+               <p class="bio__subtitel"></p>
+            </div>
          </div>
       </section>
    </main>
@@ -114,11 +132,19 @@
                   <li class="list__item subtitel">Огранізація 1</li>
                   <li class="list__item subtitel">Огранізація 2</li>
                   <li class="list__item subtitel">Огранізація 3</li>
-                  <a class="donate__link subtitel" href="#">Підтримати</a>
-                  <a class="donate__link subtitel" href="#">Проблема з сайтом? тиcніть сюди</a>
+                  <li><a class="donate__link subtitel" href="#">Підтримати</a></li>
+                  <li><a class="donate__link subtitel" href="#">Проблема з сайтом? тиcніть сюди</a></li>
                </ul>
             </div>
-            </ul>
+            <div class="author">
+               <h2 class="author__titel titel">Корисні посилання</h2>
+               <ul class="author__list">
+                  <li class="list__item"><a href="#" class="list-item subtitel">Войти в аккаунт</a></li>
+                  <li class="list__item"><a href="#" class="list-item subtitel">Редактировать профиль</a></li>
+                  <li class="list__item"><a href="#" class="list-item subtitel">Что-то еще</a></li>
+                  <li class="list__item"><a href="#" class="list-item subtitel">Что-то еще</a></li>
+               </ul>
+            </div>
          </div>
          <p class="copyryight">© BrandName. All rights reserved.</p>
       </div>
@@ -129,3 +155,6 @@
    <script src="js/main.js"></script>
 </body>
 </html>
+
+
+

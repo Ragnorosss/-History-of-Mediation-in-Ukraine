@@ -82,4 +82,55 @@
   width: 1000px;
   border: none;
   background-color: $primary-background;
+  padding-top: 149px;
+  flex: 1 0 auto;
+}
+.profile {
+  padding-top: 49px;
+  // .profile__conteiner
+
+  &__conteiner {
+  }
+
+  // .profile__content
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+  }
+
+  // .profile__info
+
+  &__info {
+  }
+
+  // .profile__video
+
+  &__video {
+    width: 100%;
+    max-width: 738px;
+    height: 383px;
+    border-radius: 30px;
+    background: #e5edf1;
+  }
+
+  // .profile__avatar
+
+  &__avatar {
+  }
+}
+.bio {
+  // .bio__titel
+
+  &__titel {
+  }
+
+  // .bio__subtitel
+
+  &__subtitel {
+  }
+}
+.titel {
 }

@@ -201,8 +201,34 @@
   width: 1000px;
   border: none;
   background-color: #e5edf1;
+  padding-top: 149px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
+.profile {
+  padding-top: 49px;
+}
+.profile__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 132px;
+}
+.profile__video {
+  width: 100%;
+  max-width: 738px;
+  height: 383px;
+  border-radius: 30px;
+  background: #e5edf1;
+}
 .footer {
   position: relative;
   text-align: center;
@@ -215,10 +241,10 @@
 .footer__wrapper {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25%, 230px));
-  -webkit-column-gap: 94px;
-     -moz-column-gap: 94px;
-          column-gap: 94px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 15%));
+  -webkit-column-gap: 145px;
+     -moz-column-gap: 145px;
+          column-gap: 145px;
   margin-bottom: 41px;
   padding-top: 58px;
   -webkit-box-pack: center;
@@ -233,12 +259,6 @@
   left: 0;
   padding-bottom: 24px;
   bottom: 10%;
-}
-
-.container {
-  width: 100%;
-  max-width: 1188px;
-  margin: 0 auto;
 }
 
 .social__subtitel {
@@ -269,147 +289,11 @@
 }
 
 .footer .titel {
+  margin-bottom: 24px;
   color: #ffffff;
 }
 
 /* Test */
-@media (max-width: 1250px) {
-  .menu__btn {
-    display: block;
-  }
-
-  .header__wrapper {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-  }
-
-  .header__logo {
-    position: relative;
-    z-index: 1;
-  }
-
-  .button__item {
-    padding: 0 1%;
-  }
-
-  .hamburger-menu {
-    display: inline;
-  }
-
-  .header__button {
-    display: none;
-  }
-
-  .language {
-    display: none;
-  }
-
-  .nav__menu {
-    display: none;
-  }
-
-  .hero__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .hero__inner-titel {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-
-  .button__item {
-    font-size: 22px;
-  }
-}
-@media (max-width: 826px) {
-  .button__item {
-    font-size: 18px;
-  }
-}
-@media (max-width: 768px) {
-  .video {
-    min-height: 280px;
-  }
-
-  .menu__button {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-
-  .button__item {
-    width: 50%;
-  }
-
-  .button__item:nth-child(2) {
-    border-radius: 0 21px 21px 0;
-  }
-
-  .button__item:nth-child(3) {
-    border-radius: 21px 0 0 21px;
-  }
-}
-@media (min-width: 280px) and (max-width: 410px) {
-  .hero__button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 20px;
-  }
-
-  .hero-button__link {
-    margin-right: 0;
-  }
-
-  .history__button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 20px;
-  }
-
-  .copyryight {
-    margin-top: 12px;
-  }
-
-  .card__inner {
-    row-gap: 55px;
-  }
-
-  .button__item {
-    width: 100%;
-  }
-
-  .button__item:nth-child(1), .button__item:nth-child(2), .button__item:nth-child(3), .button__item:nth-child(4) {
-    border-radius: 0;
-  }
-}
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -453,14 +337,13 @@ body {
 }
 
 #lang {
-  background-color: #ffffff;
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
   text-transform: none;
   border: none;
-  background-color: #ffffff;
+  background-color: #F4F6FB;
   outline: none;
 }
 
