@@ -3,11 +3,7 @@
    flex: 1 0 auto;
 }
 .profile {
-   padding-top: 49px;
-		// .profile__conteiner
-
-		&__conteiner {
-		}
+      padding-top: 49px;
 
 		// .profile__content
 
@@ -21,6 +17,8 @@
 		// .profile__info
 
 		&__info {
+         display: flex;
+         flex-direction: column;
 		}
 
 		// .profile__video
@@ -28,27 +26,67 @@
 		&__video {
          width: 100%;
          max-width: 738px;
-         height: 383px;
+         height: 100%;
+         min-width: calc(738px / 2);
          border-radius: 30px;
          background: #E5EDF1;
 		}
-
-		// .profile__avatar
-
-		&__avatar {
-		}
+  
+      &__item-img{
+         width: 100%;
+         max-width: 512px;
+         min-width: 250px;
+      }
+      
+   &__titel {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+   }
 }
+.profile {
+      
+   &__titel{
+      margin-top: 50px;
+   }
+   // .profile__link
+
+   &__link {
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 400;
+      color: #3379E3;
+   }
+
+   // .profile__age
+
+   &__age {
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 400;
+   }
+
+   // .profile__city
+
+   &__city {
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 400;
+   }
+}
+
+
 .bio {
-
-		// .bio__titel
-
-		&__titel {
-		}
-
-		// .bio__subtitel
-
-		&__subtitel {
-		}
-}
-.titel {
+   width: 100%;
+   max-width: 1811px;
+   margin: 0 auto;
+   // .bio__titel
+   &__titel{
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      color: #333333;
+      margin-bottom: 29px;
+      margin-top: 94px;
+   }
 }

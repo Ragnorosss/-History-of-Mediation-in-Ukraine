@@ -84,7 +84,7 @@
   padding-top: 49px;
 }
 
-/* line 14, ../Personal-area/Project-end/scss/_main.scss */
+/* line 10, ../Personal-area/Project-end/scss/_main.scss */
 .profile__content {
   display: flex;
   justify-content: center;
@@ -92,13 +92,78 @@
   gap: 132px;
 }
 
-/* line 28, ../Personal-area/Project-end/scss/_main.scss */
+/* line 19, ../Personal-area/Project-end/scss/_main.scss */
+.profile__info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 26, ../Personal-area/Project-end/scss/_main.scss */
 .profile__video {
   width: 100%;
   max-width: 738px;
-  height: 383px;
+  height: 100%;
+  min-width: calc(738px / 2);
   border-radius: 30px;
   background: #E5EDF1;
+}
+
+/* line 35, ../Personal-area/Project-end/scss/_main.scss */
+.profile__item-img {
+  width: 100%;
+  max-width: 512px;
+  min-width: 250px;
+}
+
+/* line 41, ../Personal-area/Project-end/scss/_main.scss */
+.profile__titel {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* line 49, ../Personal-area/Project-end/scss/_main.scss */
+.profile__titel {
+  margin-top: 50px;
+}
+
+/* line 54, ../Personal-area/Project-end/scss/_main.scss */
+.profile__link {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+  color: #3379E3;
+}
+
+/* line 63, ../Personal-area/Project-end/scss/_main.scss */
+.profile__age {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* line 71, ../Personal-area/Project-end/scss/_main.scss */
+.profile__city {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* line 79, ../Personal-area/Project-end/scss/_main.scss */
+.bio {
+  width: 100%;
+  max-width: 1811px;
+  margin: 0 auto;
+}
+
+/* line 84, ../Personal-area/Project-end/scss/_main.scss */
+.bio__titel {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 29px;
+  margin-top: 94px;
 }
 
 /* line 1, ../Personal-area/Project-end/scss/_footer.scss */
