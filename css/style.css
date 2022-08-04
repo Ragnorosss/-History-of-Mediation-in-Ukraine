@@ -166,6 +166,12 @@
   margin-top: 94px;
 }
 
+/* line 92, ../Personal-area/Project-end/scss/_main.scss */
+.bio__text {
+  font-weight: 400;
+  font-size: 30px;
+}
+
 /* line 1, ../Personal-area/Project-end/scss/_footer.scss */
 .footer {
   position: relative;
@@ -240,7 +246,7 @@ body {
   width: 100%;
   max-width: 1814px;
   margin: 0 auto;
-  padding: clamp(0.313rem, 0.177rem + 0.68vw, 0.938rem);
+  padding: 0 10px;
 }
 
 /* line 21, ../Personal-area/Project-end/scss/style.scss */
