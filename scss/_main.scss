@@ -50,6 +50,7 @@
     font-size: 28px;
     font-family: $font-mulish;
     margin-top: 85px;
+
     .control-text {
       display: flex;
       align-items: center;
@@ -143,6 +144,7 @@
   &__age {
     font-family: Poppins;
     font-size: 30px;
+    margin-bottom: 0;
   }
 
   // .profile__city
@@ -150,6 +152,7 @@
   &__city {
     font-family: Poppins;
     font-size: 30px;
+    margin-bottom: 0;
   }
 }
 
