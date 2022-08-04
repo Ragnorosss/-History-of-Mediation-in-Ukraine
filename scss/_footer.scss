@@ -9,8 +9,8 @@
 
    &__wrapper {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(25%,230px));
-      column-gap: 94px;
+      grid-template-columns: repeat(auto-fill, minmax(200px,15%));
+      column-gap: 145px;
       margin-bottom: 41px;
       padding-top: 58px;
       justify-content: center;
@@ -25,11 +25,6 @@
       bottom: 10%;
    }
  
-}
-.container {
-   width: 100%;
-   max-width: 1188px;
-   margin: 0 auto;
 }
 
 

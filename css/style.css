@@ -85,8 +85,8 @@
 /* line 10, ../Personal-area/Project-end/scss/_footer.scss */
 .footer__wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25%, 230px));
-  column-gap: 94px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 15%));
+  column-gap: 145px;
   margin-bottom: 41px;
   padding-top: 58px;
   justify-content: center;
@@ -103,19 +103,12 @@
   bottom: 10%;
 }
 
-/* line 29, ../Personal-area/Project-end/scss/_footer.scss */
-.container {
-  width: 100%;
-  max-width: 1188px;
-  margin: 0 auto;
-}
-
-/* line 38, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 33, ../Personal-area/Project-end/scss/_footer.scss */
 .social__subtitel {
   margin-bottom: 20px;
 }
 
-/* line 43, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 38, ../Personal-area/Project-end/scss/_footer.scss */
 .icons {
   display: flex;
   justify-content: center;
@@ -123,19 +116,19 @@
   gap: 24px;
 }
 
-/* line 49, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 44, ../Personal-area/Project-end/scss/_footer.scss */
 .copyryight {
   margin-top: 24px;
   margin-bottom: 24px;
   color: #737b7d;
 }
 
-/* line 55, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 50, ../Personal-area/Project-end/scss/_footer.scss */
 .donate__list {
   padding-left: 0;
 }
 
-/* line 59, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 54, ../Personal-area/Project-end/scss/_footer.scss */
 .footer .titel {
   color: #ffffff;
 }
