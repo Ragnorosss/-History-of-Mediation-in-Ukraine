@@ -19,8 +19,8 @@
 .header__button {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
-  border: 1px solid #3c64b1;
-  color: #3c64b1;
+  border: 1px solid #3457B2;
+  color: #3457B2;
   font-size: 16px;
   margin-right: 24px;
   padding: 14px 18px;
@@ -28,7 +28,7 @@
 
 /* line 25, ../Personal-area/Project-end/scss/_header.scss */
 .header__button:hover {
-  background-color: #3c64b1;
+  background-color: #3457B2;
   color: #ffffff;
   transition: 0.5s;
 }
@@ -58,15 +58,16 @@
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: 600;
+  padding: 10px;
 }
 
-/* line 67, ../Personal-area/Project-end/scss/_header.scss */
+/* line 68, ../Personal-area/Project-end/scss/_header.scss */
 .menu-item__link:hover {
-  color: #3c64b1;
-  transition: 0.5s;
+  color: #3457B2;
+  border-bottom: 3px solid #3457B2;
 }
 
-/* line 73, ../Personal-area/Project-end/scss/_header.scss */
+/* line 74, ../Personal-area/Project-end/scss/_header.scss */
 .language {
   display: flex;
   /* Test */
@@ -282,7 +283,7 @@ body {
 
 /* line 26, ../Personal-area/Project-end/scss/style.scss */
 .button {
-  background-color: #3c64b1;
+  background-color: #3457B2;
   color: #ffffff;
   font-family: "Mulish", sans-serif;
   font-size: 16px;

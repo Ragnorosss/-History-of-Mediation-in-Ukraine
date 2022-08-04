@@ -6,7 +6,7 @@
    flex: 0 0 auto;
 
    //.header__wrapper
-   &__wrapper{
+   &__wrapper {
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -22,7 +22,7 @@
       margin-right: 24px;
       padding: 14px 18px;
    }
-   &__button:hover{
+   &__button:hover {
       background-color:$primery;
       color: $def-color;
       transition: 0.5s;
@@ -63,10 +63,11 @@
       font-family: $font-mulish;
       font-size: 18px;
       font-weight: 600;
+      padding: 10px;
    }
    &__link:hover{
       color: $primery;
-      transition: 0.5s;
+      border-bottom: 3px solid $primery;
    }
 
 }
