@@ -299,18 +299,17 @@ body {
 
 /* line 46, ../Personal-area/Project-end/scss/style.scss */
 #lang {
-  background-color: #ffffff;
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
   text-transform: none;
   border: none;
-  background-color: #ffffff;
+  background-color: #F4F6FB;
   outline: none;
 }
 
-/* line 58, ../Personal-area/Project-end/scss/style.scss */
+/* line 57, ../Personal-area/Project-end/scss/style.scss */
 .language option {
   border: none;
   outline: none;
@@ -318,7 +317,7 @@ body {
   font-size: 16px;
 }
 
-/* line 65, ../Personal-area/Project-end/scss/style.scss */
+/* line 64, ../Personal-area/Project-end/scss/style.scss */
 li {
   list-style: none;
 }
