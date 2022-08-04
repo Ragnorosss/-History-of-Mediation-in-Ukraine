@@ -73,6 +73,34 @@
   /* Test */
 }
 
+/* line 1, ../Personal-area/Project-end/scss/_main.scss */
+.main {
+  padding-top: 149px;
+  flex: 1 0 auto;
+}
+
+/* line 5, ../Personal-area/Project-end/scss/_main.scss */
+.profile {
+  padding-top: 49px;
+}
+
+/* line 14, ../Personal-area/Project-end/scss/_main.scss */
+.profile__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 132px;
+}
+
+/* line 28, ../Personal-area/Project-end/scss/_main.scss */
+.profile__video {
+  width: 100%;
+  max-width: 738px;
+  height: 383px;
+  border-radius: 30px;
+  background: #E5EDF1;
+}
+
 /* line 1, ../Personal-area/Project-end/scss/_footer.scss */
 .footer {
   position: relative;
@@ -135,134 +163,14 @@
 }
 
 /* Test */
-@media (max-width: 1250px) {
-  /* line 2, ../Personal-area/Project-end/scss/_media.scss */
-  .menu__btn {
-    display: block;
-  }
-  /* line 6, ../Personal-area/Project-end/scss/_media.scss */
-  .header__wrapper {
-    justify-content: start;
-  }
-  /* line 10, ../Personal-area/Project-end/scss/_media.scss */
-  .header__logo {
-    position: relative;
-    z-index: 1;
-  }
-  /* line 15, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item {
-    padding: 0 1%;
-  }
-  /* line 19, ../Personal-area/Project-end/scss/_media.scss */
-  .hamburger-menu {
-    display: inline;
-  }
-  /* line 23, ../Personal-area/Project-end/scss/_media.scss */
-  .header__button {
-    display: none;
-  }
-  /* line 27, ../Personal-area/Project-end/scss/_media.scss */
-  .language {
-    display: none;
-  }
-  /* line 31, ../Personal-area/Project-end/scss/_media.scss */
-  .nav__menu {
-    display: none;
-  }
-  /* line 35, ../Personal-area/Project-end/scss/_media.scss */
-  .hero__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  /* line 41, ../Personal-area/Project-end/scss/_media.scss */
-  .hero__inner-titel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  /* line 48, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item {
-    font-size: 22px;
-  }
-}
-
-@media (max-width: 826px) {
-  /* line 54, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 768px) {
-  /* line 60, ../Personal-area/Project-end/scss/_media.scss */
-  .video {
-    min-height: 280px;
-  }
-  /* line 64, ../Personal-area/Project-end/scss/_media.scss */
-  .menu__button {
-    flex-wrap: wrap;
-  }
-  /* line 68, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item {
-    width: 50%;
-  }
-  /* line 72, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item:nth-child(2) {
-    border-radius: 0 21px 21px 0;
-  }
-  /* line 76, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item:nth-child(3) {
-    border-radius: 21px 0 0 21px;
-  }
-}
-
-@media (min-width: 280px) and (max-width: 410px) {
-  /* line 82, ../Personal-area/Project-end/scss/_media.scss */
-  .hero__button {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  /* line 89, ../Personal-area/Project-end/scss/_media.scss */
-  .hero-button__link {
-    margin-right: 0;
-  }
-  /* line 93, ../Personal-area/Project-end/scss/_media.scss */
-  .history__button {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  /* line 100, ../Personal-area/Project-end/scss/_media.scss */
-  .copyryight {
-    margin-top: 12px;
-  }
-  /* line 104, ../Personal-area/Project-end/scss/_media.scss */
-  .card__inner {
-    row-gap: 55px;
-  }
-  /* line 108, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item {
-    width: 100%;
-  }
-  /* line 112, ../Personal-area/Project-end/scss/_media.scss */
-  .button__item:nth-child(1), .button__item:nth-child(2), .button__item:nth-child(3), .button__item:nth-child(4) {
-    border-radius: 0;
-  }
-}
-
-/* line 8, ../Personal-area/Project-end/scss/style.scss */
+/* line 7, ../Personal-area/Project-end/scss/style.scss */
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-/* line 14, ../Personal-area/Project-end/scss/style.scss */
+/* line 13, ../Personal-area/Project-end/scss/style.scss */
 [class*=__container] {
   width: 100%;
   max-width: 1814px;
@@ -270,12 +178,12 @@ body {
   padding: 0 10px;
 }
 
-/* line 22, ../Personal-area/Project-end/scss/style.scss */
+/* line 21, ../Personal-area/Project-end/scss/style.scss */
 #hamburger-menu {
   display: none;
 }
 
-/* line 26, ../Personal-area/Project-end/scss/style.scss */
+/* line 25, ../Personal-area/Project-end/scss/style.scss */
 .button {
   background-color: #3457B2;
   color: #ffffff;
@@ -284,13 +192,13 @@ body {
   font-weight: 700;
 }
 
-/* line 34, ../Personal-area/Project-end/scss/style.scss */
+/* line 33, ../Personal-area/Project-end/scss/style.scss */
 .titel {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
 }
 
-/* line 39, ../Personal-area/Project-end/scss/style.scss */
+/* line 38, ../Personal-area/Project-end/scss/style.scss */
 .subtitel {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -298,7 +206,7 @@ body {
   color: #737b7d;
 }
 
-/* line 46, ../Personal-area/Project-end/scss/style.scss */
+/* line 45, ../Personal-area/Project-end/scss/style.scss */
 #lang {
   font-family: "Mulish", sans-serif;
   font-weight: 600;
@@ -310,7 +218,7 @@ body {
   outline: none;
 }
 
-/* line 57, ../Personal-area/Project-end/scss/style.scss */
+/* line 56, ../Personal-area/Project-end/scss/style.scss */
 .language option {
   border: none;
   outline: none;
@@ -318,7 +226,7 @@ body {
   font-size: 16px;
 }
 
-/* line 64, ../Personal-area/Project-end/scss/style.scss */
+/* line 63, ../Personal-area/Project-end/scss/style.scss */
 li {
   list-style: none;
 }
