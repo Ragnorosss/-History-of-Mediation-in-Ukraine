@@ -2,11 +2,21 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../scss/style.scss"
+		"../scss/style.scss",
+		"../scss/_fonts.scss",
+		"../scss/_colors.scss",
+		"../scss/_header.scss",
+		"../scss/_main.scss",
+		"../scss/_footer.scss"
 	],
 	"sourcesContent": [
+		"//import font's and color's\n@import \"_fonts\";\n@import \"_colors\";\n\n//import other file \n@import \"_header\";\n@import \"_main\";\n@import \"_footer\";\n\n\n[class*= __container]{\n}",
+		"@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&family=Jost&family=Lato:wght@700&family=Montserrat:ital,wght@1,200&family=Mulish:wght@400;600;700&family=Poppins:wght@400;600&family=Varela+Round&display=swap\");\n$font-lato: \"Lato\", sans-serif;\n$font-mulish: \"Mulish\", sans-serif;\n",
+		"$primery: #3c64b1;\n$secondary-color: #373f41;\n$subtitel-color: #737b7d;\n$def-color: #ffffff;\n$card-background: #f4f6fb;\n$titel-color: #ced4d6;\n",
+		"",
+		"",
 		""
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "ACAA,OAAO,CAAC,6OAAI"
 }

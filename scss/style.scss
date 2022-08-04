@@ -1,0 +1,12 @@
+//import font's and color's
+@import "_fonts";
+@import "_colors";
+
+//import other file 
+@import "_header";
+@import "_main";
+@import "_footer";
+
+
+[class*= __container]{
+}
