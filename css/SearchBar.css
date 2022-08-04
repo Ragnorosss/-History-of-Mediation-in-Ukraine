@@ -41,10 +41,15 @@
     letter-spacing: 0em;
 }
 
-  .articles-search__item .search-img {
-    padding-top: 10px;
-  }
+.search-img {
+  width: 42px;
+  height: 42px;
+}
 
-  .articles-search__item img {
-    cursor: pointer;
-  }
+.articles-search__item .search-img {
+  padding-top: 10px;
+}
+
+.articles-search__item img {
+  cursor: pointer;
+}

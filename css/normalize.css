@@ -353,3 +353,7 @@
    [hidden] {
      display: none;
    }
+
+   input:focus-visible {
+    outline: none;
+  }
