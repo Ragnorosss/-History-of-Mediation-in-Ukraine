@@ -92,7 +92,7 @@
   justify-content: center;
 }
 
-/* line 18, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 19, ../Personal-area/Project-end/scss/_footer.scss */
 .footer__wrapper::after {
   content: "";
   width: 100%;
@@ -103,12 +103,12 @@
   bottom: 10%;
 }
 
-/* line 33, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 34, ../Personal-area/Project-end/scss/_footer.scss */
 .social__subtitel {
   margin-bottom: 20px;
 }
 
-/* line 38, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 39, ../Personal-area/Project-end/scss/_footer.scss */
 .icons {
   display: flex;
   justify-content: center;
@@ -116,19 +116,19 @@
   gap: 24px;
 }
 
-/* line 44, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 45, ../Personal-area/Project-end/scss/_footer.scss */
 .copyryight {
   margin-top: 24px;
   margin-bottom: 24px;
   color: #737b7d;
 }
 
-/* line 50, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 51, ../Personal-area/Project-end/scss/_footer.scss */
 .donate__list {
   padding-left: 0;
 }
 
-/* line 54, ../Personal-area/Project-end/scss/_footer.scss */
+/* line 55, ../Personal-area/Project-end/scss/_footer.scss */
 .footer .titel {
   color: #ffffff;
 }
