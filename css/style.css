@@ -240,7 +240,7 @@ body {
   width: 100%;
   max-width: 1814px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: clamp(0.313rem, 0.177rem + 0.68vw, 0.938rem);
 }
 
 /* line 21, ../Personal-area/Project-end/scss/style.scss */
