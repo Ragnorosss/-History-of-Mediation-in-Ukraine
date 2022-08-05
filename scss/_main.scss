@@ -18,10 +18,12 @@
     text-align: center;
   }
   &-search {
+    width: 100%;
+    max-width: 1133px;
     width: max-content;
     display: grid;
     grid-template-columns: 1133px 67px 67px;
-    gap:21px;
+    gap: 21px;
     &__item {
       display: flex;
       align-items: center;
@@ -86,7 +88,7 @@
     height: fit-content;
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.2fr;
-    gap:40px;
+    gap: 40px;
     background-color: white;
     box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
