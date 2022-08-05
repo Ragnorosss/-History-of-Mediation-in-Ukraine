@@ -310,21 +310,26 @@
 
 /* line 154, ../Project-end/scss/_main.scss */
 .profile__content {
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  grid-template-columns: 345px 738px 512px;
-  grid-gap: calc(132px/2);
+  gap: 132px;
   padding-top: 100px;
 }
 
-/* line 165, ../Project-end/scss/_main.scss */
+/* line 170, ../Project-end/scss/_main.scss */
 .profile__info {
   display: flex;
   flex-direction: column;
 }
 
-/* line 172, ../Project-end/scss/_main.scss */
+/* line 177, ../Project-end/scss/_main.scss */
 .profile__video {
   max-width: 738px;
   height: 75%;
@@ -333,54 +338,54 @@
   background: #e5edf1;
 }
 
-/* line 181, ../Project-end/scss/_main.scss */
+/* line 186, ../Project-end/scss/_main.scss */
 .profile__item-img {
   width: 100%;
   max-width: 512px;
   min-width: 250px;
 }
 
-/* line 187, ../Project-end/scss/_main.scss */
+/* line 192, ../Project-end/scss/_main.scss */
 .profile__titel {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-weight: 600;
 }
 
-/* line 194, ../Project-end/scss/_main.scss */
+/* line 199, ../Project-end/scss/_main.scss */
 .profile__titel {
   margin-top: 50px;
 }
 
-/* line 199, ../Project-end/scss/_main.scss */
+/* line 204, ../Project-end/scss/_main.scss */
 .profile__link {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   color: #3379e3;
 }
 
-/* line 207, ../Project-end/scss/_main.scss */
+/* line 212, ../Project-end/scss/_main.scss */
 .profile__age {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   margin-bottom: 0;
 }
 
-/* line 215, ../Project-end/scss/_main.scss */
+/* line 220, ../Project-end/scss/_main.scss */
 .profile__city {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   margin-bottom: 0;
 }
 
-/* line 222, ../Project-end/scss/_main.scss */
+/* line 227, ../Project-end/scss/_main.scss */
 .bio {
   width: 100%;
   max-width: 1811px;
   margin: 0 auto;
 }
 
-/* line 227, ../Project-end/scss/_main.scss */
+/* line 232, ../Project-end/scss/_main.scss */
 .bio__titel {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
@@ -390,7 +395,7 @@
   margin-top: 94px;
 }
 
-/* line 235, ../Project-end/scss/_main.scss */
+/* line 240, ../Project-end/scss/_main.scss */
 .bio__text {
   font-size: 30px;
 }

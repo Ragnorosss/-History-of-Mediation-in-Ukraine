@@ -152,12 +152,17 @@
   // .profile__content
 
   &__content {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 345px 738px 512px;
-    grid-gap:calc(132px/2);
-    padding-top: 100px;
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 132px;
+  padding-top: 100px;
   }
 
   // .profile__info
