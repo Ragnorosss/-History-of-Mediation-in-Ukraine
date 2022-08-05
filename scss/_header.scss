@@ -1,77 +1,71 @@
 .header {
-   position: fixed;
-   width: 100%;
-   z-index: 1;
-   background-color: #F4F6FB;
-   flex: 0 0 auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #f4f6fb;
+  flex: 0 0 auto;
 
-   //.header__wrapper
-   &__wrapper{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-   }
-   // .header__button
+  //.header__wrapper
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  // .header__button
 
-   &__button {
-      font-family: $font-mulish;
-      font-weight: 700;
-      border: 1px solid $primery;
-      color: $primery;
-      font-size: 16px;
-      margin-right: 24px;
-      padding: 14px 18px;
-   }
-   &__button:hover{
-      background-color:$primery;
-      color: $def-color;
-      transition: 0.5s;
-   }
-   .icons{
-      display: flex;
-      justify-content: start;
-      padding-left: 9%;
-      padding-top: 273px;
-   }
+  &__button {
+    font-family: $font-mulish;
+    font-weight: 700;
+    border: 1px solid $primery;
+    color: $primery;
+    font-size: 16px;
+    margin-right: 24px;
+    padding: 14px 18px;
+  }
+  &__button:hover {
+    background-color: $primery;
+    color: $def-color;
+    transition: 0.5s;
+  }
+  .icons {
+    display: flex;
+    justify-content: start;
+    padding-left: 9%;
+    padding-top: 273px;
+  }
 }
 
 .nav {
+  // .nav__menu
 
-   // .nav__menu
-
-   &__menu {
-      display: flex;
-   }
+  &__menu {
+    display: flex;
+  }
 }
 .menu {
+  // .menu__items
 
-   // .menu__items
-
-   &__items {
-      display: flex;
-      gap: 48px;
-
-   }
-
+  &__items {
+    display: flex;
+    gap: 48px;
+  }
 }
 .menu-item {
+  // .menu-item__link
 
-   // .menu-item__link
-
-   &__link {
-      color: $secondary-color;
-      font-family: $font-mulish;
-      font-size: 18px;
-      font-weight: 600;
-   }
-   &__link:hover{
-      color: $primery;
-      transition: 0.5s;
-   }
-
+  &__link {
+    color: $secondary-color;
+    font-family: $font-mulish;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__link:hover {
+    color: $primery;
+    transition: 0.5s;
+  }
 }
 .language {
-   display: flex;
+  display: flex;
 
-/* Test */
+  /* Test */
 }
