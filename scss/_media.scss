@@ -1,4 +1,13 @@
 @media (max-width: 1250px) {
+  .profile__avatar-top {
+    display: block;
+  }
+  .profile__avatar-bottom {
+    display: none;
+  }
+  .profile__content {
+    flex-direction: column;
+  }
   .menu__btn {
     display: block;
   }
