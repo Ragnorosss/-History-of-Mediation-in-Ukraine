@@ -1,24 +1,35 @@
 //Media fonts
 /*Inter*/
 @font-face {
-   font-family:"Inter" ;
-   src: url(/fonts/Inter-Regular.ttf);
-   src: url(/fonts/Inter-SemiBold.ttf);
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf");
 }
 /*Mulishr*/
 @font-face {
-   font-family:"Mulish";
-   src: url(/fonts/Mulish-Regular.ttf);
-   src: url(/fonts/Mulish-SemiBold.ttf);
-   src: url(/fonts/Mulish-Bold.ttf);
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-SemiBold.ttf") format("truetype");
 }
 /*Poppins*/
 @font-face {
-   font-family:"Poppins";
-   src: url(/fonts/Poppins-Regular.ttf);
-   src: url(/fonts/Poppins-SemiBold.ttf);
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
 }
-
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
 
 $font-Poppins: "Poppins", sans-serif;
 $font-mulish: "Mulish", sans-serif;
