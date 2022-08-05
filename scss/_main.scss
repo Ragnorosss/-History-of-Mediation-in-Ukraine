@@ -152,10 +152,11 @@
   // .profile__content
 
   &__content {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    gap: 132px;
+    grid-template-columns: 345px 738px 512px;
+    grid-gap:calc(132px/2);
     padding-top: 100px;
   }
 
@@ -169,12 +170,12 @@
   // .profile__video
 
   &__video {
-    width: 100%;
     max-width: 738px;
-    height: 100%;
-    min-width: calc(738px / 3);
+    height: 75%;
+    min-height: calc(738px / 3);
     border-radius: 30px;
     background: #e5edf1;
+   
   }
 
   &__item-img {
