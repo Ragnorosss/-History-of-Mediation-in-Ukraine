@@ -3,7 +3,6 @@
 }
 .articles {
   padding-top: 63px;
-  text-align: center;
   .container {
     display: flex;
     flex-direction: column;
@@ -22,7 +21,7 @@
     width: max-content;
     display: grid;
     grid-template-columns: 1133px 67px 67px;
-    gap: 0 21px;
+    gap:21px;
     &__item {
       display: flex;
       align-items: center;
@@ -44,9 +43,9 @@
   &-items {
     margin-top: 38px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1448px));
     grid-template-rows: repeat(6, 1fr);
-    gap: 36px 0px;
+    gap: 36px;
     &__item {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       border-radius: 59px 5px;
@@ -55,7 +54,8 @@
       font-weight: 400;
       line-height: 38px;
       letter-spacing: 0.06em;
-      width: 1448px;
+      width: 100%;
+      max-width: 1448px;
       height: 77px;
       background-color: $primary-background;
       .more-info {
@@ -71,11 +71,8 @@
         justify-content: center;
       }
       .data {
-        display: flex;
-        justify-content: left;
         font-family: Poppins;
         font-size: 20px;
-        font-weight: 400;
         line-height: 25px;
         letter-spacing: 0.06em;
         color: #797979;
@@ -84,11 +81,12 @@
     }
   }
   &-pagination {
-    width: 1453px;
+    width: 100%;
+    max-width: 1453px;
     height: fit-content;
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.2fr;
-    gap: 0 40px;
+    gap:40px;
     background-color: white;
     box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
@@ -123,15 +121,13 @@
   }
 }
 .search-input {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   padding-left: 15px;
   border: none;
   background-color: $primary-background;
   font-family: Inter;
   font-size: 28px;
-  font-weight: 400;
-  line-height: 34px;
-  letter-spacing: 0em;
 }
 .profile {
   padding-top: 49px;
