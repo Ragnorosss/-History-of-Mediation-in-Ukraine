@@ -10,7 +10,7 @@
     justify-content: center;
   }
   &-title {
-    font-family: Inter;
+    font-family: $font-inter;
     font-size: 50px;
     font-weight: 600;
     line-height: 61px;
@@ -73,7 +73,7 @@
         justify-content: center;
       }
       .data {
-        font-family: Poppins;
+        font-family: $font-Poppins;
         font-size: 20px;
         line-height: 25px;
         letter-spacing: 0.06em;
@@ -169,7 +169,7 @@
   }
 
   &__titel {
-    font-family: Poppins;
+    font-family: $font-Poppins;
     font-size: 48px;
     font-weight: 600;
   }
@@ -181,7 +181,7 @@
   // .profile__link
 
   &__link {
-    font-family: Poppins;
+    font-family: $font-Poppins;
     font-size: 29px;
     color: #3379e3;
   }
@@ -189,7 +189,7 @@
   // .profile__age
 
   &__age {
-    font-family: Poppins;
+    font-family: $font-Poppins;
     font-size: 30px;
     margin-bottom: 0;
   }
@@ -197,7 +197,7 @@
   // .profile__city
 
   &__city {
-    font-family: Poppins;
+    font-family: $font-Poppins;
     font-size: 30px;
     margin-bottom: 0;
   }
@@ -209,7 +209,7 @@
   margin: 0 auto;
   // .bio__titel
   &__titel {
-    font-family: Poppins;
+    font-family: $font-Poppins;
     font-size: 48px;
     font-weight: 600;
     color: #333333;
