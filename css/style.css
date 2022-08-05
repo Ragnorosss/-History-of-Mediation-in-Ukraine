@@ -86,6 +86,7 @@ li {
 .main {
   display: grid;
   grid-template-areas: "aside main";
+  justify-content: center;
 }
 
 /* Aside */

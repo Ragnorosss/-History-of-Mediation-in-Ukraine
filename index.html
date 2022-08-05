@@ -10,6 +10,9 @@
    <link rel="stylesheet" href="css/burger.css">
    <link rel="stylesheet" href="css/SearchBar.css">
    <link rel="stylesheet" href="css/pagination.css">
+   <link rel="stylesheet" href="css/filters.css">
+   <link rel="stylesheet" href="css/scrollbar.css">
+   <link rel="stylesheet" href="css/block.css">
    <link rel="stylesheet" href="css/style.css">
    <title>История медиации в Украине</title>
 </head>
@@ -76,8 +79,152 @@
 
      <main class="main">
          <div class="aside">
-            aside
-         </div>
+            
+            <div class="articles-block">
+               <div class="filters" id="filters">
+                  <ul>
+                     По перiодам
+                     <li>
+                        <label class="container">
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                           90-тi роки
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">1998-2004
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">2004-2010
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">2010-2014
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">2014-н.ч
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                  </ul>
+                  <hr class="hr">
+                  <ul>
+                     По темам
+      
+                     <li>
+                        <label class="container">Тема 1
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">Тема 2
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">Тема 3
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">Тема 4
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">Тема 5
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">Тема 6
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">Тема 7
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">Тема 8
+                           <input type="checkbox">
+                           <span class="checkmark-topics"></span>
+                         </label>
+                     </li>
+                  </ul>
+                  <hr class="hr">
+                  <ul>
+                     По датi
+                     <li><input type="text" name="search-date" placeholder="Введiть начало" class="search-date"></li>
+                     <li><input type="text" name="search-date" placeholder="Введiть кiнець" class="search-date"></li>
+                  </ul>
+                  <div class="move-down-icon">
+                     <a href="#" onclick="scrollDown()"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77px" height="19px" style="margin-top: 20px;">
+                     <image  x="0px" y="0px" width="77px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAATCAMAAADiU3AFAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAw1BMVEX///+tr7JUVVarrbCUlplISUrAwsaho6dTVFU9Pj9SU1Woqa2TlZhHSEqpqq1SU1SRk5bS09iJio1dXmCmp6poaWtnaGq5u76lpql8fX/S1NjAwcXR09doamxmZ2mqrK9HSEl7fX7Nz9NmaGmRkpW5ur68vcJHSUqQkZTO0NN7fX9naGu8vsLO0NR7fH6nqKxcXl+mqKu/wcWPkZOnqKuqq6+kpqmdnqGSk5aTlJeQkpSlp6pyc3WlpqpcXV6jpaj///9OvdwdAAAAQHRSTlMAM6A1UK8bP6O9ozhTrzijVQVflz2IiiQ9cAUbBYiKNbFyCopVJCCvVwpwiCAKcjqXOhtXOjU9RlVTVz18PZk/VyaWoQAAAAFiS0dEAIgFHUgAAAAHdElNRQfmCAULAxlIdP0uAAAA60lEQVQ4y63T6Q6CMAwAYFREqiAeIHhPEW/xvq/3fys7IoYQUCb0F+maL+1WuFQ6wyUTfFbgciLkCwlYkgwydYoiKKVyPKsiQ1V9f6tKLE/QAGq6J2EoAPXGX1bTb328FrvVBujoAQeOxzZvVwPS64cc6iZTf3wWyOBbgVVDbxjJkkZAxr+KJlOA2TwZi8bCRm/5tQTXa2VEvRDqKaGeELQSP+cN9uh6mUyW49n4g6z92Q21LFbLmXeL3s6b2aNl9/+xnP4O6B3dhZbyEZ8xPKh3ogt9loFc4lk0rtjSrU5i9+XG/YFX/4xS+QJmsBKHSUX9wQAAAABJRU5ErkJggg==" />
+                     </svg></a>
+                  </div>
+                  <hr class="hr">
+                  <ul>
+                     По перiодам
+                     <li>
+                        <label class="container">
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                           90-тi роки
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">1998-2004
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">2004-2010
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">2010-2014
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                     <li>
+                        <label class="container">2014-н.ч
+                           <input type="checkbox">
+                           <span class="checkmark"></span>
+                         </label>
+                     </li>
+                  </ul>
+                  
+                  <div style="height: 100px;" id="bott-search"></div>
+               </div>
+               <div class="search"></div>
+               <div class="articles"></div>
+               <div class="prev-next"></div>
+            </div> <!--/.fulter-->
+
+         </div> <!--/.aside-->
+
          <div class="main-content">
 
             <div class="articles-search">
@@ -88,6 +235,72 @@
                </div>
             </div> <!--/.search-->
 
+            <div class="block">
+               <div class="user">
+                   <a href="#user_link" class="link"><div class="image"></div></a>
+                   <a href="#user_link" class="link"><div class="name">Name</div></a>
+                   <div class="time">сьогодні о 15:23</div>
+               </div>
+               <div class="article">
+                   <div class="name">Назва статті</div>
+                   <div class="themes">
+                       <div class="theme_1">&bull;&nbsp;Тема 1&nbsp;</div>
+                       <div class="theme_2">&bull;&nbsp;Тема 2&nbsp;</div>
+                       <div class="theme_3">&bull;&nbsp;Тема 3&nbsp;&bull;</div>
+                   </div>
+               </div>
+               <div class="text">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                   ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+               </div>
+               <button>Читати далі</button>
+           </div> <!--/.block-->
+
+           <div class="block">
+            <div class="user">
+                <a href="#user_link" class="link"><div class="image"></div></a>
+                <a href="#user_link" class="link"><div class="name">Name</div></a>
+                <div class="time">сьогодні о 15:23</div>
+            </div>
+            <div class="article">
+                <div class="name">Назва статті</div>
+                <div class="themes">
+                    <div class="theme_1">&bull;&nbsp;Тема 1&nbsp;</div>
+                    <div class="theme_2">&bull;&nbsp;Тема 2&nbsp;</div>
+                    <div class="theme_3">&bull;&nbsp;Тема 3&nbsp;&bull;</div>
+                </div>
+            </div>
+            <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <button>Читати далі</button>
+        </div> <!--/.block-->
+
+        <div class="block">
+         <div class="user">
+             <a href="#user_link" class="link"><div class="image"></div></a>
+             <a href="#user_link" class="link"><div class="name">Name</div></a>
+             <div class="time">сьогодні о 15:23</div>
+         </div>
+         <div class="article">
+             <div class="name">Назва статті</div>
+             <div class="themes">
+                 <div class="theme_1">&bull;&nbsp;Тема 1&nbsp;</div>
+                 <div class="theme_2">&bull;&nbsp;Тема 2&nbsp;</div>
+                 <div class="theme_3">&bull;&nbsp;Тема 3&nbsp;&bull;</div>
+             </div>
+         </div>
+         <div class="text">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         </div>
+         <button>Читати далі</button>
+     </div> <!--/.block-->
+
             <div class="articles-pagination">
                <div class="control-text">Назад</div>
                <ul class="control-numbers">
@@ -97,7 +310,7 @@
                   <li class="control-numbers__item">4</li>
                </ul>
                <div class="control-text">Вперед</div>
-            </div>
+            </div> <!--/.pagination-->
 
          </div>
      </main>
@@ -134,5 +347,7 @@
            <p class="copyryight">© BrandName. All rights reserved.</p>
         </div>
      </footer> <!--/.footer-->
+
+     <script src="js/buttons.js"></script>
 </body>
 </html>
