@@ -1,0 +1,16 @@
+//Poppins
+
+Poppins - R
+Poppins - S
+
+//Mulish
+
+Mulish - R
+Mulish - B
+Mulish - S
+
+
+//Inter
+
+Inter - S 
+Inter - R 
