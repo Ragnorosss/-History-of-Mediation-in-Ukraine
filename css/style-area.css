@@ -565,27 +565,41 @@
   }
 
   #forward {
-    grid-area: "forward";
+    grid-area: forward;
   }
 
   #back {
-    grid-area: "back";
+    grid-area: back;
   }
 
   .articles-pagination {
         grid-template-areas: "numbers numbers" "back forward";
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr 0px 1fr;
+    grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 0px 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px;
   }
   .articles-pagination .control-numbers {
-    grid-area: "numbers";
+    grid-area: numbers;
   }
-  .articles-pagination .control-numbers__item {
-    line-height: 2.2em;
-    font-size: 80%;
+}
+@media (max-width: 768px) {
+
+  #forward {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+
+  #back {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+
+  .articles-pagination .control-numbers {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
   }
 }
 @media (min-width: 280px) and (max-width: 410px) {

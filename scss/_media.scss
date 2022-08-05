@@ -93,24 +93,22 @@
     }
   }
   #forward {
-    grid-area: "forward";
+    grid-area: forward;
   }
   #back {
-    grid-area: "back";
+    grid-area: back;
   }
   .articles-pagination {
     grid-template-areas: "numbers numbers" "back forward";
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px;
     .control-text {
       // display: none;
     }
     .control-numbers {
-      grid-area: "numbers";
+      grid-area: numbers;
       &__item {
-        line-height: 2.2em;
-        font-size: 80%;
       }
     }
   }
