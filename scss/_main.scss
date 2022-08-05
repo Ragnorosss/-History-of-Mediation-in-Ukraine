@@ -96,7 +96,8 @@
   }
   &-pagination {
     width: 100%;
-    min-width: 571px;
+    // min-width: 571px;
+    max-width: 1453px;
     height: fit-content;
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.2fr;
