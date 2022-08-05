@@ -1,3 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&family=Jost&family=Lato:wght@700&family=Montserrat:ital,wght@1,200&family=Mulish:wght@400;600;700&family=Poppins:wght@400;600&family=Varela+Round&display=swap");
-$font-lato: "Lato", sans-serif;
+//Media fonts
+/*Inter*/
+@font-face {
+   font-family:"Inter" ;
+   src: url(/fonts/Inter-Regular.ttf);
+   src: url(/fonts/Inter-SemiBold.ttf);
+}
+/*Mulishr*/
+@font-face {
+   font-family:"Mulish";
+   src: url(/fonts/Mulish-Regular.ttf);
+   src: url(/fonts/Mulish-SemiBold.ttf);
+   src: url(/fonts/Mulish-Bold.ttf);
+}
+/*Poppins*/
+@font-face {
+   font-family:"Poppins";
+   src: url(/fonts/Poppins-Regular.ttf);
+   src: url(/fonts/Poppins-SemiBold.ttf);
+}
+
+
+$font-Poppins: "Poppins", sans-serif;
 $font-mulish: "Mulish", sans-serif;
+$font-inter: "Inter", sans-serif;
