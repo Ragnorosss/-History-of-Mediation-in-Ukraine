@@ -427,7 +427,7 @@
   }
 }
 
-@media (min-width: 280px) and (max-width: 410px) {
+@media (min-width: 280px) and (max-width: 420px) {
   /* line 82, ../New-project/Project/project/scss/_media.scss */
   .hero__button {
     display: flex;
