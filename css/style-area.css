@@ -45,6 +45,10 @@
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
 }
+.header__container {
+  width: 100%;
+  max-width: 1300px;
+}
 .header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,7 +687,7 @@ body {
 
 [class*=__container] {
   width: 100%;
-  max-width: 1814px;
+  max-width: 1414px;
   margin: 0 auto;
   padding: 0 10px;
 }
