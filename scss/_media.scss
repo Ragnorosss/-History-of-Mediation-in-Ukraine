@@ -76,6 +76,22 @@
   .button__item:nth-child(3) {
     border-radius: 21px 0 0 21px;
   }
+
+  //articles
+
+  // .articles-search {
+  //   justify-content: center;
+  //   flex-wrap: wrap;
+  //   &__item {
+  //     margin-top: 10px;
+  //   }
+  // }
+  .articles-items__item {
+    font-size: 24px;
+    .data {
+      font-size: 16px;
+    }
+  }
 }
 
 @media (min-width: 280px) and (max-width: 410px) {

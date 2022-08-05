@@ -2,7 +2,7 @@
   flex: 1 0 auto;
 }
 .articles {
-  padding-top: 63px;
+  padding: 63px 20px 0px 20px;
   .container {
     display: flex;
     flex-direction: column;
@@ -39,10 +39,12 @@
       font-family: $font-mulish;
       flex: 1 1 auto;
       margin: 0 10px;
+
       .search-img {
         padding: 10px 10px 0px 10px;
       }
       img {
+        padding: 5px;
         cursor: pointer;
       }
       &:first-child {
@@ -56,6 +58,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25%, 1448px));
     grid-template-rows: repeat(6, 1fr);
+    padding: 0px 10px;
     gap: 36px;
     &__item {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -69,6 +72,7 @@
       max-width: 1448px;
       height: 77px;
       background-color: $primary-background;
+
       .more-info {
         display: flex;
         justify-content: end;
@@ -93,7 +97,7 @@
   }
   &-pagination {
     width: 100%;
-    max-width: 1453px;
+    min-width: 571px;
     height: fit-content;
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.2fr;
@@ -110,6 +114,7 @@
       align-items: center;
       justify-content: center;
       height: 60px;
+      padding: 0px 10px;
       cursor: pointer;
     }
     .control-numbers {
@@ -119,6 +124,8 @@
       justify-content: center;
       height: 60px;
       &__item {
+        display: flex;
+        justify-content: center;
         cursor: pointer;
         width: 68px;
         height: 50px;
