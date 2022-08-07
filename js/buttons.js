@@ -18,3 +18,20 @@ function onClickToggleInfo(e) {
   }
   previousId = id;
 }
+
+function changeActivePagination (id) {
+  var currentlyActive = document.getElementsByClassName("control-numbers__item--active");
+  var neededActive = document.getElementById("button-"+id);
+
+  currentlyActive[0].classList.add("control-numbers__item");
+  currentlyActive[0].classList.remove("control-numbers__item--active");
+
+  neededActive.classList.remove("control-numbers__item");
+  neededActive.classList.add("control-numbers__item--active");
+}
+
+function moveButtonChoice(value) {
+  var currentlyActive = document.getElementsByClassName("control-numbers__item--active");
+  console.log(currentlyActive[0].id.slice(7, 8));
+  if ((currentlyActive[0].id.slice(7, 8) > 1 && value == -1) || (currentlyActive[0].id.slice(7, 8) < 4 && value == 1)){ changeActivePagination(parseInt(currentlyActive[0].id.slice(7, 8))+value) }
+}

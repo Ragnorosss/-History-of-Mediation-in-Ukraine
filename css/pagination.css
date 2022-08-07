@@ -52,8 +52,24 @@
     text-align: center;
     line-height: 1.8em;
     border-radius: 20px;
+    transition: 250ms;
+}
+
+.articles-pagination .control-numbers__item:hover {
+    background-color: #019ea64f;
 }
 
 .articles-pagination .control-numbers__item--active {
     background-color: #019FA6;
+    cursor: pointer;
+    width: 68px;
+    height: 50px;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 20px;
+    transition: 250ms;
+}
+
+.item {
+    transition: all 300ms;
 }

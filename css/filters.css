@@ -23,14 +23,14 @@
   box-shadow: 0 10px 21px rgba(0, 0, 0, 0.15);
 }
 
-.filters input {
+/* .filters input {
   width: 15px;
   height: 15px;
   border-radius: 3px;
   border: none;
   background-color: rgba(217, 217, 217, 1);
   transition: all 200ms;
-}
+} */
 
 
 .filters li {
@@ -60,7 +60,7 @@
   position: relative;
   margin-top: 10px;
   margin-bottom: 12px;
-  padding-left: 30px;
+  padding-left: 35px;
   box-sizing: border-box;
   cursor: pointer;
   font-size: 15px;
@@ -82,7 +82,7 @@
 .checkmark {
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 23%;
   height: 20px;
   width: 20px;
   border-radius: 3px;
@@ -94,7 +94,7 @@
 .checkmark-topics {
   position: absolute;
   top: 0;
-  left: 25%;
+  left: 30%;
   height: 20px;
   width: 20px;
   border-radius: 3px;
@@ -168,5 +168,5 @@
   background-color: rgba(244, 246, 251, 1);
   z-index: 1;
   width: 11%;
-  height: 148px
+  height: 120px
 }
