@@ -59,7 +59,7 @@
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition: all 0.5s ease;
-  
+  overflow-y: scroll;
 }
 .menu__item-burger {
   display: block;
@@ -74,4 +74,3 @@
 .menu__item-burger:hover {
   background-color: #CFD8DC;
 }
-/* Test */
