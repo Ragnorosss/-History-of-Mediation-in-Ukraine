@@ -1,12 +1,17 @@
 @media (max-width: 1250px) {
-  .profile__avatar-top {
-    display: block;
-  }
-  .profile__avatar-bottom {
-    display: none;
-  }
-  .profile__content {
-    flex-direction: column;
+  .profile {
+    &__content {
+      grid-template-areas: "info avatar" "bio bio" "video video";
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+    &__avatar {
+      align-self: center;
+    }
+    &__video {
+      height: 100%;
+      justify-self: center;
+    }
   }
   .menu__btn {
     display: block;
@@ -124,6 +129,21 @@
 }
 
 @media (min-width: 280px) and (max-width: 410px) {
+  .profile {
+    &__content {
+      grid-template-areas: "avatar" "info" "bio" "video";
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    &__avatar {
+      align-self: center;
+    }
+    &__video {
+      height: 100%;
+      justify-self: center;
+    }
+  }
+
   .hero__button {
     display: flex;
     flex-wrap: wrap;
