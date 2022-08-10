@@ -5,6 +5,7 @@
 /* main */
 .block {
     position: relative;
+    width: 90%;
     height: 340px;
     background: #F4F6FB;
     box-shadow: 1px 4px 23px rgba(0, 0, 0, 0.15);
@@ -110,11 +111,11 @@
 
 /* text */
 .text {
-    position: absolute;
+    position: relative;
     left: 30px;
     top: 115px;
 
-    width: 91%;
+    width: 90%;
     height: 125px;
     max-height: 125px;
 
@@ -129,7 +130,6 @@
     overflow-y: auto;
     overflow-x: hidden;
     
-
     color: #333333;
 }
 

@@ -73,3 +73,24 @@
 .item {
     transition: all 300ms;
 }
+
+@media (max-widh: 768px) {
+    #forward {
+        grid-area: forward;
+    }
+    
+    #back {
+        grid-area: back;
+    }
+
+    .articles-pagination {
+        grid-template-areas: "numbers numbers" "back forward";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px;
+    }
+    
+    .control-numbers {
+        grid-area: numbers;
+    }
+}
