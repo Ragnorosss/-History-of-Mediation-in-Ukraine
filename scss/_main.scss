@@ -193,6 +193,7 @@ $maxWidth: 1920;
     height: 75%;
     border-radius: 30px;
     background: #e5edf1;
+    justify-self:center;
   }
   &__avatar {
     grid-area: avatar;

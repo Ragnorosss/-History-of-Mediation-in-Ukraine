@@ -333,106 +333,107 @@
   height: 75%;
   border-radius: 30px;
   background: #e5edf1;
+  justify-self: center;
 }
 
-/* line 197, ../Ban/Project-end/scss/_main.scss */
+/* line 198, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar {
   grid-area: avatar;
 }
 
-/* line 200, ../Ban/Project-end/scss/_main.scss */
+/* line 201, ../Ban/Project-end/scss/_main.scss */
 .profile__item-img {
   width: 100%;
   max-width: 512px;
   min-width: 250px;
 }
 
-/* line 206, ../Ban/Project-end/scss/_main.scss */
+/* line 207, ../Ban/Project-end/scss/_main.scss */
 .profile__titel {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  /* line 206, ../Ban/Project-end/scss/_main.scss */
+  /* line 207, ../Ban/Project-end/scss/_main.scss */
   .profile__titel {
     font-size: calc(38px + 13.6 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 206, ../Ban/Project-end/scss/_main.scss */
+  /* line 207, ../Ban/Project-end/scss/_main.scss */
   .profile__titel {
     font-size: calc(38px + 13.6 * (100vw / 1920));
   }
 }
 
-/* line 213, ../Ban/Project-end/scss/_main.scss */
+/* line 214, ../Ban/Project-end/scss/_main.scss */
 .profile__titel {
   margin-top: 50px;
 }
 
-/* line 218, ../Ban/Project-end/scss/_main.scss */
+/* line 219, ../Ban/Project-end/scss/_main.scss */
 .profile__link {
   font-family: "Poppins", sans-serif;
   color: #3379e3;
 }
 
 @media (max-width: 768px) {
-  /* line 218, ../Ban/Project-end/scss/_main.scss */
+  /* line 219, ../Ban/Project-end/scss/_main.scss */
   .profile__link {
     font-size: calc(24px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 218, ../Ban/Project-end/scss/_main.scss */
+  /* line 219, ../Ban/Project-end/scss/_main.scss */
   .profile__link {
     font-size: calc(24px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 226, ../Ban/Project-end/scss/_main.scss */
+/* line 227, ../Ban/Project-end/scss/_main.scss */
 .profile__age {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  /* line 226, ../Ban/Project-end/scss/_main.scss */
+  /* line 227, ../Ban/Project-end/scss/_main.scss */
   .profile__age {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 226, ../Ban/Project-end/scss/_main.scss */
+  /* line 227, ../Ban/Project-end/scss/_main.scss */
   .profile__age {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 234, ../Ban/Project-end/scss/_main.scss */
+/* line 235, ../Ban/Project-end/scss/_main.scss */
 .profile__city {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  /* line 234, ../Ban/Project-end/scss/_main.scss */
+  /* line 235, ../Ban/Project-end/scss/_main.scss */
   .profile__city {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 234, ../Ban/Project-end/scss/_main.scss */
+  /* line 235, ../Ban/Project-end/scss/_main.scss */
   .profile__city {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 241, ../Ban/Project-end/scss/_main.scss */
+/* line 242, ../Ban/Project-end/scss/_main.scss */
 .bio {
   grid-area: bio;
   width: 100%;
@@ -440,7 +441,7 @@
   margin: 0 auto;
 }
 
-/* line 247, ../Ban/Project-end/scss/_main.scss */
+/* line 248, ../Ban/Project-end/scss/_main.scss */
 .bio__titel {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -450,34 +451,34 @@
 }
 
 @media (max-width: 768px) {
-  /* line 247, ../Ban/Project-end/scss/_main.scss */
+  /* line 248, ../Ban/Project-end/scss/_main.scss */
   .bio__titel {
     font-size: calc(38px + 13.6 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 247, ../Ban/Project-end/scss/_main.scss */
+  /* line 248, ../Ban/Project-end/scss/_main.scss */
   .bio__titel {
     font-size: calc(38px + 13.6 * (100vw / 1920));
   }
 }
 
 @media (max-width: 768px) {
-  /* line 255, ../Ban/Project-end/scss/_main.scss */
+  /* line 256, ../Ban/Project-end/scss/_main.scss */
   .bio__text {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 255, ../Ban/Project-end/scss/_main.scss */
+  /* line 256, ../Ban/Project-end/scss/_main.scss */
   .bio__text {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 259, ../Ban/Project-end/scss/_main.scss */
+/* line 260, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar-top {
   display: none;
 }
@@ -554,166 +555,168 @@
   }
   /* line 11, ../Ban/Project-end/scss/_media.scss */
   .profile__video {
+    width: 100%;
+    height: 100%;
     justify-self: center;
   }
-  /* line 15, ../Ban/Project-end/scss/_media.scss */
+  /* line 17, ../Ban/Project-end/scss/_media.scss */
   .menu__btn {
     display: block;
   }
-  /* line 19, ../Ban/Project-end/scss/_media.scss */
+  /* line 21, ../Ban/Project-end/scss/_media.scss */
   .header__wrapper {
     justify-content: start;
   }
-  /* line 23, ../Ban/Project-end/scss/_media.scss */
+  /* line 25, ../Ban/Project-end/scss/_media.scss */
   .header__logo {
     position: relative;
     z-index: 1;
   }
-  /* line 28, ../Ban/Project-end/scss/_media.scss */
+  /* line 30, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     padding: 0 1%;
   }
-  /* line 32, ../Ban/Project-end/scss/_media.scss */
+  /* line 34, ../Ban/Project-end/scss/_media.scss */
   .hamburger-menu {
     display: inline;
   }
-  /* line 36, ../Ban/Project-end/scss/_media.scss */
+  /* line 38, ../Ban/Project-end/scss/_media.scss */
   .header__button {
     display: none;
   }
-  /* line 40, ../Ban/Project-end/scss/_media.scss */
+  /* line 42, ../Ban/Project-end/scss/_media.scss */
   .language {
     display: none;
   }
-  /* line 44, ../Ban/Project-end/scss/_media.scss */
+  /* line 46, ../Ban/Project-end/scss/_media.scss */
   .nav__menu {
     display: none;
   }
-  /* line 48, ../Ban/Project-end/scss/_media.scss */
+  /* line 50, ../Ban/Project-end/scss/_media.scss */
   .hero__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 54, ../Ban/Project-end/scss/_media.scss */
+  /* line 56, ../Ban/Project-end/scss/_media.scss */
   .hero__inner-titel {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  /* line 61, ../Ban/Project-end/scss/_media.scss */
+  /* line 63, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     font-size: 22px;
   }
 }
 
 @media (max-width: 826px) {
-  /* line 67, ../Ban/Project-end/scss/_media.scss */
+  /* line 69, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     font-size: 18px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 74, ../Ban/Project-end/scss/_media.scss */
+  /* line 76, ../Ban/Project-end/scss/_media.scss */
   .menu__button {
     flex-wrap: wrap;
   }
-  /* line 78, ../Ban/Project-end/scss/_media.scss */
+  /* line 80, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     width: 50%;
   }
-  /* line 82, ../Ban/Project-end/scss/_media.scss */
+  /* line 84, ../Ban/Project-end/scss/_media.scss */
   .button__item:nth-child(2) {
     border-radius: 0 21px 21px 0;
   }
-  /* line 86, ../Ban/Project-end/scss/_media.scss */
+  /* line 88, ../Ban/Project-end/scss/_media.scss */
   .button__item:nth-child(3) {
     border-radius: 21px 0 0 21px;
   }
-  /* line 90, ../Ban/Project-end/scss/_media.scss */
+  /* line 92, ../Ban/Project-end/scss/_media.scss */
   .articles-items__item {
     font-size: 24px;
   }
-  /* line 92, ../Ban/Project-end/scss/_media.scss */
+  /* line 94, ../Ban/Project-end/scss/_media.scss */
   .articles-items__item .data {
     font-size: 16px;
   }
-  /* line 96, ../Ban/Project-end/scss/_media.scss */
+  /* line 98, ../Ban/Project-end/scss/_media.scss */
   #forward {
     grid-area: forward;
   }
-  /* line 99, ../Ban/Project-end/scss/_media.scss */
+  /* line 101, ../Ban/Project-end/scss/_media.scss */
   #back {
     grid-area: back;
   }
-  /* line 102, ../Ban/Project-end/scss/_media.scss */
+  /* line 104, ../Ban/Project-end/scss/_media.scss */
   .articles-pagination {
     grid-template-areas: "numbers numbers" "back forward";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px;
   }
-  /* line 107, ../Ban/Project-end/scss/_media.scss */
+  /* line 109, ../Ban/Project-end/scss/_media.scss */
   .articles-pagination .control-numbers {
     grid-area: numbers;
   }
-  /* line 112, ../Ban/Project-end/scss/_media.scss */
+  /* line 114, ../Ban/Project-end/scss/_media.scss */
   .footer__wrapper::after {
     bottom: 5%;
   }
 }
 
 @media (min-width: 280px) and (max-width: 410px) {
-  /* line 119, ../Ban/Project-end/scss/_media.scss */
+  /* line 121, ../Ban/Project-end/scss/_media.scss */
   .profile__content {
     grid-template-areas: "avatar" "info" "bio" "video";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
-  /* line 124, ../Ban/Project-end/scss/_media.scss */
+  /* line 126, ../Ban/Project-end/scss/_media.scss */
   .profile__avatar {
     align-self: center;
   }
-  /* line 129, ../Ban/Project-end/scss/_media.scss */
+  /* line 131, ../Ban/Project-end/scss/_media.scss */
   .hero__button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
-  /* line 136, ../Ban/Project-end/scss/_media.scss */
+  /* line 138, ../Ban/Project-end/scss/_media.scss */
   .hero-button__link {
     margin-right: 0;
   }
-  /* line 140, ../Ban/Project-end/scss/_media.scss */
+  /* line 142, ../Ban/Project-end/scss/_media.scss */
   .history__button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
-  /* line 147, ../Ban/Project-end/scss/_media.scss */
+  /* line 149, ../Ban/Project-end/scss/_media.scss */
   .copyryight {
     margin-top: 12px;
   }
-  /* line 151, ../Ban/Project-end/scss/_media.scss */
+  /* line 153, ../Ban/Project-end/scss/_media.scss */
   .card__inner {
     row-gap: 55px;
   }
-  /* line 155, ../Ban/Project-end/scss/_media.scss */
+  /* line 157, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     width: 100%;
   }
-  /* line 159, ../Ban/Project-end/scss/_media.scss */
+  /* line 161, ../Ban/Project-end/scss/_media.scss */
   .button__item:nth-child(1),
   .button__item:nth-child(2),
   .button__item:nth-child(3),
   .button__item:nth-child(4) {
     border-radius: 0;
   }
-  /* line 166, ../Ban/Project-end/scss/_media.scss */
+  /* line 168, ../Ban/Project-end/scss/_media.scss */
   .articles-search {
     flex-wrap: wrap;
     justify-content: center;
