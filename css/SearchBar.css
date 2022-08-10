@@ -1,11 +1,10 @@
 .articles-search {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: 90%;
+    max-width: 1000px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1000px;
-    grid-template-columns: 1000px;
+    /* -ms-grid-columns: 1000px; */
+    /* grid-template-columns: 1000px; */
     gap: 0 21px;
     margin-top: 100px;
 }
@@ -30,7 +29,8 @@
   }
 
   .search-input {
-    width: 880px;
+    width: 100%;
+    max-width: 880px;
     padding-left: 15px;
     border: none;
     background-color: #e5edf1;

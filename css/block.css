@@ -6,6 +6,7 @@
 .block {
     position: relative;
     width: 90%;
+    max-width: 1000px;
     height: 340px;
     background: #F4F6FB;
     box-shadow: 1px 4px 23px rgba(0, 0, 0, 0.15);
