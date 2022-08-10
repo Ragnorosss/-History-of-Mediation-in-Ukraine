@@ -14,7 +14,6 @@ $maxWidth: 1920;
   flex: 1 0 auto;
 }
 .articles {
-  padding: 63px 20px 0px 20px;
   .container {
     display: flex;
     flex-direction: column;
@@ -162,6 +161,7 @@ $maxWidth: 1920;
 }
 .profile {
   padding-top: 49px;
+  padding: 49px 5px 5px;
   // .profile__content
 
   &__content {
@@ -189,13 +189,10 @@ $maxWidth: 1920;
 
   &__video {
     grid-area: video;
-    width: 100%;
     max-width: 738px;
     height: 75%;
-    min-height: calc(738px / 3);
     border-radius: 30px;
     background: #e5edf1;
-    align-self: center;
   }
   &__avatar {
     grid-area: avatar;
