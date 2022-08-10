@@ -1,96 +1,94 @@
 .articles-pagination {
-    width: 1000px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 0.2fr 40px 1fr 40px 0.2fr;
-    grid-template-columns: 0.2fr 1fr 0.2fr;
-    gap: 0 40px;
-    background-color: white;
-    -webkit-box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
-    box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-    font-size: 28px;
-    font-family: "Mulish", sans-serif;
-    margin-top: 85px;
-  }
+  width: 100%;
+  max-width: 1000px;
+  height: fit-content;
+  display: grid;
+  -ms-grid-columns: 0.2fr 40px 1fr 40px 0.2fr;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  gap: 0 40px;
+  background-color: white;
+  -webkit-box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
+  box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  font-size: 28px;
+  font-family: "Mulish", sans-serif;
+  margin-top: 85px;
+}
 
 .articles-pagination .control-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 60px;
-    cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  cursor: pointer;
 }
 
 .articles-pagination .control-numbers {
-    all: unset;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 60px;
+  all: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
 }
 
 .articles-pagination .control-numbers__item {
-    cursor: pointer;
-    width: 68px;
-    height: 50px;
-    text-align: center;
-    line-height: 1.8em;
-    border-radius: 20px;
-    transition: 250ms;
+  cursor: pointer;
+  width: 68px;
+  height: 50px;
+  text-align: center;
+  line-height: 1.8em;
+  border-radius: 20px;
+  transition: 250ms;
 }
 
 .articles-pagination .control-numbers__item:hover {
-    background-color: #019ea64f;
+  background-color: #019ea64f;
 }
 
 .articles-pagination .control-numbers__item--active {
-    background-color: #019FA6;
-    cursor: pointer;
-    width: 68px;
-    height: 50px;
-    text-align: center;
-    line-height: 1.8em;
-    border-radius: 20px;
-    transition: 250ms;
+  background-color: #019fa6;
+  cursor: pointer;
+  width: 68px;
+  height: 50px;
+  text-align: center;
+  line-height: 1.8em;
+  border-radius: 20px;
+  transition: 250ms;
 }
 
 .item {
-    transition: all 300ms;
+  transition: all 300ms;
 }
 
 @media (max-widh: 768px) {
-    #forward {
-        grid-area: forward;
-    }
-    
-    #back {
-        grid-area: back;
-    }
+  #forward {
+    grid-area: forward;
+  }
 
-    .articles-pagination {
-        grid-template-areas: "numbers numbers" "back forward";
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px;
-    }
-    
-    .control-numbers {
-        grid-area: numbers;
-    }
+  #back {
+    grid-area: back;
+  }
+
+  .articles-pagination {
+    grid-template-areas: "numbers numbers" "back forward";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+  }
+
+  .control-numbers {
+    grid-area: numbers;
+  }
 }
