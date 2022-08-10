@@ -301,11 +301,10 @@
 
 /* line 162, ../Ban/Project-end/scss/_main.scss */
 .profile {
-  padding-top: 49px;
-  padding: 49px 5px 5px;
+  padding: 49px 10px;
 }
 
-/* line 167, ../Ban/Project-end/scss/_main.scss */
+/* line 166, ../Ban/Project-end/scss/_main.scss */
 .profile__content {
   display: grid;
   grid-template-areas: "info video avatar" "bio bio bio";
@@ -318,7 +317,7 @@
   align-items: center;
 }
 
-/* line 181, ../Ban/Project-end/scss/_main.scss */
+/* line 180, ../Ban/Project-end/scss/_main.scss */
 .profile__info {
   display: flex;
   grid-area: info;
@@ -326,7 +325,7 @@
   width: 100%;
 }
 
-/* line 190, ../Ban/Project-end/scss/_main.scss */
+/* line 189, ../Ban/Project-end/scss/_main.scss */
 .profile__video {
   grid-area: video;
   max-width: 738px;
@@ -336,104 +335,104 @@
   justify-self: center;
 }
 
-/* line 198, ../Ban/Project-end/scss/_main.scss */
+/* line 197, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar {
   grid-area: avatar;
 }
 
-/* line 201, ../Ban/Project-end/scss/_main.scss */
+/* line 200, ../Ban/Project-end/scss/_main.scss */
 .profile__item-img {
   width: 100%;
   max-width: 512px;
   min-width: 250px;
 }
 
-/* line 207, ../Ban/Project-end/scss/_main.scss */
+/* line 206, ../Ban/Project-end/scss/_main.scss */
 .profile__titel {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  /* line 207, ../Ban/Project-end/scss/_main.scss */
+  /* line 206, ../Ban/Project-end/scss/_main.scss */
   .profile__titel {
     font-size: calc(38px + 13.6 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 207, ../Ban/Project-end/scss/_main.scss */
+  /* line 206, ../Ban/Project-end/scss/_main.scss */
   .profile__titel {
     font-size: calc(38px + 13.6 * (100vw / 1920));
   }
 }
 
-/* line 214, ../Ban/Project-end/scss/_main.scss */
+/* line 213, ../Ban/Project-end/scss/_main.scss */
 .profile__titel {
   margin-top: 50px;
 }
 
-/* line 219, ../Ban/Project-end/scss/_main.scss */
+/* line 218, ../Ban/Project-end/scss/_main.scss */
 .profile__link {
   font-family: "Poppins", sans-serif;
   color: #3379e3;
 }
 
 @media (max-width: 768px) {
-  /* line 219, ../Ban/Project-end/scss/_main.scss */
+  /* line 218, ../Ban/Project-end/scss/_main.scss */
   .profile__link {
     font-size: calc(24px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 219, ../Ban/Project-end/scss/_main.scss */
+  /* line 218, ../Ban/Project-end/scss/_main.scss */
   .profile__link {
     font-size: calc(24px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 227, ../Ban/Project-end/scss/_main.scss */
+/* line 226, ../Ban/Project-end/scss/_main.scss */
 .profile__age {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  /* line 227, ../Ban/Project-end/scss/_main.scss */
+  /* line 226, ../Ban/Project-end/scss/_main.scss */
   .profile__age {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 227, ../Ban/Project-end/scss/_main.scss */
+  /* line 226, ../Ban/Project-end/scss/_main.scss */
   .profile__age {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 235, ../Ban/Project-end/scss/_main.scss */
+/* line 234, ../Ban/Project-end/scss/_main.scss */
 .profile__city {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  /* line 235, ../Ban/Project-end/scss/_main.scss */
+  /* line 234, ../Ban/Project-end/scss/_main.scss */
   .profile__city {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 235, ../Ban/Project-end/scss/_main.scss */
+  /* line 234, ../Ban/Project-end/scss/_main.scss */
   .profile__city {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 242, ../Ban/Project-end/scss/_main.scss */
+/* line 241, ../Ban/Project-end/scss/_main.scss */
 .bio {
   grid-area: bio;
   width: 100%;
@@ -441,7 +440,7 @@
   margin: 0 auto;
 }
 
-/* line 248, ../Ban/Project-end/scss/_main.scss */
+/* line 247, ../Ban/Project-end/scss/_main.scss */
 .bio__titel {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -451,34 +450,34 @@
 }
 
 @media (max-width: 768px) {
-  /* line 248, ../Ban/Project-end/scss/_main.scss */
+  /* line 247, ../Ban/Project-end/scss/_main.scss */
   .bio__titel {
     font-size: calc(38px + 13.6 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 248, ../Ban/Project-end/scss/_main.scss */
+  /* line 247, ../Ban/Project-end/scss/_main.scss */
   .bio__titel {
     font-size: calc(38px + 13.6 * (100vw / 1920));
   }
 }
 
 @media (max-width: 768px) {
-  /* line 256, ../Ban/Project-end/scss/_main.scss */
+  /* line 255, ../Ban/Project-end/scss/_main.scss */
   .bio__text {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 256, ../Ban/Project-end/scss/_main.scss */
+  /* line 255, ../Ban/Project-end/scss/_main.scss */
   .bio__text {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 260, ../Ban/Project-end/scss/_main.scss */
+/* line 259, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar-top {
   display: none;
 }
