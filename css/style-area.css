@@ -791,4 +791,9 @@ li {
   list-style: none;
 }
 
+/* line 66, ../Ban/Project-end/scss/style-area.scss */
+.index__hidden {
+  z-index: 0;
+}
+
 /*# sourceMappingURL=style-area.css.map */
