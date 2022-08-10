@@ -668,7 +668,7 @@
   }
 }
 
-@media (min-width: 280px) and (max-width: 410px) {
+@media (min-width: 280px) and (max-width: 540px) {
   /* line 121, ../Ban/Project-end/scss/_media.scss */
   .profile__content {
     grid-template-areas: "avatar" "info" "bio" "video";
