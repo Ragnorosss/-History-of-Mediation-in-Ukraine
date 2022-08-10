@@ -12,17 +12,12 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-
-/* Sections
- *,*::after,*::before{
+*,*::after,*::before{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
  }
- html {
-   line-height: 1.15; /* 1 */
-/* -webkit-text-size-adjust: 100%; 2 */
-/* } */
+
 
 /* Sections
     ========================================================================== */
@@ -35,6 +30,9 @@ body {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
 /**
   * Render the `main` element consistently in IE.
   */
@@ -52,9 +50,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-a {
-  text-decoration: none;
-}
+
 /* Grouping content
     ========================================================================== */
 
@@ -88,6 +84,7 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
