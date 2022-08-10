@@ -162,7 +162,6 @@ $maxWidth: 1920;
 }
 .profile {
   padding-top: 49px;
-  padding: 63px 20px 0px 20px;
   // .profile__content
 
   &__content {
@@ -174,6 +173,7 @@ $maxWidth: 1920;
     padding-top: 60px;
     padding-bottom: 55px;
     border-bottom: 3px solid #00000040;
+    align-items: center;
   }
 
   // .profile__info
