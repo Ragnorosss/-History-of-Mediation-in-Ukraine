@@ -128,9 +128,10 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  gap: 10px;
 }
 
-/* line 24, ../Ban/Project-end/scss/_main.scss */
+/* line 25, ../Ban/Project-end/scss/_main.scss */
 .articles-title {
   font-family: "Inter", sans-serif;
   font-size: 50px;
@@ -140,7 +141,7 @@
   text-align: center;
 }
 
-/* line 32, ../Ban/Project-end/scss/_main.scss */
+/* line 33, ../Ban/Project-end/scss/_main.scss */
 .articles-search {
   margin: 0 -10px;
   width: 100%;
@@ -149,7 +150,7 @@
   justify-content: space-between;
 }
 
-/* line 40, ../Ban/Project-end/scss/_main.scss */
+/* line 41, ../Ban/Project-end/scss/_main.scss */
 .articles-search__item {
   width: 100%;
   max-width: 67px;
@@ -166,24 +167,24 @@
   margin: 0 10px;
 }
 
-/* line 54, ../Ban/Project-end/scss/_main.scss */
+/* line 55, ../Ban/Project-end/scss/_main.scss */
 .articles-search__item .search-img {
   padding: 10px 10px 0px 10px;
 }
 
-/* line 57, ../Ban/Project-end/scss/_main.scss */
+/* line 58, ../Ban/Project-end/scss/_main.scss */
 .articles-search__item img {
   padding: 5px;
   cursor: pointer;
 }
 
-/* line 61, ../Ban/Project-end/scss/_main.scss */
+/* line 62, ../Ban/Project-end/scss/_main.scss */
 .articles-search__item:first-child {
   width: 100%;
   max-width: 1133px;
 }
 
-/* line 67, ../Ban/Project-end/scss/_main.scss */
+/* line 68, ../Ban/Project-end/scss/_main.scss */
 .articles-items {
   margin-top: 38px;
   display: grid;
@@ -193,7 +194,7 @@
   gap: 36px;
 }
 
-/* line 74, ../Ban/Project-end/scss/_main.scss */
+/* line 75, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 59px 5px;
@@ -208,25 +209,25 @@
   background-color: #e5edf1;
 }
 
-/* line 87, ../Ban/Project-end/scss/_main.scss */
+/* line 88, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item .more-info {
   display: flex;
   justify-content: end;
 }
 
-/* line 90, ../Ban/Project-end/scss/_main.scss */
+/* line 91, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item .more-info img {
   cursor: pointer;
   padding: 8px 8px 0px 0px;
 }
 
-/* line 95, ../Ban/Project-end/scss/_main.scss */
+/* line 96, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item .title {
   display: flex;
   justify-content: center;
 }
 
-/* line 99, ../Ban/Project-end/scss/_main.scss */
+/* line 100, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item .data {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -236,7 +237,7 @@
   padding: 0px 0px 8px 8px;
 }
 
-/* line 109, ../Ban/Project-end/scss/_main.scss */
+/* line 110, ../Ban/Project-end/scss/_main.scss */
 .articles-pagination {
   width: 100%;
   max-width: 1453px;
@@ -252,7 +253,7 @@
   margin-top: 85px;
 }
 
-/* line 123, ../Ban/Project-end/scss/_main.scss */
+/* line 124, ../Ban/Project-end/scss/_main.scss */
 .articles-pagination .control-text {
   display: flex;
   align-items: center;
@@ -262,7 +263,7 @@
   cursor: pointer;
 }
 
-/* line 131, ../Ban/Project-end/scss/_main.scss */
+/* line 132, ../Ban/Project-end/scss/_main.scss */
 .articles-pagination .control-numbers {
   all: unset;
   display: flex;
@@ -271,7 +272,7 @@
   height: 60px;
 }
 
-/* line 137, ../Ban/Project-end/scss/_main.scss */
+/* line 138, ../Ban/Project-end/scss/_main.scss */
 .articles-pagination .control-numbers__item {
   display: flex;
   justify-content: center;
@@ -283,12 +284,12 @@
   border-radius: 20px;
 }
 
-/* line 146, ../Ban/Project-end/scss/_main.scss */
+/* line 147, ../Ban/Project-end/scss/_main.scss */
 .articles-pagination .control-numbers__item--active {
   background-color: #d9d9d9;
 }
 
-/* line 153, ../Ban/Project-end/scss/_main.scss */
+/* line 154, ../Ban/Project-end/scss/_main.scss */
 .search-input {
   width: 100%;
   max-width: 1000px;
@@ -299,12 +300,12 @@
   font-size: 28px;
 }
 
-/* line 162, ../Ban/Project-end/scss/_main.scss */
+/* line 163, ../Ban/Project-end/scss/_main.scss */
 .profile {
   padding: 49px 10px;
 }
 
-/* line 166, ../Ban/Project-end/scss/_main.scss */
+/* line 167, ../Ban/Project-end/scss/_main.scss */
 .profile__content {
   display: grid;
   grid-template-areas: "info video avatar" "bio bio bio";
@@ -317,7 +318,7 @@
   align-items: center;
 }
 
-/* line 180, ../Ban/Project-end/scss/_main.scss */
+/* line 181, ../Ban/Project-end/scss/_main.scss */
 .profile__info {
   display: flex;
   grid-area: info;
@@ -325,7 +326,7 @@
   width: 100%;
 }
 
-/* line 189, ../Ban/Project-end/scss/_main.scss */
+/* line 190, ../Ban/Project-end/scss/_main.scss */
 .profile__video {
   grid-area: video;
   max-width: 738px;
@@ -335,104 +336,104 @@
   justify-self: center;
 }
 
-/* line 197, ../Ban/Project-end/scss/_main.scss */
+/* line 198, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar {
   grid-area: avatar;
 }
 
-/* line 200, ../Ban/Project-end/scss/_main.scss */
+/* line 201, ../Ban/Project-end/scss/_main.scss */
 .profile__item-img {
   width: 100%;
   max-width: 512px;
   min-width: 250px;
 }
 
-/* line 206, ../Ban/Project-end/scss/_main.scss */
+/* line 207, ../Ban/Project-end/scss/_main.scss */
 .profile__titel {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  /* line 206, ../Ban/Project-end/scss/_main.scss */
+  /* line 207, ../Ban/Project-end/scss/_main.scss */
   .profile__titel {
     font-size: calc(38px + 13.6 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 206, ../Ban/Project-end/scss/_main.scss */
+  /* line 207, ../Ban/Project-end/scss/_main.scss */
   .profile__titel {
     font-size: calc(38px + 13.6 * (100vw / 1920));
   }
 }
 
-/* line 213, ../Ban/Project-end/scss/_main.scss */
+/* line 214, ../Ban/Project-end/scss/_main.scss */
 .profile__titel {
   margin-top: 50px;
 }
 
-/* line 218, ../Ban/Project-end/scss/_main.scss */
+/* line 219, ../Ban/Project-end/scss/_main.scss */
 .profile__link {
   font-family: "Poppins", sans-serif;
   color: #3379e3;
 }
 
 @media (max-width: 768px) {
-  /* line 218, ../Ban/Project-end/scss/_main.scss */
+  /* line 219, ../Ban/Project-end/scss/_main.scss */
   .profile__link {
     font-size: calc(24px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 218, ../Ban/Project-end/scss/_main.scss */
+  /* line 219, ../Ban/Project-end/scss/_main.scss */
   .profile__link {
     font-size: calc(24px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 226, ../Ban/Project-end/scss/_main.scss */
+/* line 227, ../Ban/Project-end/scss/_main.scss */
 .profile__age {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  /* line 226, ../Ban/Project-end/scss/_main.scss */
+  /* line 227, ../Ban/Project-end/scss/_main.scss */
   .profile__age {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 226, ../Ban/Project-end/scss/_main.scss */
+  /* line 227, ../Ban/Project-end/scss/_main.scss */
   .profile__age {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 234, ../Ban/Project-end/scss/_main.scss */
+/* line 235, ../Ban/Project-end/scss/_main.scss */
 .profile__city {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  /* line 234, ../Ban/Project-end/scss/_main.scss */
+  /* line 235, ../Ban/Project-end/scss/_main.scss */
   .profile__city {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 234, ../Ban/Project-end/scss/_main.scss */
+  /* line 235, ../Ban/Project-end/scss/_main.scss */
   .profile__city {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 241, ../Ban/Project-end/scss/_main.scss */
+/* line 242, ../Ban/Project-end/scss/_main.scss */
 .bio {
   grid-area: bio;
   width: 100%;
@@ -440,7 +441,7 @@
   margin: 0 auto;
 }
 
-/* line 247, ../Ban/Project-end/scss/_main.scss */
+/* line 248, ../Ban/Project-end/scss/_main.scss */
 .bio__titel {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -450,34 +451,34 @@
 }
 
 @media (max-width: 768px) {
-  /* line 247, ../Ban/Project-end/scss/_main.scss */
+  /* line 248, ../Ban/Project-end/scss/_main.scss */
   .bio__titel {
     font-size: calc(38px + 13.6 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 247, ../Ban/Project-end/scss/_main.scss */
+  /* line 248, ../Ban/Project-end/scss/_main.scss */
   .bio__titel {
     font-size: calc(38px + 13.6 * (100vw / 1920));
   }
 }
 
 @media (max-width: 768px) {
-  /* line 255, ../Ban/Project-end/scss/_main.scss */
+  /* line 256, ../Ban/Project-end/scss/_main.scss */
   .bio__text {
     font-size: calc(26px + 6.8 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 255, ../Ban/Project-end/scss/_main.scss */
+  /* line 256, ../Ban/Project-end/scss/_main.scss */
   .bio__text {
     font-size: calc(26px + 6.8 * (100vw / 1920));
   }
 }
 
-/* line 259, ../Ban/Project-end/scss/_main.scss */
+/* line 260, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar-top {
   display: none;
 }
