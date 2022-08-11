@@ -1,7 +1,15 @@
-let popups = document.querySelector('.popup')
 
-let button_articles = document.querySelector('.more-info')
+   let button_articles = document.querySelectorAll('.more-info')
 
-button_articles.addEventListener('click' , function(){
-   popups.classList.toggle("show__popups")
-})
+   let popups = document.querySelector('.popup')
+
+
+
+      button_articles.forEach(button_articles => {
+      button_articles.addEventListener('click', function(){
+         popups.classList.toggle('show__popups')
+      })
+   });   
+
+
+
