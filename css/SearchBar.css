@@ -53,6 +53,7 @@
 .articles-search__item img {
   cursor: pointer;
 }
+
 .main-content {
   display: flex;
   flex-direction: column;

@@ -215,7 +215,9 @@ li {
     padding-top: 75px;
   }
 
-  .header__button, .language, .nav__menu {
+  .header__button,
+  .language,
+  .nav__menu {
     display: none;
   }
 
@@ -294,7 +296,8 @@ li {
     font-size: 18px;
   }
 
-  .articles-pagination .control-numbers__item, .articles-pagination .item {
+  .articles-pagination .control-numbers__item,
+  .articles-pagination .item {
     font-size: 18px;
     line-height: 2.8rem;
     width: 58px;
@@ -318,7 +321,7 @@ li {
     background-image: url(/img/media-logo.svg);
     background-repeat: no-repeat;
   }
-  
+
   .header-logo__img {
     display: none;
   }
@@ -344,7 +347,9 @@ li {
     font-size: 16px;
   }
 
-  .themes .theme_1, .themes .theme_2, .themes .theme_3 {
+  .themes .theme_1,
+  .themes .theme_2,
+  .themes .theme_3 {
     font-size: 9px;
   }
 
@@ -365,7 +370,8 @@ li {
     display: none;
   }
 
-  .articles-pagination .control-numbers__item, .articles-pagination .item {
+  .articles-pagination .control-numbers__item,
+  .articles-pagination .item {
     font-size: 18px;
     line-height: 2.8rem;
     width: 58px;

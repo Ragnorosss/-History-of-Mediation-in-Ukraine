@@ -82,7 +82,7 @@
   }
 
   .articles-pagination {
-    grid-template-areas: "numbers numbers" "back forward";
+    grid-template-areas: "numbers numbers""back forward";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px;

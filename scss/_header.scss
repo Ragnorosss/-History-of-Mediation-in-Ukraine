@@ -6,11 +6,12 @@
    flex: 0 0 auto;
 
    //.header__wrapper
-   &__wrapper{
+   &__wrapper {
       display: flex;
       justify-content: space-around;
       align-items: center;
    }
+
    // .header__button
 
    &__button {
@@ -22,12 +23,14 @@
       margin-right: 24px;
       padding: 14px 18px;
    }
-   &__button:hover{
-      background-color:$primery;
+
+   &__button:hover {
+      background-color: $primery;
       color: $def-color;
       transition: 0.5s;
    }
-   .icons{
+
+   .icons {
       display: flex;
       justify-content: start;
       padding-left: 9%;
@@ -43,6 +46,7 @@
       display: flex;
    }
 }
+
 .menu {
 
    // .menu__items
@@ -54,6 +58,7 @@
    }
 
 }
+
 .menu-item {
 
    // .menu-item__link
@@ -64,14 +69,14 @@
       font-size: 18px;
       font-weight: 600;
    }
-   &__link:hover{
+
+   &__link:hover {
       color: $primery;
       transition: 0.5s;
    }
 
 }
+
 .language {
    display: flex;
-
-/* Test */
 }

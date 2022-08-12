@@ -4,18 +4,19 @@
    background-color: $secondary-color;
    margin-top: 85px;
    flex: 0 0 auto;
-  
+
    // .footer__wrapper
 
    &__wrapper {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(25%,230px));
+      grid-template-columns: repeat(auto-fill, minmax(25%, 230px));
       column-gap: 94px;
       margin-bottom: 41px;
       padding-top: 58px;
       justify-content: center;
    }
-   &__wrapper::after{
+
+   &__wrapper::after {
       content: "";
       width: 100%;
       position: absolute;
@@ -24,8 +25,9 @@
       padding-bottom: 24px;
       bottom: 10%;
    }
- 
+
 }
+
 .container {
    width: 100%;
    max-width: 1188px;
@@ -34,6 +36,7 @@
 
 
 .social {
+
    // .social__subtitel
    &__subtitel {
       margin-bottom: 20px;
@@ -46,18 +49,19 @@
    align-items: center;
    gap: 24px;
 }
-.copyryight{
+
+.copyryight {
    margin-top: 24px;
    margin-bottom: 24px;
    color: $subtitel-color;
 }
-.donate{
-   &__list{
+
+.donate {
+   &__list {
       padding-left: 0;
    }
 }
-.footer .titel{
+
+.footer .titel {
    color: $def-color;
 }
-
-/* Test */
