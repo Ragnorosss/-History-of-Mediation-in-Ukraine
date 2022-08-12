@@ -135,11 +135,11 @@
 }
 
 /* button */
-.block button {
+.Read__more {
     position: absolute;
     left: 30px;
     top: 250px;
-
+    
     width: 167px;
     height: 62px;
     
@@ -159,14 +159,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.block button:hover {
+.Read__more:hover {
     transform: scale(1.02);
 }
 
-.block button:active {
+.Read__more:active {
     background: #03686d;
     transform: scale(1.04);
 }

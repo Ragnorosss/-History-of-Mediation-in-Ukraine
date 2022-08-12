@@ -1,24 +1,28 @@
 .articles-block {
-  width: 75%;
-  height: 800px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 800px;
+  height: 100%;
   margin: 100px auto 0 auto;
 }
 
 .filters {
   scroll-behavior: smooth;
-  font-family: "Mulish", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
   overflow: scroll;
   overflow-x: hidden;
-  background-color: rgba(244, 246, 251, 1);
+
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  
   text-align: center;
-  color: black;
-  width: 75%;
   height: 92.5%;
-  float: left;
   border-radius: 30px;
   padding: 30px;
+
+  background-color: rgba(244, 246, 251, 1);
+  color: black;
+
   box-sizing: border-box;
   box-shadow: 0 10px 21px rgba(0, 0, 0, 0.15);
 }
@@ -36,9 +40,11 @@
 .filters li {
   font-size: 15px;
   font-weight: 300;
+
   text-align: center;
-  box-sizing: border-box;
   margin-top: 7px;
+
+  box-sizing: border-box;
 }
 
 .filters ul {
@@ -46,24 +52,28 @@
   padding: 0;
 }
 
-.filters hr{
+.filters hr {
   width: 60%;
   height: .5px;
-  background-color: rgba(217, 217, 217, 1);
   margin: 20px auto;
+
+  background-color: rgba(217, 217, 217, 1);
+
   border: none;
 }
 
 .container {
+  position: relative;
   display: block;
   width: 100%;
-  position: relative;
   margin-top: 10px;
   margin-bottom: 12px;
   padding-left: 35px;
-  box-sizing: border-box;
-  cursor: pointer;
+
   font-size: 15px;
+
+  cursor: pointer;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -72,11 +82,12 @@
 
 /* Hide the browser's default checkbox */
 .container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
+  position: relative;
   height: 0;
   width: 0;
+
+  opacity: 0;
+  cursor: pointer;
 }
 
 .checkmark {
@@ -165,8 +176,15 @@
 
 .move-down-icon {
   position: absolute;
+  max-width: 200px;
+  width: 100%;
+  max-height: 120px;
+  height: 100%;
   background-color: rgba(244, 246, 251, 1);
   z-index: 1;
-  width: 11%;
-  height: 120px
+}
+
+.filters__label {
+  margin-left: 30px;
+  width: 100%;
 }

@@ -21,11 +21,11 @@ li {
 
 /* Header */
 .header {
-  position: relative;
+  position: fixed;
   width: 100%;
-  z-index: 1;
   background-color: #f4f6fb;
   flex: 0 0 auto;
+  z-index: 1;
 }
 
 .header__wrapper {
@@ -91,7 +91,8 @@ li {
 
 /* Aside */
 .aside {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
 }
 
 /* footer */
@@ -217,12 +218,91 @@ li {
   .header__button, .language, .nav__menu {
     display: none;
   }
+
+  .search-input {
+    font-size: 26px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .time {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .articles-pagination .control-text {
+    font-size: 20px;
+  }
+
+  .articles-pagination .control-numbers {
+    font-size: 26px;
+  }
 }
 
 /* Media 897px */
 @media (max-width: 897px) {
   .footer__wrapper::after {
     bottom: 8%;
+  }
+
+  .search-input {
+    font-size: 20px;
+  }
+
+  .search-img {
+    margin: 0 5px 0 5px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .user .image {
+    width: 35px;
+    height: 35px;
+  }
+
+  .user .name {
+    font-size: 18px;
+  }
+
+  .user .time {
+    font-size: 12px;
+  }
+
+  .article .name {
+    font-size: 18px;
+  }
+
+  .article .themes {
+    font-size: 12px;
+  }
+
+  .block .text {
+    font-size: 16px;
+  }
+
+  .Read__more {
+    width: 150px;
+    height: 50px;
+  }
+
+  .articles-pagination .control-text {
+    font-size: 18px;
+  }
+
+  .articles-pagination .control-numbers__item, .articles-pagination .item {
+    font-size: 18px;
+    line-height: 2.8rem;
+    width: 58px;
+    height: 44px;
+  }
+
+  .aside {
+    display: none;
   }
 }
 
@@ -241,5 +321,54 @@ li {
   
   .header-logo__img {
     display: none;
+  }
+
+  .search-input {
+    font-size: 18px;
+  }
+
+  .search-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .user .name {
+    font-size: 14px;
+  }
+
+  .user .time {
+    font-size: 11px;
+  }
+
+  .article .name {
+    font-size: 16px;
+  }
+
+  .article .themes {
+    font-size: 10px;
+  }
+
+  .block .text {
+    font-size: 13px;
+  }
+
+  .Read__more {
+    width: 130px;
+    height: 45px;
+  }
+
+  .articles-pagination {
+    grid-template-columns: none;
+  }
+
+  .articles-pagination .control-text {
+    display: none;
+  }
+
+  .articles-pagination .control-numbers__item, .articles-pagination .item {
+    font-size: 18px;
+    line-height: 2.8rem;
+    width: 58px;
+    height: 44px;
   }
 }
