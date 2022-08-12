@@ -324,7 +324,7 @@ li {
   }
 
   .search-input {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .search-img {
@@ -344,12 +344,12 @@ li {
     font-size: 16px;
   }
 
-  .article .themes {
-    font-size: 10px;
+  .themes .theme_1, .themes .theme_2, .themes .theme_3 {
+    font-size: 9px;
   }
 
   .block .text {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .Read__more {
