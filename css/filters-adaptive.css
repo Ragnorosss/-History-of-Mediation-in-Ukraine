@@ -22,7 +22,7 @@
 
 .filters-mobile ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   margin: 0 auto;
   padding: 0;
@@ -40,7 +40,7 @@
 .filters-mobile ul li a {
   display: flex;
   
-  padding: 20px;
+  padding: 20px 0 20px 0;
   color: #000;
 
   text-decoration: none;
@@ -69,5 +69,11 @@
 @media (max-width: 897px) {
   .filters-mobile {
     display: block;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 410px) {
+  .filters-mobile {
+  font-size: 11px;
   }
 }

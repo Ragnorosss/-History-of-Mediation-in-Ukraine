@@ -89,6 +89,13 @@ li {
   justify-content: center;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Aside */
 .aside {
   max-width: 500px;
@@ -260,6 +267,10 @@ li {
     margin: 0 5px 0 5px;
     width: 36px;
     height: 36px;
+  }
+
+  .search__img.filter {
+    display: none;
   }
 
   .user .image {
