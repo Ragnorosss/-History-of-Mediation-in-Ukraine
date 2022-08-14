@@ -307,6 +307,10 @@ li {
   .aside {
     display: none;
   }
+
+  .filters-mobile {
+    display: block;
+  }
 }
 
 /* Media  280px - 410px */

@@ -16,6 +16,8 @@
    <link rel="stylesheet" href="css/scrollbar.css">
    <link rel="stylesheet" href="css/block.css">
    <link rel="stylesheet" href="css/style-lib.css">
+   <link rel="stylesheet" href="css/filters-adaptive.css">
+   <link rel="stylesheet" href="css/filters-adaptive-buttons.css">
    <!-- Title -->
    <title>История медиации в Украине</title>
 </head>
@@ -241,12 +243,117 @@
          <!-- Search -->
          <div class="articles-search">
             <div class="articles-search__item">
-               <img class="search-img" src="/icons/search_logo.svg" />
+               <img class="search-img" src="./icons/search_logo.svg" />
                <input class="search-input" type="text" placeholder="Введiть назву статi або iм’я автора"></input>
-               <img class="search-img" src="/icons/filter_logo.svg" />
+               <img class="search-img" src="./icons/filter_logo.svg" />
             </div>
          </div>
          <!--/.search-->
+         <div class="filters-mobile">
+            <ul>
+               <li><a href="#">По перiодам</a>
+                 <ul>
+                  <ul>
+                     <li>
+                        <label class="container-dropdown">
+                           <input type="checkbox">
+                           <span class="checkmark-dropdown"></span>
+                           <span class="period-text">90-тi роки</span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown">
+                           <input type="checkbox">
+                           <span class="checkmark-dropdown"></span>
+                           <span class="period-text">1998-2004</span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown">
+                           <input type="checkbox">
+                           <span class="checkmark-dropdown"></span>
+                           <span class="period-text">2004-2010</span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown">
+                           <input type="checkbox">
+                           <span class="checkmark-dropdown"></span>
+                           <span class="period-text">2010-2014</span> 
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown">
+                           <input type="checkbox">
+                           <span class="checkmark-dropdown"></span>
+                           <span class="period-text">2014-н.ч</span>
+                        </label>
+                     </li>
+                  </ul>
+                 </ul>
+               </li>
+               <li><a href="#">По темам</a>
+                 <ul>
+                  <ul>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 1</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 2</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 3</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 4</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 5</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 6</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 7</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                     <li>
+                        <label class="container-dropdown"><span class="filters__label">Тема 8</span>
+                           <input type="checkbox">
+                           <span class="checkmark-topics-dropdown"></span>
+                        </label>
+                     </li>
+                  </ul>
+                 </ul>
+               </li>
+               <li><a href="#">По датi</a>
+                  <ul>
+                     <li><input type="text" name="search-date" placeholder="Введiть начало" class="search-date-dropdown"></li>
+                     <li><input type="text" name="search-date" placeholder="Введiть кiнець" class="search-date-dropdown"></li>
+                  </ul>
+               </li>
+             </ul>
+         </div>
          <!-- Block -->
          <div class="block">
             <div class="user">

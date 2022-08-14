@@ -1,0 +1,116 @@
+.container-dropdown {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+
+  font-size: 15px;
+
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-dropdown input {
+  position: relative;
+  height: 0;
+  width: 0;
+
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark-dropdown {
+  position: absolute;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: rgba(217, 217, 217, 1);
+  transition: 300ms;
+}
+
+/* Create a custom checkbox */
+.checkmark-topics-dropdown {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: rgba(217, 217, 217, 1);
+  transition: 300ms;
+}
+
+/* On mouse-over, add a grey background color
+.container-dropdown:hover input ~ .checkmark-dropdown,
+.container-dropdown:hover input ~ .checkmark-topics-dropdown {
+  background-color: rgb(170, 170, 170);
+} */
+
+/* When the checkbox is checked, add a blue background */
+.container-dropdown input:checked ~ .checkmark-dropdown,
+.container-dropdown input:checked ~ .checkmark-topics-dropdown {
+  background-color: rgb(170, 170, 170);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark-dropdown:after,
+.checkmark-topics-dropdown:after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+}
+
+/* Show the checkmark when checked */
+.container-dropdown input:checked ~ .checkmark-dropdown:after,
+.container-dropdown input:checked ~ .checkmark-topics-dropdown:after {
+  opacity: 1;
+}
+
+/* Style the checkmark/indicator */
+.container-dropdown .checkmark-dropdown:after,
+.container-dropdown .checkmark-topics-dropdown:after {
+  left: 7.5px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.search-date-dropdown {
+  position: relative;
+  left: 5px;
+  margin-top: 5px;
+  padding-left: 8px;
+  font-size: 10px;
+  width: 90%;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.search-date-dropdown:focus {
+  outline: none;
+  background-color: white;
+  border: none;
+}
+
+.search-date-dropdown:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.period-text {
+  margin-left: 30px;
+}
