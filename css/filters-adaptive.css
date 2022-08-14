@@ -1,58 +1,60 @@
 .filters-mobile {
-
-  display: block;
+  display: none;
   margin: 0 auto;
-  width: 95%;
+  max-width: 1000px;
+  width: 95%;  
   height: 60px;
-  /* overflow: auto; 
-  white-space: nowrap; */
+  
+  color: #000;
+  
   background-color: rgba(244, 246, 251, 1);
-  color: black;
   font-family: "Mulish", sans-serif;
   font-weight: 700;
   font-size: 16px;
+
   margin-bottom: 17.5px;
   border-radius: 30px;
   padding-left: 20px;
+
   box-sizing: border-box;
   box-shadow: 1px 3px 23px rgb(0 0 0 / 15%);
 }
 
 .filters-mobile ul {
-  margin: auto;
-  color: black;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  float: left;
   display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 0;
+
+  color: #000;
+  list-style-type: none;
 }
 
 .filters-mobile ul li {
   position: relative;
   margin: 0 20px 0 0;
-  float: left;
-  display: inline-block;
 }
 
 
 .filters-mobile ul li a {
+  display: flex;
+  
   padding: 20px;
-  display: inline-block;
-  color: black;
+  color: #000;
+
   text-decoration: none;
 }
 
 .filters-mobile ul li ul {
   display: none;
-  width: 100%;
   position: absolute;
+  width: 100%;
   left: 0;
   background-color: rgba(244, 246, 251, 1);
-  float: left;
-  z-index: 1;
   border-radius: 0 0 10px 10px;
   box-shadow: 1px 25px 23px rgb(0 0 0 / 15%);
+  z-index: 1;
 }
 
 .filters-mobile ul li ul li {
@@ -63,3 +65,9 @@
   display: block;
 }
 
+
+@media (max-width: 897px) {
+  .filters-mobile {
+    display: block;
+  }
+}
