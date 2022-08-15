@@ -48,13 +48,33 @@
   height: 100%;
 }
 
+.filter__img {
+  margin-left: 20px;
+}
+
 .articles-search__item img {
   cursor: pointer;
+}
+
+@media (max-width: 985px) {
+  .filter__img {
+    margin-left: -6px;
+  }
+}
+
+@media (max-width: 897px) {
+  .filter__img {
+    display: none;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 410px) {
   .articles-search__item {
     padding-left: 10px;
+  }
+
+  .filter__img {
+    display: none;
   }
 
 }
