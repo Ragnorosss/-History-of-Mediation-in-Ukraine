@@ -26,6 +26,8 @@
     align-items: center;
     position: absolute;
 
+    z-index: 1;
+
     right: 5%;
     top: 50%;
     width: 35px;

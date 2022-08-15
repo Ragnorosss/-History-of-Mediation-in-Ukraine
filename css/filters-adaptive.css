@@ -2,11 +2,12 @@
   display: none;
   margin: 0 auto;
   max-width: 1000px;
-  width: 95%;  
+  width: 95%;
   height: 60px;
-  
+  align-items: center;
+
   color: #000;
-  
+
   background-color: rgba(244, 246, 251, 1);
   font-family: "Mulish", sans-serif;
   font-weight: 700;
@@ -14,10 +15,10 @@
 
   margin-bottom: 17.5px;
   border-radius: 30px;
-  padding-left: 20px;
+  padding-left: 22px;
 
   box-sizing: border-box;
-  box-shadow: 1px 3px 23px rgb(0 0 0 / 15%);
+  box-shadow: 1px 5px 13px rgb(0 0 0 / 15%);
 }
 
 .filters-mobile ul {
@@ -33,13 +34,12 @@
 
 .filters-mobile ul li {
   position: relative;
-  margin: 0 20px 0 0;
 }
 
 
 .filters-mobile ul li a {
   display: flex;
-  
+
   padding: 20px 0 20px 0;
   color: #000;
 
@@ -49,20 +49,35 @@
 .filters-mobile ul li ul {
   display: none;
   position: absolute;
-  width: 100%;
-  left: 0;
+  width: 120%;
+  left: -10%;
   background-color: rgba(244, 246, 251, 1);
   border-radius: 0 0 10px 10px;
   box-shadow: 1px 25px 23px rgb(0 0 0 / 15%);
   z-index: 1;
 }
 
+.filters-mobile ul li .date-ul {
+  width: 200%;
+  left: -50%;
+}
+
 .filters-mobile ul li ul li {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .filters-mobile ul li:hover ul {
   display: block;
+}
+
+.filter-img {
+  float: left;
+  margin-top: 13px;
+  max-width: 36px;
+  max-height: 36px;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -72,8 +87,36 @@
   }
 }
 
+@media (max-width: 630px) {
+  .filters-mobile ul li .date-ul {
+    width: 150%;
+    left: -25%;
+  }
+}
+
+@media (max-width: 530px) {
+  .filters-mobile ul li .date-ul {
+    width: 120%;
+    left: -10%;
+  }
+}
+
 @media (min-width: 280px) and (max-width: 410px) {
   .filters-mobile {
-  font-size: 11px;
+    font-size: 13px;
+    padding-left: 12px;
+  }
+
+  .filter-img {
+    float: left;
+    margin-top: 17px;
+    max-width: 26px;
+    max-height: 26px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .filters-mobile ul li a {
+    margin-top: 3px;
   }
 }
