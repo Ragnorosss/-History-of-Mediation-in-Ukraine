@@ -66,6 +66,10 @@ li {
   font-weight: 600;
 }
 
+.menu-item__link.active {
+  color: #3c64b1;
+}
+
 .menu-item__link:hover {
   color: #3c64b1;
   transition: 0.5s;
