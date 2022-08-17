@@ -66,10 +66,6 @@ li {
   font-weight: 600;
 }
 
-.menu-item__link.active {
-  color: #3c64b1;
-}
-
 .menu-item__link:hover {
   color: #3c64b1;
   transition: 0.5s;
@@ -147,7 +143,7 @@ li {
   gap: 24px;
 }
 
-.copyryight {
+.copyright {
   margin-bottom: 24px;
   color: #737b7d;
 }
@@ -263,7 +259,7 @@ li {
     font-size: 20px;
   }
 
-  img.search__img {
+  .search-img {
     margin: 0 5px 0 5px;
     width: 36px;
     height: 36px;

@@ -40,7 +40,7 @@
 .checkmark-topics-dropdown {
   position: absolute;
   top: -1px;
-  left: 13%;
+  left: 15px;
   height: 20px;
   width: 20px;
   border-radius: 3px;
@@ -55,8 +55,8 @@
 } */
 
 /* When the checkbox is checked, add a blue background */
-.container-dropdown input:checked ~ .checkmark-dropdown,
-.container-dropdown input:checked ~ .checkmark-topics-dropdown {
+.container-dropdown input:checked~.checkmark-dropdown,
+.container-dropdown input:checked~.checkmark-topics-dropdown {
   background-color: rgb(170, 170, 170);
 }
 
@@ -69,8 +69,8 @@
 }
 
 /* Show the checkmark when checked */
-.container-dropdown input:checked ~ .checkmark-dropdown:after,
-.container-dropdown input:checked ~ .checkmark-topics-dropdown:after {
+.container-dropdown input:checked~.checkmark-dropdown:after,
+.container-dropdown input:checked~.checkmark-topics-dropdown:after {
   opacity: 1;
 }
 
