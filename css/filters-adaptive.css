@@ -49,8 +49,8 @@
 .filters-mobile ul li ul {
   display: none;
   position: absolute;
-  width: 120%;
-  left: -10%;
+  width: 130%;
+  left: -15%;
   background-color: rgba(244, 246, 251, 1);
   border-radius: 0 0 10px 10px;
   box-shadow: 1px 25px 23px rgb(0 0 0 / 15%);

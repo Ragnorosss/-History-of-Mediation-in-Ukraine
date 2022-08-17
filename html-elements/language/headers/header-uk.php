@@ -1,5 +1,5 @@
 <header class="header">
-    <div class="container">
+    <div class="header-container">
         <div class="header__wrapper">
             <a href="#hero" class="header__logo" id="top"><img src="./img/logo.svg" alt="Logo image"
                                                                class="header-logo__img"></a>
@@ -24,6 +24,18 @@
                             <img src="./icons/youtube.png" alt="" class="icon__item">
                         </a>
                     </div>
+                    <div class="languages">
+                        <a class="burger-lang" href="../PHP/index-uk.php">
+                            <img class="burger-lang" src="./icons/ukr.png" alt="ukr" value="uk" id="uk-flag">
+                        </a>
+                        <a class="burger-lang" href="../PHP/index-en.php">
+                            <img class="burger-lang" src="./icons/eng.png" alt="ukr" value="en" id="en-flag">
+                        </a>
+                        <a class="burger-lang" href="../PHP/index-ru.php">
+                            <img class="burger-lang" src="./icons/rus.png" alt="ukr" value="uk" id="ru-flag">
+                        </a>
+                    </div>
+
                 </ul>
             </div>
             <!--burger_end-->
@@ -46,7 +58,7 @@
             </nav>
             <a href="#" class="header__button">для авторiв</a>
             <div class="language">
-                <img src="./icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
+                <img src="./icons/ukr.png" alt="uk" value="uk" id="uk-flag">
                 <select name="lang" id="lang" onchange="changeFlag()">
                     <option value="uk">Українська</option>
                     <option value="ru">Русский</option>

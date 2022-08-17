@@ -6,7 +6,7 @@
   -ms-grid-columns: 0.2fr 40px 1fr 40px 0.2fr;
   grid-template-columns: 0.2fr 1fr 0.2fr;
   gap: 0 40px;
-  background-color: white;
+  background-color: #F4F6FB;
   -webkit-box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
   box-shadow: 1.07892px 4.31567px 43.1567px 11.8681px rgba(0, 0, 0, 0.15);
   border-radius: 20px;

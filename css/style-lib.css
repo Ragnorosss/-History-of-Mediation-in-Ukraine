@@ -7,7 +7,7 @@ body {
 }
 
 /* Container */
-.container {
+.header-container {
   width: 100%;
   max-width: 1360px;
   margin: 0 auto;
@@ -68,7 +68,7 @@ li {
 
 .menu-item__link:hover {
   color: #3c64b1;
-  transition: 0.5s;
+  transition: 300ms;
 }
 
 .language {
@@ -77,9 +77,21 @@ li {
 
 .header .icons {
   display: flex;
-  justify-content: start;
-  padding-left: 9%;
+  justify-content: space-evenly;
   padding-top: 273px;
+}
+
+.header .languages {
+  display: flex;
+  margin-top: 166px;
+  justify-content: space-evenly;
+}
+
+.languages .burger-lang {
+  max-width: 36px;
+  max-height: 36px;
+  width: 100%;
+  height: 100%;
 }
 
 /* Main */

@@ -40,7 +40,7 @@
                     <ul>
                         By periods
                         <li>
-                            <label class="container"><span class="filters__label">1990s</span>
+                            <label class="container"><span class="filters__label">1990-1998</span>
                                 <input type="checkbox">
                                 <span class="checkmark"></span>
                             </label>
@@ -140,7 +140,7 @@
                     <ul>
                         By periods
                         <li>
-                            <label class="container"><span class="filters__label">1990s</span>
+                            <label class="container"><span class="filters__label">1990-1998</span>
                                 <input type="checkbox">
                                 <span class="checkmark"></span>
                             </label>
@@ -204,7 +204,7 @@
                                     <label class="container-dropdown">
                                         <input type="checkbox">
                                         <span class="checkmark-dropdown"></span>
-                                        <span class="period-text">1990s</span>
+                                        <span class="period-text">1990-1998</span>
                                     </label>
                                 </li>
                                 <li>

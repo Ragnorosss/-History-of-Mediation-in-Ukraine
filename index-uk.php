@@ -309,7 +309,7 @@
         <?php require "html-elements/language/articles/article-uk.php"?>
         <!--/.block-->
         <!-- Block -->
-        <?php require "html-elements/language/articles/article-uk.php"?>>
+        <?php require "html-elements/language/articles/article-uk.php"?>
         <!--/.block-->
         <!-- Block -->
         <?php require "html-elements/language/articles/article-uk.php"?>
