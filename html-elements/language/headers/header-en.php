@@ -1,7 +1,7 @@
 <header class="header">
     <div class="header-container">
         <div class="header__wrapper">
-            <a href="#hero" class="header__logo" id="top"><img src="./img/logo.svg" alt="Logo image"
+            <a href="#top" class="header__logo"><img src="./img/logo.svg" alt="Logo image"
                                                                class="header-logo__img"></a>
 
             <!--burger-menu-start-->

@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/filters-adaptive-buttons.css">
     <!-- Title -->
     <title>Iсторiя медiацiї в Українi</title>
+
+    <link rel="icon" href="/img/title-logo.svg" type="image/x-icon">
 </head>
 <!-- Body -->
 
@@ -30,7 +32,7 @@
 <!--/.header-->
 
 <!-- MAIN -->
-<main class="main">
+<main class="main" id="top">
     <!-- ASIDE -->
     <div class="aside">
         <!-- Filter -->
