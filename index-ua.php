@@ -27,7 +27,7 @@
 
 <body>
 <?php
-    require_once "html-elements/language/headers/header-uk.php";
+    require_once "html-elements/language/headers/header-ua.php";
 ?>
 <!--/.header-->
 
@@ -40,7 +40,7 @@
             <div class="filters" id="filters">
                 <form class="filter__form">
                     <ul>
-                        По перiодам
+                        <span class="topic-title">По перiодам</span>
                         <li>
                             <label class="container"><span class="filters__label">90-тi роки</span>
                                 <input type="checkbox">
@@ -73,51 +73,63 @@
                     </ul>
                     <hr class="hr">
                     <ul>
-                        По темам
+                        <span class="topic-title">По темам</span>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 1</span>
+                            <label class="container"><span class="filters__label-topic">Судова медіація</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 2</span>
+                            <label class="container"><span class="filters__label-topic">Сімейна медіація</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 3</span>
+                            <label class="container"><span class="filters__label-topic">Відновне правосуддя</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 4</span>
+                            <label class="container"><span class="filters__label-topic">Шкільна медіація</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 5</span>
+                            <label class="container"><span class="filters__label-topic">Медіація у бізнесі</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 6</span>
+                            <label class="container"><span class="filters__label-topic">У спільнотах</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 7</span>
+                            <label class="container"><span class="filters__label-topic">В організаціях</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 8</span>
+                            <label class="container"><span class="filters__label-topic">Діалог</span>
+                                <input type="checkbox">
+                                <span class="checkmark-topics"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="container"><span class="filters__label-topic">Як соціальна послуга</span>
+                                <input type="checkbox">
+                                <span class="checkmark-topics"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="container"><span class="filters__label-topic">У споживчих конфліктах</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
@@ -202,7 +214,7 @@
                 <ul>
                     <li><a href="#">По перiодам</a>
                         <ul>
-                            <ul>
+                            <ul class="periods-ua">
                                 <li>
                                     <label class="container-dropdown">
                                         <input type="checkbox">
@@ -243,51 +255,63 @@
                     </li>
                     <li><a href="#">По темам</a>
                         <ul>
-                            <ul>
+                            <ul class="topics-ul">
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 1</span>
+                                    <label class="container-dropdown"><span class="period-text">Судова медіація</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 2</span>
+                                    <label class="container-dropdown"><span class="period-text">Сімейна медіація</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 3</span>
+                                    <label class="container-dropdown"><span class="period-text">Відновне правосуддя</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 4</span>
+                                    <label class="container-dropdown"><span class="period-text">Медіація у бізнесі</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 5</span>
+                                    <label class="container-dropdown"><span class="period-text">Шкільна медіація</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 6</span>
+                                    <label class="container-dropdown"><span class="period-text">Медіація у спільнотах</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 7</span>
+                                    <label class="container-dropdown"><span class="period-text">В організаціях</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 8</span>
+                                    <label class="container-dropdown"><span class="period-text">Діалог</span>
+                                        <input type="checkbox">
+                                        <span class="checkmark-topics-dropdown"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="container-dropdown"><span class="period-text">Як соціальна послуга</span>
+                                        <input type="checkbox">
+                                        <span class="checkmark-topics-dropdown"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="container-dropdown"><span class="period-text">У споживчих конфліктах</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
@@ -308,13 +332,13 @@
         </div>
         <!--/.Filter-Mobile-->
         <!-- Block -->
-        <?php require "html-elements/language/articles/article-uk.php"?>
+        <?php require "html-elements/language/articles/article-ua.php"?>
         <!--/.block-->
         <!-- Block -->
-        <?php require "html-elements/language/articles/article-uk.php"?>
+        <?php require "html-elements/language/articles/article-ua.php"?>
         <!--/.block-->
         <!-- Block -->
-        <?php require "html-elements/language/articles/article-uk.php"?>
+        <?php require "html-elements/language/articles/article-ua.php"?>
         <!--/.block-->
         <!-- Paginatoin -->
         <div class="articles-pagination">
@@ -334,7 +358,7 @@
 <!--/.main-->
 <!-- Footer -->
 <?php
-    require_once "html-elements/language/footers/footer-uk.php"
+    require_once "html-elements/language/footers/footer-ua.php"
 ?>
 <!--/.footer-->
 <!-- JavaScript -->

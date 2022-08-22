@@ -73,49 +73,61 @@
                     <ul>
                         By topics
                         <li>
-                            <label class="container"><span class="filters__label">Topic 1</span>
+                            <label class="container"><span class="filters__label-topic">Judicial mediation</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Topic 2</span>
+                            <label class="container"><span class="filters__label-topic">Family mediation</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Topic 3</span>
+                            <label class="container"><span class="filters__label-topic">Restorative justice</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Topic 4</span>
+                            <label class="container"><span class="filters__label-topic">School mediation</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Topic 5</span>
+                            <label class="container"><span class="filters__label-topic">Mediation in business</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Topic 6</span>
+                            <label class="container"><span class="filters__label-topic">In communities</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Topic 7</span>
+                            <label class="container"><span class="filters__label-topic">In organizations</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Topic 8</span>
+                            <label class="container"><span class="filters__label-topic">Dialog</span>
+                                <input type="checkbox">
+                                <span class="checkmark-topics"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="container"><span class="filters__label-topic">As a social service</span>
+                                <input type="checkbox">
+                                <span class="checkmark-topics"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="container"><span class="filters__label-topic">In consumer conflicts</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
@@ -204,35 +216,35 @@
                                     <label class="container-dropdown">
                                         <input type="checkbox">
                                         <span class="checkmark-dropdown"></span>
-                                        <span class="period-text">1990-1998</span>
+                                        <span class="period-text-en">1990-1998</span>
                                     </label>
                                 </li>
                                 <li>
                                     <label class="container-dropdown">
                                         <input type="checkbox">
                                         <span class="checkmark-dropdown"></span>
-                                        <span class="period-text">1998-2004</span>
+                                        <span class="period-text-en">1998-2004</span>
                                     </label>
                                 </li>
                                 <li>
                                     <label class="container-dropdown">
                                         <input type="checkbox">
                                         <span class="checkmark-dropdown"></span>
-                                        <span class="period-text">2004-2010</span>
+                                        <span class="period-text-en">2004-2010</span>
                                     </label>
                                 </li>
                                 <li>
                                     <label class="container-dropdown">
                                         <input type="checkbox">
                                         <span class="checkmark-dropdown"></span>
-                                        <span class="period-text">2010-2014</span>
+                                        <span class="period-text-en">2010-2014</span>
                                     </label>
                                 </li>
                                 <li>
                                     <label class="container-dropdown">
                                         <input type="checkbox">
                                         <span class="checkmark-dropdown"></span>
-                                        <span class="period-text">2014-n.d.</span>
+                                        <span class="period-text-en">2014-n.d.</span>
                                     </label>
                                 </li>
                             </ul>
@@ -240,51 +252,63 @@
                     </li>
                     <li><a href="#">By topics</a>
                         <ul>
-                            <ul>
+                            <ul class="topics-ul">
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 1</span>
+                                    <label class="container-dropdown"><span class="topic-text">Judicial Mediation</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 2</span>
+                                    <label class="container-dropdown"><span class="topic-text">Family mediation</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 3</span>
+                                    <label class="container-dropdown"><span class="topic-text">Restorative Justice</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 4</span>
+                                    <label class="container-dropdown"><span class="topic-text">School mediation</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 5</span>
+                                    <label class="container-dropdown"><span class="topic-text">Mediation in business</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 6</span>
+                                    <label class="container-dropdown"><span class="topic-text">In communities</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 7</span>
+                                    <label class="container-dropdown"><span class="topic-text">In organizations</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Topic 8</span>
+                                    <label class="container-dropdown"><span class="topic-text">Dialog</span>
+                                        <input type="checkbox">
+                                        <span class="checkmark-topics-dropdown"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="container-dropdown"><span class="topic-text">As a social service</span>
+                                        <input type="checkbox">
+                                        <span class="checkmark-topics-dropdown"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="container-dropdown"><span class="topic-text">In consumer conflicts</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>

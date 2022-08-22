@@ -73,49 +73,61 @@
                     <ul>
                         По темам
                         <li>
-                            <label class="container"><span class="filters__label">Тема 1</span>
+                            <label class="container"><span class="filters__label">Судебная медиация</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 2</span>
+                            <label class="container"><span class="filters__label">Семейная медиация</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 3</span>
+                            <label class="container"><span class="filters__label">Восстановительное правосудие</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 4</span>
+                            <label class="container"><span class="filters__label">Диалог</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 5</span>
+                            <label class="container"><span class="filters__label">Школьная медиация</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 6</span>
+                            <label class="container"><span class="filters__label">Медиация в бизнесе</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 7</span>
+                            <label class="container"><span class="filters__label">В организациях</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
                         </li>
                         <li>
-                            <label class="container"><span class="filters__label">Тема 8</span>
+                            <label class="container"><span class="filters__label">В сообществах</span>
+                                <input type="checkbox">
+                                <span class="checkmark-topics"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="container"><span class="filters__label">Как социальная услуга</span>
+                                <input type="checkbox">
+                                <span class="checkmark-topics"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="container"><span class="filters__label">В потребительских конфликтах</span>
                                 <input type="checkbox">
                                 <span class="checkmark-topics"></span>
                             </label>
@@ -200,7 +212,7 @@
                 <ul>
                     <li><a href="#">По периодам</a>
                         <ul>
-                            <ul>
+                            <ul class="periods-ua">
                                 <li>
                                     <label class="container-dropdown">
                                         <input type="checkbox">
@@ -241,51 +253,63 @@
                     </li>
                     <li><a href="#">По темам</a>
                         <ul>
-                            <ul>
+                            <ul class="topics-ul">
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 1</span>
+                                    <label class="container-dropdown"><span class="period-text">Судебная медиация</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 2</span>
+                                    <label class="container-dropdown"><span class="period-text">Семейная медиация</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 3</span>
+                                    <label class="container-dropdown"><span class="period-text">Восстановительное правосудие</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 4</span>
+                                    <label class="container-dropdown"><span class="period-text">Школьная медиация</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 5</span>
+                                    <label class="container-dropdown"><span class="period-text">Диалог</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 6</span>
+                                    <label class="container-dropdown"><span class="period-text">Медиация в бизнесе</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 7</span>
+                                    <label class="container-dropdown"><span class="period-text">В сообществах</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label class="container-dropdown"><span class="period-text">Тема 8</span>
+                                    <label class="container-dropdown"><span class="period-text">В организациях</span>
+                                        <input type="checkbox">
+                                        <span class="checkmark-topics-dropdown"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="container-dropdown"><span class="period-text">Как социальная услуга</span>
+                                        <input type="checkbox">
+                                        <span class="checkmark-topics-dropdown"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="container-dropdown"><span class="period-text">В потребительских конфликта</span>
                                         <input type="checkbox">
                                         <span class="checkmark-topics-dropdown"></span>
                                     </label>

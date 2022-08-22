@@ -25,14 +25,14 @@
                         </a>
                     </div>
                     <div class="languages">
-                        <a class="burger-lang" href="index-uk.php">
-                            <img class="burger-lang" src="./icons/ukr.png" alt="ukr" value="uk" id="uk-flag">
+                        <a class="burger-lang" href="index-ua.php">
+                            <img class="burger-lang" src="./icons/ukr.png" value="ua" id="uk-flag">
                         </a>
                         <a class="burger-lang" href="index-en.php">
-                            <img class="burger-lang" src="./icons/eng.png" alt="ukr" value="en" id="en-flag">
+                            <img class="burger-lang" src="./icons/eng.png" value="en" id="en-flag">
                         </a>
                         <a class="burger-lang" href="index-ru.php">
-                            <img class="burger-lang" src="./icons/rus.png" alt="ukr" value="uk" id="ru-flag">
+                            <img class="burger-lang" src="./icons/rus.png" value="ru" id="ru-flag">
                         </a>
                     </div>
                 </ul>
@@ -60,7 +60,7 @@
                 <img src="./icons/eng.png" alt="eng" value="en" id="eng-flag">
                 <select name="lang" id="lang" onchange="changeFlag()">
                     <option value="en">English</option>
-                    <option value="uk">Українська</option>
+                    <option value="ua">Українська</option>
                     <option value="ru">Русский</option>
                 </select>
             </div>

@@ -116,18 +116,14 @@
   margin-left: 30px;
 }
 
-@media (max-width: 630px) {
-  .search-date-dropdown {
-    font-size: 10px;
-  }
+.period-text-en {
+  margin-left: 30px;
 }
 
-@media (max-width: 530px) {
-  .search-date-dropdown {
-    font-size: 8px;
-    margin-left: 0;
-  }
+.topic-text {
+  margin-left: 30px;
 }
+
 
 @media (min-width: 280px) and (max-width: 410px) {
   .container-dropdown {
@@ -137,12 +133,25 @@
 
   .checkmark-dropdown,
   .checkmark-topics-dropdown {
-    top: -3px;
+    top: -1px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .container-dropdown .checkmark-dropdown:after,
+  .container-dropdown .checkmark-topics-dropdown:after {
+    left: 4.5px;
+    top: 2px;
+    height:9px;
   }
 
   .search-date-dropdown {
     margin-left: 0;
     font-size: 11px;
+  }
+
+  .period-text-en {
+    margin-left: 22px;
   }
 
 }

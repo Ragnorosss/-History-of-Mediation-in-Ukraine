@@ -57,6 +57,16 @@
   z-index: 1;
 }
 
+.filters-mobile ul li ul .topics-ul {
+  width: 250%;
+  left: -75%;
+}
+
+.filters-mobile ul li ul .periods-ua {
+  width: 120%;
+  left: -10%;
+}
+
 .filters-mobile ul li .date-ul {
   width: 200%;
   left: -50%;
