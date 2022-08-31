@@ -3,7 +3,7 @@ let burgerOffset = document.querySelector('.menu__box')
 
    burgerOffset.addEventListener('wheel', function(){
       console.log(burgerOffset.scrollTop)
-      if (burgerOffset.scrollTop > 50git  ) { 
+      if (burgerOffset.scrollTop > 50 ) { 
          offsetHeader.classList.add('index__hidden')
       }else{
          offsetHeader.classList.remove('index__hidden')
