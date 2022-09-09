@@ -340,21 +340,6 @@
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 181, ../Ban/Project-end/scss/_main.scss */
-.profile__info {
-  display: grid;
-  grid-template-areas:
-  'avatar name bio'
-  'avatar city bio'
-  'work   bio'
-  'edit   bio'
-  'video video video'
-  ;
-}
-.profile__link {
-  font-family: "Poppins", sans-serif;
-  color: #3379e3;
-}
 .profile__titel {
   margin-top: 50px;
 }
@@ -372,20 +357,20 @@
 
 /* line 198, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar {
+  display: flex;
+  align-items: flex-start;
 }
 
-/* line 201, ../Ban/Project-end/scss/_main.scss */
-.profile__item-img {
-
-}
 .edit{
+  cursor: pointer;
   border: none;
   padding: 14px 20px 14px 21px ;
+  margin-bottom: 37px;
 }
 .bio {
-  width: 100%;
-  max-width: 1811px;
+  max-width: 915px;
   margin: 0 auto;
+  padding-left: 139px;
 }
 
 /* line 248, ../Ban/Project-end/scss/_main.scss */
@@ -403,23 +388,19 @@
   font-weight: 600;
 }
 
-
+.profile__work{
+  margin-top: 10px;
+  margin-bottom: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #3379e3;
+}
 
 .profile__city {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
 
-.button {
-  outline: none;
-}
-
-.button__pop {
-  background-color: #E5EDF1;
-  border: none;
-  border-bottom: 2px solid black;
-  cursor: pointer;
-}
 
 .footer {
   position: relative;
@@ -571,10 +552,6 @@
   }
 }
 @media (min-width: 280px) and (max-width: 540px) {
-  /* line 121, ../Ban/Project-end/scss/_media.scss */
-  .profile__content {
-   
-  }
   /* line 126, ../Ban/Project-end/scss/_media.scss */
   .profile__avatar {
     align-self: center;
