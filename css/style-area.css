@@ -286,7 +286,8 @@
 
 /* line 147, ../Ban/Project-end/scss/_main.scss */
 .articles-pagination .control-numbers__item--active {
-  background-color: #d9d9d9;
+  background-color: #3C64B1;
+  color: #F4F6FB;
 }
 
 /* line 154, ../Ban/Project-end/scss/_main.scss */
