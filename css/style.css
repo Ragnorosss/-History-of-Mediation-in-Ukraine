@@ -347,6 +347,13 @@
 .footer .titel {
   color: #ffffff;
 }
+.titel__donate{
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #737b7d;
+  font-weight: 500;
+
+}
 
 /* Test */
 @media (max-width: 1230px) {
