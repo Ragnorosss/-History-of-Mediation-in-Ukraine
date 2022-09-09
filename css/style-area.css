@@ -230,7 +230,7 @@
 .articles-items__item {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 59px 5px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 38px;
@@ -544,22 +544,7 @@
 }
 
 @media (max-width: 768px) {
-  /* line 76, ../Ban/Project-end/scss/_media.scss */
-  .menu__button {
-    flex-wrap: wrap;
-  }
-  /* line 80, ../Ban/Project-end/scss/_media.scss */
-  .button__item {
-    width: 50%;
-  }
-  /* line 84, ../Ban/Project-end/scss/_media.scss */
-  .button__item:nth-child(2) {
-    border-radius: 0 21px 21px 0;
-  }
-  /* line 88, ../Ban/Project-end/scss/_media.scss */
-  .button__item:nth-child(3) {
-    border-radius: 21px 0 0 21px;
-  }
+  
   /* line 92, ../Ban/Project-end/scss/_media.scss */
   .articles-items__item {
     font-size: 24px;
@@ -592,13 +577,10 @@
     bottom: 5%;
   }
 }
-
 @media (min-width: 280px) and (max-width: 540px) {
   /* line 121, ../Ban/Project-end/scss/_media.scss */
   .profile__content {
-    grid-template-areas: "avatar" "info" "bio" "video";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+   
   }
   /* line 126, ../Ban/Project-end/scss/_media.scss */
   .profile__avatar {
@@ -615,32 +597,12 @@
   .hero-button__link {
     margin-right: 0;
   }
-  /* line 142, ../Ban/Project-end/scss/_media.scss */
-  .history__button {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
+
   /* line 149, ../Ban/Project-end/scss/_media.scss */
   .copyryight {
     margin-top: 12px;
   }
-  /* line 153, ../Ban/Project-end/scss/_media.scss */
-  .card__inner {
-    row-gap: 55px;
-  }
-  /* line 157, ../Ban/Project-end/scss/_media.scss */
-  .button__item {
-    width: 100%;
-  }
-  /* line 161, ../Ban/Project-end/scss/_media.scss */
-  .button__item:nth-child(1),
-  .button__item:nth-child(2),
-  .button__item:nth-child(3),
-  .button__item:nth-child(4) {
-    border-radius: 0;
-  }
+  
   /* line 168, ../Ban/Project-end/scss/_media.scss */
   .articles-search {
     flex-wrap: wrap;
@@ -648,7 +610,6 @@
     gap: 20px;
   }
 }
-
 /* line 8, ../Ban/Project-end/scss/style-area.scss */
 body {
   display: flex;
