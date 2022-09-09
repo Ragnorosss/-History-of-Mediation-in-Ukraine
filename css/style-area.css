@@ -470,20 +470,7 @@
 
 /* Test */
 @media (max-width: 1250px) {
-  /* line 3, ../Ban/Project-end/scss/_media.scss */
-  .profile__content {
-   
-  }
-  /* line 8, ../Ban/Project-end/scss/_media.scss */
-  .profile__avatar {
-    align-self: center;
-  }
-  /* line 11, ../Ban/Project-end/scss/_media.scss */
-  .profile__video {
-    width: 100%;
-    height: 100%;
-    justify-self: center;
-  }
+
   /* line 17, ../Ban/Project-end/scss/_media.scss */
   .menu__btn {
     display: block;
@@ -676,8 +663,6 @@ body {
 .index__hidden {
   z-index: 0;
 }
-
-/* line 70, ../Ban/Project-end/scss/style-area.scss */
 
 .hidden{
   display: none;
