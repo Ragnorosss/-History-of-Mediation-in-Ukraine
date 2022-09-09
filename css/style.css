@@ -63,13 +63,24 @@
 .language {
   display: flex;
 }
+.burgerg__language{
+  display: flex;
+  padding-left: 20px;
+  font-family: "Mulish", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 10px;
+}
 .header .icons {
   display: flex;
   justify-content: start;
-  padding-left: 9%;
-  padding-top: 273px;
-}
+  padding-left: 20%;
 
+}
+.icons img{
+  width: 36px;
+  height: 36px;
+}
 /* line 1, ../New-project/Project/project/scss/_main.scss */
 .main {
   flex: 1 0 auto;
@@ -412,7 +423,7 @@
     font-size: 22px;
   }
   .header .icons {
-    padding-top: 173px;
+    padding-top: 38px;
   }
 }
 
