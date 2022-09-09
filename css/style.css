@@ -67,7 +67,8 @@
   position: absolute;
   background-color: #F5F7FB;
   display: flex;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: 789px;
   flex-direction: column;
   top: 100%;
@@ -81,9 +82,15 @@
   max-width: 460px;
   margin: 10px 16px;
 }
-.form_registr, input{ 
+
+.form__registr, input{ 
   padding: 12px;
-  
+}
+.form__registr, label{
+  margin-top: 56px;
+}
+.form__registr, label:first-child{
+  margin-top: 0;
 }
 .burgerg__language{
   display: flex;
