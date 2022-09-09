@@ -78,8 +78,9 @@
 
 }
 .icons img{
-  width: 36px;
-  height: 36px;
+  width: 100%;
+  height: 100%;
+  max-width: 36px;
 }
 /* line 1, ../New-project/Project/project/scss/_main.scss */
 .main {
