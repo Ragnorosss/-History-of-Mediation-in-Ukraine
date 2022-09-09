@@ -9,7 +9,6 @@
   flex: 0 0 auto;
 }
 
-
 /* line 9, ../New-project/Project/project/scss/_header.scss */
 .header__wrapper {
   display: flex;
@@ -62,6 +61,29 @@
 /* line 67, ../New-project/Project/project/scss/_header.scss */
 .language {
   display: flex;
+}
+
+.registr{
+  position: absolute;
+  background-color: #F5F7FB;
+  display: flex;
+  width: 500px;
+  height: 789px;
+  flex-direction: column;
+  top: 100%;
+  left: 57%;
+  border-radius: 5px;
+  filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
+}
+.form__registr{
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  margin: 10px 16px;
+}
+.form_registr, input{ 
+  padding: 12px;
+  
 }
 .burgerg__language{
   display: flex;
