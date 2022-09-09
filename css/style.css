@@ -390,9 +390,7 @@
   .hamburger-menu {
     display: inline;
   }
-  .hamburger-menu li:first-child {
-    padding-top: 75px;
-  }
+
   /* line 23, ../New-project/Project/project/scss/_media.scss */
   .header__button {
     display: none;
