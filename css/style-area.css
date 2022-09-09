@@ -339,11 +339,17 @@
 .profile__content{
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
-/* line 167, ../Ban/Project-end/scss/_main.scss */
-
 
 /* line 181, ../Ban/Project-end/scss/_main.scss */
 .profile__info {
+  display: grid;
+  grid-template-areas:
+  'avatar name bio'
+  'avatar city bio'
+  'work   bio'
+  'edit   bio'
+  'video video video'
+  ;
 }
 .profile__link {
   font-family: "Poppins", sans-serif;
