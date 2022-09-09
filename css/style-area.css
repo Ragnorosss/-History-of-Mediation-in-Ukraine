@@ -48,7 +48,7 @@
   position: fixed;
   width: 100%;
   z-index: 1;
-  background-color: #f4f6fb;
+  background-color: #F4F6FB;
   flex: 0 0 auto;
 }
 
@@ -334,14 +334,28 @@
 
 /* line 163, ../Ban/Project-end/scss/_main.scss */
 .profile {
-  padding: 99px 10px;
+  padding: 90px 10px;
 }
 .profile__content{
+  color: #333333;
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
 
 .profile__titel {
-  margin-top: 50px;
+  max-width: 328px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+div .profile__titel{
+  font-family: "Mulish", sans-serif;
+  font-size: 44px;
+  margin-top: 79px;
+  font-weight: 700;
+}
+div .profile__city{
+  font-family: "Mulish", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
 }
 /* line 190, ../Ban/Project-end/scss/_main.scss */
 .profile__video {
@@ -358,9 +372,14 @@
 /* line 198, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar {
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
 }
-
+.profile__item-img{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+}
 .edit{
   cursor: pointer;
   border: none;
@@ -368,25 +387,25 @@
   margin-bottom: 37px;
 }
 .bio {
+  width: 50%;
+  margin-top: 79px;
   max-width: 915px;
-  margin: 0 auto;
-  padding-left: 139px;
 }
 
 /* line 248, ../Ban/Project-end/scss/_main.scss */
 .bio__titel {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #333333;
-  margin-bottom: 29px;
-  margin-top: 94px;
+  font-family: "Mulish", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+}
+.bio__text{
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.1px;
 }
 
 /* line 207, ../Ban/Project-end/scss/_main.scss */
-.profile__titel {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
+
 
 .profile__work{
   margin-top: 10px;
