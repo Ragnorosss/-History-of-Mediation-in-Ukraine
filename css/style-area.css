@@ -777,6 +777,7 @@ body {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 700;
+  border-radius: 12px;
 }
 
 /* line 32, ../Ban/Project-end/scss/style-area.scss */
@@ -824,9 +825,4 @@ li {
 }
 
 /* line 70, ../Ban/Project-end/scss/style-area.scss */
-.show__popups {
-  left: 25%;
-  transition: all .9s ease-in;
-}
 
-/*# sourceMappingURL=style-area.css.map */

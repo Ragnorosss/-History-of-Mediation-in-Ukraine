@@ -24,10 +24,20 @@
                </label>
                <ul class="menu__box">
                   <li><a class="menu__item-burger" href="#">Головна</a></li>
-                  <li><a class="menu__item-burger" href="#">Каталог</a></li>
-                  <li><a class="menu__item-burger" href="#">Форум</a></li>
-                  <li><a class="menu__item-burger" href="#">Часті питання</a></li>
+                  <li><a class="menu__item-burger" href="#">Спогади</a></li>
+                  <li><a class="menu__item-burger" href="#">Бібліотека</a></li>
                   <li><a class="menu__item-burger" href="#">Контакти</a></li>
+                  <li><a class="menu__item-burger" href="#">Стати автором</a></li>
+                  <div class="language">
+                     <img src="./images/icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
+                     <img src="./images/icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
+                     <img src="./images/icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
+                     <select name="lang" id="lang" onchange="changeFlag()">
+                        <option value="ukr">Мова</option>
+                        <option value="rus">Русский</option>
+                        <option value="eng">English</option>
+                     </select>
+                  </div>
                   <div class="icons">
                      <a href="#" class="icon__link">
                         <img src="./images/icons/facebook.png" alt="" class="icon__item">
@@ -41,6 +51,9 @@
             <nav class="nav__menu">
                <ul class="menu__items">
                   <li class="menu__item">
+                     <a href="#" class="menu-item__link">Головна</a>
+                  </li>
+                  <li class="menu__item">
                      <a href="#" class="menu-item__link">Спогади</a>
                   </li>
                   <li class="menu__item">
@@ -51,13 +64,13 @@
                   </li>
                </ul>
             </nav>
-            <a href="#" class="header__button">для авторов</a>
+            <a href="#" class="header__button button">Стати автором</a>
             <div class="language">
                <img src="./images/icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
                <img src="./images/icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
                <img src="./images/icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
                <select name="lang" id="lang" onchange="changeFlag()">
-                  <option value="ukr">Українська</option>
+                  <option value="ukr">Мова</option>
                   <option value="rus">Русский</option>
                   <option value="eng">English</option>
                </select>
@@ -109,44 +122,26 @@
             </div>
             <ul class="articles-items">
                <li class="articles-items__item">
-                  <div class="more-info">
-                     <img src="images/icons/More info.png" />
-                  </div>
                   <div class="title">Медiацiя в Украiнi</div>
                   <div class="data">02.02.2020</div>
                </li>
                <li class="articles-items__item">
-                  <div class="more-info">
-                     <img src="images/icons/More info.png" />
-                  </div>
+                 
+                  <div class="data">02.02.2020</div>
+               </li>
+               <li class="articles-items__item">
                   <div class="title">Медiацiя в Украiнi</div>
                   <div class="data">02.02.2020</div>
                </li>
                <li class="articles-items__item">
-                  <div class="more-info">
-                     <img src="images/icons/More info.png" />
-                  </div>
                   <div class="title">Медiацiя в Украiнi</div>
                   <div class="data">02.02.2020</div>
                </li>
                <li class="articles-items__item">
-                  <div class="more-info">
-                     <img src="images/icons/More info.png" />
-                  </div>
                   <div class="title">Медiацiя в Украiнi</div>
                   <div class="data">02.02.2020</div>
                </li>
                <li class="articles-items__item">
-                  <div class="more-info">
-                     <img src="images/icons/More info.png" />
-                  </div>
-                  <div class="title">Медiацiя в Украiнi</div>
-                  <div class="data">02.02.2020</div>
-               </li>
-               <li class="articles-items__item">
-                  <div class="more-info">
-                     <img src="images/icons/More info.png" />
-                  </div>
                   <div class="title">Медiацiя в Украiнi</div>
                   <div class="data">02.02.2020</div>
                </li>
@@ -193,23 +188,10 @@
             <div class="donate">
                <h2 class="donate__titel titel">Корисні посилання</h2>
                <ul class="donate__list">
-                  <li class="list__item subtitel">Огранізація 1</li>
-                  <li class="list__item subtitel">Огранізація 2</li>
-                  <li class="list__item subtitel">Огранізація 3</li>
-                  <li><a class="donate__link subtitel" href="#">Підтримати</a></li>
-                  <li><a class="donate__link subtitel" href="#">Проблема з сайтом? тиcніть сюди</a></li>
+                  <li class="list__item subtitel">ООГМ 1</li>
+                  <li><a class="donate__link subtitel" href="#">Задонатити</a></li>
                </ul>
             </div>
-            <div class="author">
-               <h2 class="author__titel titel">Корисні посилання</h2>
-               <ul class="author__list">
-                  <li class="list__item"><a href="#" class="list-item subtitel">Войти в аккаунт</a></li>
-                  <li class="list__item"><a href="#" class="list-item subtitel">Редактировать профиль</a></li>
-                  <li class="list__item"><a href="#" class="list-item subtitel">Что-то еще</a></li>
-                  <li class="list__item"><a href="#" class="list-item subtitel">Что-то еще</a></li>
-               </ul>
-            </div>
-         </div>
          <p class="copyryight">© BrandName. All rights reserved.</p>
       </div>
    </footer>
