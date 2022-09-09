@@ -110,31 +110,35 @@
 .registr{
   position: absolute;
   background-color: #F5F7FB;
-  display: flex;
   width: 100%;
   max-width: 500px;
-  height: 789px;
+  height: 600px;
   flex-direction: column;
   top: 100%;
   left: 57%;
-  border-radius: 5px;
+  border-radius: 12px;
   filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
 }
 .form__registr{
+  font-family: "Mulish", sans-serif;
+
   display: flex;
   flex-direction: column;
   max-width: 460px;
   margin: 10px 16px;
 }
 
-.form__registr, input{ 
+.form__registr > input{ 
   padding: 12px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 .form__registr, label{
   margin-top: 56px;
+  padding-bottom: 5px;
 }
 .form__registr, label:first-child{
-  margin-top: 0;
+  margin-top: 10px;
 }
 .burgerg__language{
   display: flex;
