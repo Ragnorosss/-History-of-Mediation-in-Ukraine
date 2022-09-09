@@ -1,5 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish:wght@400;600;700&display=swap");
+/*Inter*/
+@font-face {
+  font-weight: 600;
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.ttf");
+}
 
+@font-face {
+  font-weight: 400;
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf");
+}
+
+/*Mulishr*/
+@font-face {
+  font-weight: 400;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-SemiBold.ttf") format("truetype");
+}
+
+/*Poppins*/
+@font-face {
+  font-weight: 400;
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+/*# sourceMappingURL=fonts.css.map */
 /* line 1, ../New-project/Project/project/scss/_header.scss */
 .header {
   position: fixed;
