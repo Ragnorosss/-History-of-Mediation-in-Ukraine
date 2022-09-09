@@ -19,7 +19,6 @@
 
 /* line 16, ../New-project/Project/project/scss/_header.scss */
 .header__button {
-  font-family: "Mulish", sans-serif;
   font-weight: 700;
   border: 1px solid #3c64b1;
   color: #3c64b1;
@@ -507,11 +506,10 @@ body {
 
 /* line 25, ../New-project/Project/project/scss/style.scss */
 .button {
-  background-color: #3c64b1;
-  color: #ffffff;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 700;
+  border-radius: 12px;
 }
 
 /* line 33, ../New-project/Project/project/scss/style.scss */
