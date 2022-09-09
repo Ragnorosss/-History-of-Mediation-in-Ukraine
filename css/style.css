@@ -283,6 +283,9 @@
   margin-top: 85px;
   flex: 0 0 auto;
 }
+.footer a{
+  color: #737b7d;
+} 
 
 /* line 10, ../New-project/Project/project/scss/_footer.scss */
 .footer__wrapper {
@@ -335,6 +338,9 @@
 /* line 55, ../New-project/Project/project/scss/_footer.scss */
 .donate__list {
   padding-left: 0;
+}
+.list__item:last-child {
+  padding-top: 30px;
 }
 
 /* line 59, ../New-project/Project/project/scss/_footer.scss */
