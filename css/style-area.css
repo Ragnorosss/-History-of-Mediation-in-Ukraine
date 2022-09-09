@@ -296,56 +296,35 @@
   padding-left: 15px;
   border: none;
   background-color: #e5edf1;
-  font-family: Inter;
   font-size: 28px;
 }
 
 /* line 163, ../Ban/Project-end/scss/_main.scss */
 .profile {
-  padding: 49px 10px;
+  padding: 99px 10px;
 }
 
 /* line 167, ../Ban/Project-end/scss/_main.scss */
 .profile__content {
-  display: grid;
-  grid-template-areas: "info video avatar" "bio bio bio";
-  grid-template-columns: 0.6fr 1fr 0.8fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 22px;
-  padding-top: 60px;
-  padding-bottom: 55px;
-  border-bottom: 3px solid #00000040;
-  align-items: center;
+ 
 }
 
 /* line 181, ../Ban/Project-end/scss/_main.scss */
 .profile__info {
-  display: flex;
-  grid-area: info;
-  flex-direction: column;
-  width: 100%;
 }
 
 /* line 190, ../Ban/Project-end/scss/_main.scss */
 .profile__video {
-  grid-area: video;
-  max-width: 738px;
-  height: 75%;
-  border-radius: 30px;
-  background: #e5edf1;
-  justify-self: center;
+
 }
 
 /* line 198, ../Ban/Project-end/scss/_main.scss */
 .profile__avatar {
-  grid-area: avatar;
 }
 
 /* line 201, ../Ban/Project-end/scss/_main.scss */
 .profile__item-img {
-  width: 100%;
-  max-width: 512px;
-  min-width: 250px;
+
 }
 
 /* line 207, ../Ban/Project-end/scss/_main.scss */
