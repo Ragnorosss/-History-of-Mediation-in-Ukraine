@@ -134,7 +134,7 @@
 }
 
 /* button */
-.Read__more {
+.read__more {
     position: absolute;
     left: 30px;
     top: 250px;
@@ -142,29 +142,28 @@
     width: 167px;
     height: 62px;
     
-    background: #019FA6;
+    color: #3c64b1;
     border-radius: 20px;
-    border: #019FA6;
+    border:1px solid #3C64B1;
+    
     cursor: pointer;
     outline: none;
     transition: all 200ms;
 
-    color: white;    
     font-family: "Mulish", sans-serif;        
-    font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 25px;
+
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Read__more:hover {
-    transform: scale(1.02);
-}
 
-.Read__more:active {
-    background: #03686d;
-    transform: scale(1.04);
+.read__more:hover {
+    background-color: #3c64b1;
+    color: #ffffff;
+    transition: 0.5s;
 }
