@@ -529,6 +529,7 @@
   margin-bottom: 41px;
   padding-top: 58px;
   justify-content: center;
+  gap: 30px;
 }
 
 .footer__wrapper::after {
@@ -686,6 +687,9 @@
   .profile__avatar {
     align-self: center;
   }
+  .article__item-datainfo {
+    gap: 0px; 
+  } 
   /* line 131, ../Ban/Project-end/scss/_media.scss */
   .hero__button {
     display: flex;
