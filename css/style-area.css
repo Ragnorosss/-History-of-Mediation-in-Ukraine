@@ -75,10 +75,12 @@
 
 
 /* line 30, ../Ban/Project-end/scss/_header.scss */
-.header .icons {
+.burger__icons{
   display: flex;
-  justify-content: center;
-  margin-top: 34px;
+  align-items: center;
+  margin-top: 38px;
+  padding-left: 7%;
+  gap: 15px;
 }
 
 /* line 41, ../Ban/Project-end/scss/_header.scss */
