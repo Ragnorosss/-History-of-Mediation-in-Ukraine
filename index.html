@@ -16,37 +16,37 @@
          <div class="header__wrapper">
             <a href="#hero" class="header__logo" id="top"><img src="./img/logo.svg" alt="Logo image" class="header-logo__img"></a>
 <!--burger-menu-start-->
-<div class="hamburger-menu">
-    <input id="menu__toggle" type="checkbox" />
-    <label class="menu__btn" for="menu__toggle">
-      <span></span>
-    </label>
-    <ul class="menu__box">
-         <li><a class="menu__item-burger" href="#">Головна</a></li>
-         <li><a class="menu__item-burger" href="#">Спогади</a></li>
-         <li><a class="menu__item-burger" href="#">Бібліотека</a></li>
-         <li><a class="menu__item-burger" href="#">Контакти</a></li>
-         <div class="burgerg__language">
-            <img src="./icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
-            <img src="./icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
-            <img src="./icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
-            <select name="lang" id="lang" onchange="changeFlag()">
-               <option value="ukr">Мова</option>
-               <option value="rus">Русский</option>
-               <option value="eng">English</option>
-            </select>
-         </div>
-         <div class="icons">
-            <a target="_blank" href="https://www.facebook.com/mediationHistoryUA" class="icon__link">
-               <img src="./icons/facebook.png" alt="" class="icon__item">
-            </a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCN0C7HiO2M_6lnl3xN_NuAQ" class="icon__link">
-               <img src="./icons/youtube.png" alt="" class="icon__item">
-            </a>
-         </div>
-    </ul>
-   </div> <!--burger_end-->
-            
+   <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+         <span></span>
+      </label>
+      <ul class="menu__box">
+            <li><a class="menu__item-burger" href="#">Головна</a></li>
+            <li><a class="menu__item-burger" href="#">Спогади</a></li>
+            <li><a class="menu__item-burger" href="#">Бібліотека</a></li>
+            <li><a class="menu__item-burger" href="#">Контакти</a></li>
+            <div class="burgerg__language">
+               <img src="./icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
+               <img src="./icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
+               <img src="./icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
+               <select name="lang" id="lang" onchange="changeFlag()">
+                  <option value="ukr">Мова</option>
+                  <option value="rus">Русский</option>
+                  <option value="eng">English</option>
+               </select>
+            </div>
+            <div class="icons">
+               <a target="_blank" href="https://www.facebook.com/mediationHistoryUA" class="icon__link">
+                  <img src="./icons/facebook.png" alt="" class="icon__item">
+               </a>
+               <a target="_blank" href="https://www.youtube.com/channel/UCN0C7HiO2M_6lnl3xN_NuAQ" class="icon__link">
+                  <img src="./icons/youtube.png" alt="" class="icon__item">
+               </a>
+            </div>
+         </ul>
+         </div> 
+         <!--burger_end-->
             <nav class="nav__menu">
                <ul class="menu__items">
                   <li class="menu__item">
@@ -63,32 +63,31 @@
                   </li>
                </ul>
             </nav>
-            <button href="#" class="header__button button">Стати автором</button>
-            <div class="language">
-               <img src="./icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
-               <img src="./icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
-               <img src="./icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
-               <select name="lang" id="lang" onchange="changeFlag()">
-                  <option value="ukr">Мова</option>
-                  <option value="rus">Русский</option>
-                  <option value="eng">English</option>
-               </select>
-            </div>
-            <div class="registr hidden">
-               <form action="" class="form__registr" method="post">
-                  <label for="">Ім’я</label>
-                  <input type="name" placeholder="Введіть ваше ім’я">
-                  <label for="">Фамілія</label>
-                  <input type="surname" placeholder="Введіть вашу фамілію">
-                  <label for="">Електронна адреса</label>
-                  <input type="email" placeholder="Введіть вашу Електронну адресу">
-                  <label for="">Пароль</label>
-                  <input type="password" placeholder="Введіть пароль, з літер A-z та 0-9 ">
-                  <label for="">Label</label>
-                  <input type="text" placeholder="A complex form might...">
-                  
-               </form>
-            </div>
+            <button class="header__button button">Стати автором</button>
+               <div class="language">
+                  <img src="./icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
+                  <img src="./icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
+                  <img src="./icons/eng.png" alt="eng" value="eng" id="eng-flag" style="display: none;">
+                  <select name="lang" id="lang" onchange="changeFlag()">
+                     <option value="ukr">Мова</option>
+                     <option value="rus">Русский</option>
+                     <option value="eng">English</option>
+                  </select>
+               </div>
+               <div class="registr hidden">
+                  <form action="" class="form__registr" method="post">
+                     <label for="">Ім’я</label>
+                     <input type="name" placeholder="Введіть ваше ім’я">
+                     <label for="">Фамілія</label>
+                     <input type="surname" placeholder="Введіть вашу фамілію">
+                     <label for="">Електронна адреса</label>
+                     <input type="email" placeholder="Введіть вашу Електронну адресу">
+                     <label for="">Пароль</label>
+                     <input type="password" placeholder="Введіть пароль, з літер A-z та 0-9 ">
+                     <label for="">Label</label>
+                     <input type="text" placeholder="A complex form might...">
+                  </form>
+               </div>
             </div>
          </div>
       </div>
