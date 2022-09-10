@@ -22,7 +22,6 @@
   align-items: center;
   position: absolute;
   right: 5%;
-  top: 50%;
   bottom: 0;
   width: 35px;
   height: 45px;
@@ -64,7 +63,7 @@
 }
 .menu__item-burger {
   display: block;
-  padding: 40px 24px;
+  padding: 30px 24px;
   color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;

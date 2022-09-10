@@ -148,11 +148,12 @@
   font-weight: 700;
   padding-top: 10px;
 }
-.header .icons {
+.burger__icons{
   display: flex;
-  justify-content: start;
-  padding-left: 20%;
-
+  align-items: center;
+  padding-left: 7%;
+  padding-top: 38px;
+  gap: 15px;
 }
 .icons img{
   width: 100%;
