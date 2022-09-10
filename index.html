@@ -64,7 +64,7 @@
                   </li>
                </ul>
             </nav>
-            <a href="#" class="header__button button">Стати автором</a>
+            <a href="#" class="header__button-button">Стати автором</a>
             <div class="language">
                <img src="./images/icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
                <img src="./images/icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
@@ -87,7 +87,6 @@
                   <input type="password" placeholder="Введіть пароль, з літер A-z та 0-9 ">
                   <label for="">Label</label>
                   <input type="text" placeholder="A complex form might...">
-                  
                </form>
             </div>
          </div>
@@ -101,7 +100,7 @@
                <div class="profile__work">
                   <h2 class="profile__titel-work">Квалiфiкацiя</h2>
                   <p class="profile__subtitel-work">Профеciйний медiатор</p>
-                  <button class="profile__edit button">Змінити особисту інформацію</button>
+                  <button class="profile__edit-button">Змінити особисту інформацію</button>
                </div>
                <div class="descriptions">
                   <div class="profile__des">
@@ -148,22 +147,23 @@
                   </div>
                </li>
             </ul>
-            <div class="article__dropmenu">
+            <div class="article__dropmenu hidden">
                <div class="dropmenu__author">
-                  <img src="" alt="" class="dropmenu__avatar">
+                  <img src="/images/avatar.png" alt="" class="dropmenu__avatar article__item-img">
                   <div class="article__dropmenu-name">Name</div>
                </div>
                <div class="dropmenu__filter-items">
-                  <h2 class="drop__menu-titel"></h2>
-                  <ul class="">
-                     <li></li>
-                     <li></li>
-                     <li></li>
+                  <ul class="dropmenu__lists">
+                     <h2 class="dropmenu__titel">Назва статті</h2>
+                     <li class="dropmenu__list-item">тема1</li>
+                     <li class="dropmenu__list-item">тема2</li>
+                     <li class="dropmenu__list-item">тема3</li>
                   </ul>
                   <p class="dropmenu__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                   <div class="dropmenu__buttons">
-                     <button></button>
-                     <button></button>
+                     <button class="dropmenu__btn-button">Завантажити</button>
+                     <button class="dropmenu__btn-button ">Змінити</button>
+                     <button class="dropmenu__btn popup"><img src="/images/icons/icon-pdf.png" alt=""></button>
                   </div>
                </div>
             </div>
@@ -218,6 +218,7 @@
    <script src="js/burgerofset.js"></script>
    <script src="js/lang.js"></script>
    <script src="js/registr__sripts.js"></script>
+   <script src="js/article-dropdown.js"></script>
    <script src="js/main.js"></script>
 </body>
 </html>
