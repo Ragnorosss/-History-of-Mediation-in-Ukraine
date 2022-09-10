@@ -177,26 +177,23 @@
 .articles-search {
   margin: 0 -10px;
   width: 100%;
-  max-width: 1308px;
+  max-width: 998px;
   display: flex;
-  justify-content: space-between;
 }
 
 /* line 41, ../Ban/Project-end/scss/_main.scss */
 .articles-search__item {
-  width: 100%;
-  max-width: 67px;
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 59px;
-  background-color: #e5edf1;
-  box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 30px;
   font-size: 28px;
   font-family: "Mulish", sans-serif;
   flex: 1 1 auto;
   margin: 0 10px;
+  background: #F4F6FB;
+  border: 1px solid #3C64B1;
+  border-radius: 12px;
 }
 
 /* line 55, ../Ban/Project-end/scss/_main.scss */
@@ -213,7 +210,8 @@
 /* line 62, ../Ban/Project-end/scss/_main.scss */
 .articles-search__item:first-child {
   width: 100%;
-  max-width: 1133px;
+  max-width: 998px;
+  margin: 0 auto;
 }
 
 /* line 68, ../Ban/Project-end/scss/_main.scss */
@@ -251,12 +249,14 @@
   display: flex;
   justify-content: space-between;
   margin-top: 18px;
-  gap: 37px;
+  gap: 290px;
   font-size: 18px;
 }
 .data{
   font-size: 18px;
   margin-top: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #797979;
 }
 .article__item-titel{
   font-family: "Mulish", sans-serif;
@@ -264,11 +264,6 @@
   font-weight: 700;
   line-height: 38px;
 
-}
-/* line 88, ../Ban/Project-end/scss/_main.scss */
-.articles-items__item .more-info {
-  display: flex;
-  justify-content: end;
 }
 
 /* line 91, ../Ban/Project-end/scss/_main.scss */
@@ -281,16 +276,6 @@
 .articles-items__item .title {
   display: flex;
   justify-content: center;
-}
-
-/* line 100, ../Ban/Project-end/scss/_main.scss */
-.articles-items__item .data {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  line-height: 25px;
-  letter-spacing: 0.06em;
-  color: #797979;
-  padding: 0px 0px 8px 8px;
 }
 
 /* line 110, ../Ban/Project-end/scss/_main.scss */
@@ -348,12 +333,7 @@
 
 /* line 154, ../Ban/Project-end/scss/_main.scss */
 .search-input {
-  width: 100%;
-  max-width: 1000px;
-  padding-left: 15px;
   border: none;
-  background-color: #e5edf1;
-  font-size: 28px;
 }
 
 .profile {
@@ -449,7 +429,6 @@
   background-color: #373f41;
   margin-top: 98px;
   flex: 0 0 auto;
-  color: #CED4D6;
 }
 
 .footer__wrapper {
@@ -472,6 +451,7 @@
 
 .social__subtitel {
   margin-bottom: 20px;
+
 }
 
 .icons {
@@ -482,7 +462,7 @@
 }
 
 .copyryight {
-  color: #C3CBCD;
+  color: #CED4D6;
 }
 
 .donate__list {
@@ -501,6 +481,9 @@
 }
 .list__item-link{
   color: #CED4D6;
+}
+.list__item-donate{
+  margin-top: 22px;
 }
   @media (max-width: 1250px) {
 
@@ -666,7 +649,7 @@ body {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #737b7d;
+  color: #CED4D6;
 }
 
 /* line 44, ../Ban/Project-end/scss/style-area.scss */
