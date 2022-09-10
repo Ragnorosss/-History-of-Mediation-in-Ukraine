@@ -365,6 +365,7 @@
   margin-top: 35px;
   margin-bottom: 37px;
   grid-area: button;
+  cursor: pointer;
 }
 
 .descriptions {
