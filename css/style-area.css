@@ -492,6 +492,7 @@
 .bio {
   width: 100%;
   max-width: 915px;
+  padding-top: 79px; 
 }
 .bio__titel {
   font-size: 44px;
@@ -509,7 +510,7 @@
   width:100%;
   max-width: 1097px;
   height: 100%;
-  min-height: 309px;
+  min-height: 706px;
   background: #D9D9D9;
   box-shadow: 1px 4px 23px rgba(0, 0, 0, 0.15);
   border-radius: 36px;
