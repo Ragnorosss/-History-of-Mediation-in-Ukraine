@@ -40,7 +40,7 @@
 .checkmark-topics-dropdown {
   position: absolute;
   top: -1px;
-  left: 15px;
+  left: 13%;
   height: 20px;
   width: 20px;
   border-radius: 3px;
@@ -55,8 +55,8 @@
 } */
 
 /* When the checkbox is checked, add a blue background */
-.container-dropdown input:checked~.checkmark-dropdown,
-.container-dropdown input:checked~.checkmark-topics-dropdown {
+.container-dropdown input:checked ~ .checkmark-dropdown,
+.container-dropdown input:checked ~ .checkmark-topics-dropdown {
   background-color: rgb(170, 170, 170);
 }
 
@@ -69,8 +69,8 @@
 }
 
 /* Show the checkmark when checked */
-.container-dropdown input:checked~.checkmark-dropdown:after,
-.container-dropdown input:checked~.checkmark-topics-dropdown:after {
+.container-dropdown input:checked ~ .checkmark-dropdown:after,
+.container-dropdown input:checked ~ .checkmark-topics-dropdown:after {
   opacity: 1;
 }
 
@@ -116,14 +116,18 @@
   margin-left: 30px;
 }
 
-.period-text-en {
-  margin-left: 30px;
+@media (max-width: 630px) {
+  .search-date-dropdown {
+    font-size: 10px;
+  }
 }
 
-.topic-text {
-  margin-left: 30px;
+@media (max-width: 530px) {
+  .search-date-dropdown {
+    font-size: 8px;
+    margin-left: 0;
+  }
 }
-
 
 @media (min-width: 280px) and (max-width: 410px) {
   .container-dropdown {
@@ -133,25 +137,12 @@
 
   .checkmark-dropdown,
   .checkmark-topics-dropdown {
-    top: -1px;
-    width: 15px;
-    height: 15px;
-  }
-
-  .container-dropdown .checkmark-dropdown:after,
-  .container-dropdown .checkmark-topics-dropdown:after {
-    left: 4.5px;
-    top: 2px;
-    height:9px;
+    top: -3px;
   }
 
   .search-date-dropdown {
     margin-left: 0;
     font-size: 11px;
-  }
-
-  .period-text-en {
-    margin-left: 22px;
   }
 
 }

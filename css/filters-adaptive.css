@@ -49,22 +49,12 @@
 .filters-mobile ul li ul {
   display: none;
   position: absolute;
-  width: 130%;
-  left: -15%;
+  width: 120%;
+  left: -10%;
   background-color: rgba(244, 246, 251, 1);
   border-radius: 0 0 10px 10px;
   box-shadow: 1px 25px 23px rgb(0 0 0 / 15%);
   z-index: 1;
-}
-
-.filters-mobile ul li ul .topics-ul {
-  width: 250%;
-  left: -75%;
-}
-
-.filters-mobile ul li ul .periods-ua {
-  width: 120%;
-  left: -10%;
 }
 
 .filters-mobile ul li .date-ul {

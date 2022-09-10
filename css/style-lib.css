@@ -7,7 +7,7 @@ body {
 }
 
 /* Container */
-.header-container {
+.container {
   width: 100%;
   max-width: 1360px;
   margin: 0 auto;
@@ -66,9 +66,13 @@ li {
   font-weight: 600;
 }
 
+.menu-item__link.active {
+  color: #3c64b1;
+}
+
 .menu-item__link:hover {
   color: #3c64b1;
-  transition: 300ms;
+  transition: 0.5s;
 }
 
 .language {
@@ -77,21 +81,9 @@ li {
 
 .header .icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
+  padding-left: 9%;
   padding-top: 273px;
-}
-
-.header .languages {
-  display: flex;
-  margin-top: 166px;
-  justify-content: space-evenly;
-}
-
-.languages .burger-lang {
-  max-width: 36px;
-  max-height: 36px;
-  width: 100%;
-  height: 100%;
 }
 
 /* Main */
@@ -155,7 +147,7 @@ li {
   gap: 24px;
 }
 
-.copyright {
+.copyryight {
   margin-bottom: 24px;
   color: #737b7d;
 }
@@ -271,7 +263,7 @@ li {
     font-size: 20px;
   }
 
-  .search-img {
+  img.search__img {
     margin: 0 5px 0 5px;
     width: 36px;
     height: 36px;

@@ -41,11 +41,9 @@
   letter-spacing: 0em;
 }
 
-.search__img {
-  max-width: 38px;
-  max-height: 38px;
-  width: 100%;
-  height: 100%;
+img.search__img {
+  width: 38px;
+  height: 38px;
 }
 
 .filter__img {
