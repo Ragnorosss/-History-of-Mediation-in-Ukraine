@@ -6,7 +6,7 @@ const articlepopup = document.querySelector('.article__popup')
 
 articlebutton.addEventListener('click', function(){
     articleDropMenu.classList.toggle('hidden')
-    document.addEventListener('click', function (e) { 
+    /*document.addEventListener('click', function (e) { 
         if ( e.target !==  document.querySelector('.articles-items__item')) {
             document.querySelector('.article__dropmenu').classList.add('hidden')
             
@@ -14,7 +14,7 @@ articlebutton.addEventListener('click', function(){
         else { 
             document.querySelector('.article__dropmenu').classList.remove('hidden')
         }
-    })
+     })*/ 
 
 })
 
