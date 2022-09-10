@@ -1,4 +1,47 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish:wght@400;600;700&display=swap");
+/*Inter*/
+@font-face {
+  font-weight: 600;
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf");
+}
+
+/*Mulishr*/
+@font-face {
+  font-weight: 400;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-SemiBold.ttf") format("truetype");
+}
+
+/*Poppins*/
+@font-face {
+  font-weight: 400;
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
 
 body {
   display: flex;
@@ -14,7 +57,6 @@ body {
   padding: 0 15px;
 }
 
-/* Li */
 li {
   list-style: none;
 }
@@ -79,7 +121,47 @@ li {
 .language {
   display: flex;
 }
+.registr{
+  position: absolute;
+  background-color: #F5F7FB;
+  width: 100%;
+  max-width: 500px;
+  height: 600px;
+  flex-direction: column;
+  top: 100%;
+  left: 57%;
+  border-radius: 12px;
+  filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
+}
+.form__registr{
+  font-family: "Mulish", sans-serif;
 
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  margin: 10px 16px;
+}
+
+.form__registr > input{ 
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.form__registr, label{
+  margin-top: 56px;
+  padding-bottom: 5px;
+}
+.form__registr, label:first-child{
+  margin-top: 10px;
+}
+.burgerg__language{
+  display: flex;
+  padding-left: 20px;
+  font-family: "Mulish", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 10px;
+}
 .header .icons {
   display: flex;
   justify-content: start;
