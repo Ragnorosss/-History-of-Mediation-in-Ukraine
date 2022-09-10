@@ -509,7 +509,6 @@
   box-shadow: 1px 4px 23px rgba(0, 0, 0, 0.15);
   border-radius: 36px;
   margin: 0 auto;
-  grid-area: video;
 }
 
 .footer {
@@ -590,56 +589,45 @@
   .menu__btn {
     display: block;
   }
-  /* line 21, ../Ban/Project-end/scss/_media.scss */
   .header__wrapper {
     justify-content: start;
   }
-  /* line 25, ../Ban/Project-end/scss/_media.scss */
   .header__logo {
     position: relative;
     z-index: 1;
   }
-  /* line 30, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     padding: 0 1%;
   }
-  /* line 34, ../Ban/Project-end/scss/_media.scss */
   .hamburger-menu {
     display: inline;
   }
-  /* line 38, ../Ban/Project-end/scss/_media.scss */
   .header__button {
     display: none;
   }
-  /* line 42, ../Ban/Project-end/scss/_media.scss */
   .language {
     display: none;
   }
-  /* line 46, ../Ban/Project-end/scss/_media.scss */
   .nav__menu {
     display: none;
   }
-  /* line 50, ../Ban/Project-end/scss/_media.scss */
   .hero__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 56, ../Ban/Project-end/scss/_media.scss */
   .hero__inner-titel {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  /* line 63, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     font-size: 22px;
   }
 }
 
 @media (max-width: 826px) {
-  /* line 69, ../Ban/Project-end/scss/_media.scss */
   .button__item {
     font-size: 18px;
   }
@@ -649,78 +637,64 @@
 
 @media (max-width: 768px) {
   
-  /* line 92, ../Ban/Project-end/scss/_media.scss */
   .articles-items__item {
     font-size: 24px;
   }
-  /* line 94, ../Ban/Project-end/scss/_media.scss */
   .articles-items__item .data {
     font-size: 16px;
   }
-  /* line 98, ../Ban/Project-end/scss/_media.scss */
   #forward {
     grid-area: forward;
   }
-  /* line 101, ../Ban/Project-end/scss/_media.scss */
   #back {
     grid-area: back;
   }
-  /* line 104, ../Ban/Project-end/scss/_media.scss */
   .articles-pagination {
     grid-template-areas: "numbers numbers" "back forward";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px;
   }
-  /* line 109, ../Ban/Project-end/scss/_media.scss */
   .articles-pagination .control-numbers {
     grid-area: numbers;
   }
-  /* line 114, ../Ban/Project-end/scss/_media.scss */
   .footer__wrapper::after {
     bottom: 5%;
   }
 }
 @media (min-width: 280px) and (max-width: 540px) {
-  /* line 126, ../Ban/Project-end/scss/_media.scss */
   .profile__avatar {
     align-self: center;
   }
   .article__item-datainfo {
     gap: 0px; 
   } 
-  /* line 131, ../Ban/Project-end/scss/_media.scss */
   .hero__button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
-  /* line 138, ../Ban/Project-end/scss/_media.scss */
   .hero-button__link {
     margin-right: 0;
   }
 
-  /* line 149, ../Ban/Project-end/scss/_media.scss */
   .copyryight {
     margin-top: 12px;
   }
   
-  /* line 168, ../Ban/Project-end/scss/_media.scss */
   .articles-search {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
 }
-/* line 8, ../Ban/Project-end/scss/style-area.scss */
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-/* line 14, ../Ban/Project-end/scss/style-area.scss */
 [class*="__container"] {
   width: 100%;
   max-width: 1430px;
@@ -733,18 +707,15 @@ body {
   transition: 0.5s;
 }
 
-/* line 20, ../Ban/Project-end/scss/style-area.scss */
 #hamburger-menu {
   display: none;
 }
 
-/* line 32, ../Ban/Project-end/scss/style-area.scss */
 .titel {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
 }
 
-/* line 37, ../Ban/Project-end/scss/style-area.scss */
 .subtitel {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -752,7 +723,6 @@ body {
   color: #CED4D6;
 }
 
-/* line 44, ../Ban/Project-end/scss/style-area.scss */
 #lang {
   font-family: "Mulish", sans-serif;
   font-weight: 600;
@@ -764,14 +734,12 @@ body {
   outline: none;
 }
 
-/* line 55, ../Ban/Project-end/scss/style-area.scss */
 .language option {
   border: none;
   outline: none;
   font-weight: 600;
   font-size: 16px;
 }
-/* line 66, ../Ban/Project-end/scss/style-area.scss */
 .index__hidden {
   z-index: 0;
 }
