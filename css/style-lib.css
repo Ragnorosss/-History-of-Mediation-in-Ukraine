@@ -152,7 +152,9 @@ li {
   margin-bottom: 24px;
   color: #737b7d;
 }
-
+.contacts{
+  max-width: 227px;
+}
 .donate__list {
   padding-left: 0;
 }
