@@ -42,7 +42,9 @@
   font-family: "Poppins";
   src: url("../fonts/Poppins-SemiBold.ttf");
 }
-
+.hidden{
+  display: none;
+}
 body {
   display: flex;
   flex-direction: column;
