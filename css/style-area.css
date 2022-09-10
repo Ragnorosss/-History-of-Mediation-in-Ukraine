@@ -577,7 +577,14 @@
     .header__button-button{
       display: none;
     }
-  /* line 17, ../Ban/Project-end/scss/_media.scss */
+    .profile__content{
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 20px;
+    }
+    .profile__work{
+      text-align: center;
+    }
   .menu__btn {
     display: block;
   }
@@ -634,14 +641,8 @@
   .button__item {
     font-size: 18px;
   }
-  .profile__content{
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  .profile__work{
-    text-align: center;
-  }
+  
+  
 }
 
 @media (max-width: 768px) {
