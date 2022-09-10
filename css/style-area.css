@@ -226,18 +226,15 @@
 
 /* line 75, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item {
+  width: 100%;
+  max-width: 912px;
   background: #F4F6FB;
-  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 36px;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
   font-weight: 400;
-  line-height: 38px;
-  letter-spacing: 0.06em;
-  width: 100%;
-  max-width: 1448px;
-  height: 77px;
-  background-color: #e5edf1;
+  padding: 18px 18px 15px 29px;
+  cursor: pointer;
 }
 .article__item-img{
   width: 100%;
@@ -246,9 +243,27 @@
 }
 .article__item-container{
   display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 18px;
 }
 .article__item-datainfo{
   display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  gap: 37px;
+  font-size: 18px;
+}
+.data{
+  font-size: 18px;
+  margin-top: 24px;
+}
+.article__item-titel{
+  font-family: "Mulish", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+
 }
 /* line 88, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item .more-info {
