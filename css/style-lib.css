@@ -314,10 +314,6 @@ li {
     display: inline;
   }
 
-  .hamburger-menu li:first-child {
-    padding-top: 71px;
-  }
-
   .header__button,
   .language,
   .nav__menu {
