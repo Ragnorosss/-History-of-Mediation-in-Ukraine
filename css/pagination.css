@@ -45,7 +45,7 @@
 
 .articles-pagination .control-numbers__item {
   cursor: pointer;
-  width: 68px;
+  width: 48px;
   height: 50px;
   text-align: center;
   line-height: 1.8em;
@@ -60,7 +60,7 @@
 .articles-pagination .control-numbers__item--active {
   background-color: #3C64B1;
   cursor: pointer;
-  width: 68px;
+  width: 48px;
   height: 50px;
   text-align: center;
   line-height: 1.8em;

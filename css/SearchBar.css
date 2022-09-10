@@ -1,9 +1,9 @@
 .articles-search {
-  width: 95%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 998px;
   display: -ms-grid;
   display: grid;
-  gap: 0 21px;
+  gap: 21px;
   margin-top: 100px;
 }
 
@@ -18,10 +18,9 @@
   -ms-flex-pack: center;
   padding-left: 20px;
   height: 60px;
-  background-color: rgba(244, 246, 251, 1);
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
-  box-shadow: 1px 5px 13px rgb(0 0 0 / 15%);
-  border-radius: 30px;
+  background: #F4F6FB;
+  border: 1px solid #3C64B1;
+  border-radius: 12px;
   font-size: 20px;
   font-family: "Mulish", sans-serif;
   margin-bottom: 17.5px;

@@ -81,7 +81,7 @@
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.container > input {
   position: relative;
   height: 0;
   width: 0;
