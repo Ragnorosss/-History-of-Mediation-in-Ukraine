@@ -77,9 +77,8 @@
 /* line 30, ../Ban/Project-end/scss/_header.scss */
 .header .icons {
   display: flex;
-  justify-content: start;
-  padding-left: 9%;
-  padding-top: 273px;
+  justify-content: center;
+  margin-top: 34px;
 }
 
 /* line 41, ../Ban/Project-end/scss/_header.scss */
@@ -108,9 +107,14 @@
 }
 
 /* line 67, ../Ban/Project-end/scss/_header.scss */
-.language {
+.burgerg__language{
   display: flex;
-  /* Test */
+  padding-left: 20px;
+  font-family: "Mulish", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 10px;
+  margin-bottom: 40px;
 }
 
 /* line 13, ../Ban/Project-end/scss/_main.scss */
@@ -578,7 +582,9 @@
   margin-top: 22px;
 }
   @media (max-width: 1250px) {
-
+    .header__button-button{
+      display: none;
+    }
   /* line 17, ../Ban/Project-end/scss/_media.scss */
   .menu__btn {
     display: block;
@@ -711,8 +717,9 @@ body {
 /* line 14, ../Ban/Project-end/scss/style-area.scss */
 [class*="__container"] {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1430px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 [class*="-button"]:hover {
   background-color: #3457b2;
