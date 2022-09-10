@@ -449,6 +449,7 @@
   background-color: #373f41;
   margin-top: 98px;
   flex: 0 0 auto;
+  color: #CED4D6;
 }
 
 .footer__wrapper {
@@ -487,12 +488,20 @@
 .donate__list {
   padding-left: 0;
 }
+.titel__donate{
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #CED4D6;
+}
 
 .footer .titel {
   margin-bottom: 24px;
   color: #ffffff;
 }
-
+.list__item-link{
+  color: #CED4D6;
+}
   @media (max-width: 1250px) {
 
   /* line 17, ../Ban/Project-end/scss/_media.scss */
