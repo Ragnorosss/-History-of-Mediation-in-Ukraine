@@ -632,7 +632,6 @@
     font-size: 18px;
   }
   
-  
 }
 
 @media (max-width: 768px) {
@@ -665,6 +664,9 @@
 @media (min-width: 280px) and (max-width: 540px) {
   .profile__avatar {
     align-self: center;
+  }
+  .bio{
+    text-align: center;
   }
   .article__item-datainfo {
     gap: 0px; 
