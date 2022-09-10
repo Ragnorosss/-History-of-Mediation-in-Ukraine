@@ -220,16 +220,15 @@
 .articles-items {
   margin-top: 38px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25%, 1448px));
-  grid-template-rows: repeat(6, 1fr);
   padding: 0px 10px;
   gap: 36px;
 }
 
 /* line 75, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 59px 5px;
+  background: #F4F6FB;
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 36px;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -240,7 +239,17 @@
   height: 77px;
   background-color: #e5edf1;
 }
-
+.article__item-img{
+  width: 100%;
+  max-width: 40px;
+  height:38px;
+}
+.article__item-container{
+  display: flex;
+}
+.article__item-datainfo{
+  display: flex;
+}
 /* line 88, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item .more-info {
   display: flex;
@@ -456,24 +465,20 @@
   gap: 24px;
 }
 
-/* line 45, ../Ban/Project-end/scss/_footer.scss */
 .copyryight {
   color: #C3CBCD;
 }
 
-/* line 49, ../Ban/Project-end/scss/_footer.scss */
 .donate__list {
   padding-left: 0;
 }
 
-/* line 53, ../Ban/Project-end/scss/_footer.scss */
 .footer .titel {
   margin-bottom: 24px;
   color: #ffffff;
 }
 
-/* Test */
-@media (max-width: 1250px) {
+  @media (max-width: 1250px) {
 
   /* line 17, ../Ban/Project-end/scss/_media.scss */
   .menu__btn {
