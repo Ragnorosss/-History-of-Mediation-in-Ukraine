@@ -71,7 +71,9 @@
   border-radius: 12px;
 }
 
-/* line 25, ../Ban/Project-end/scss/_header.scss */
+.language{
+  display: flex;
+}
 
 
 /* line 30, ../Ban/Project-end/scss/_header.scss */
@@ -444,7 +446,10 @@
 .profile__content{
   display: flex;
   justify-content: space-between;
+}
 
+.name{
+  font-size: 44px;
 }
 
 .profile__avatar {
