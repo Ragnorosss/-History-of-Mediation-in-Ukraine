@@ -521,7 +521,7 @@
 
 .footer__wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20%, 230px));
+  grid-template-columns: repeat(auto-fit, minmax(20%, 230px));
   column-gap: 145px;
   margin-bottom: 41px;
   padding-top: 58px;
