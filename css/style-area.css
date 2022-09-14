@@ -286,10 +286,7 @@
 }
 
 /* line 91, ../Ban/Project-end/scss/_main.scss */
-.articles-items__item .more-info img {
-  cursor: pointer;
-  padding: 8px 8px 0px 0px;
-}
+
 
 /* line 96, ../Ban/Project-end/scss/_main.scss */
 .articles-items__item .title {
@@ -388,13 +385,26 @@
   display: flex;
   align-items: center;
 }
-.dropmenu__lists{
+.dropmenu__lists {
   display: flex;
   align-items: center;
   margin-top: 18px;
   font-weight: 600;
+  gap: 16px;
 }
-.dropmenu__list-item{
+.dropdown__switch{
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.change__them{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #3C64B1;
+  padding-top: 5px;
+}
+.dropmenu__list-item .dropdown__switch{
   font-size: 13px;
   font-weight: 400;
   opacity: 0.5;
