@@ -3,7 +3,7 @@ const articleDropMenu = document.querySelector('.article__dropmenu')
 
 const listsDropMenu = document.querySelectorAll('.dropmenu__lists')
 const listDropMenu = document.querySelectorAll('.dropmenu__list-item')
-const btnDropMenu = document.querySelectorAll('.dropdown__switch')
+const btnDropMenu = document.querySelector('.dropdown__switch')
 
 const buttonimg = document.querySelector('.dropmenu__btn-active ')
 const articlepopup = document.querySelector('.article__popup')
@@ -24,13 +24,17 @@ articlebutton.addEventListener('click', function(){
 })
 btnDropMenu.addEventListener('click', function(){
     listsDropMenu.forEach(listDropMenu => {
-        btnDropMenu.forEach(listDropMenu => {
-            listDropMenu.classList.toggle('hidden')
-        });
+        listDropMenu.classList.toggle('hidden')
     });
 })
 
-
+function dropMenuLists () {
+    listsDropMenu.forEach(listDropMenu => {
+        listsDropMenu.forEach(btnDropMenu => {
+            listDropMenu.classList.toggle('hidden')
+        });
+    });
+}
 
 
 buttonimg.addEventListener('click', function(){
