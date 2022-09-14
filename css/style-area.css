@@ -404,7 +404,7 @@
   color: #3C64B1;
   padding-top: 5px;
 }
-.dropmenu__list-item .dropdown__switch{
+.dropmenu__list-item{
   font-size: 13px;
   font-weight: 400;
   opacity: 0.5;
