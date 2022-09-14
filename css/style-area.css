@@ -130,7 +130,6 @@
   background-color: #F5F7FB;
   display: flex;
   width: 500px;
-  height: 640px;
   flex-direction: column;
   top: 100%;
   left: 57%;
@@ -157,6 +156,19 @@
 }
 .form__registr label:first-child{
   margin-top: 5px;
+}
+.submit__btn{
+  width: 100%;
+  font-weight: 700;
+  border: 1px solid #3c64b1;
+  background-color: #3c64b1;
+  color: #d9d9d9;
+  font-size: 16px;
+  margin-right: 24px;
+  padding: 14px 18px;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 12px;
 }
 /* line 17, ../Ban/Project-end/scss/_main.scss */
 .articles .container {
