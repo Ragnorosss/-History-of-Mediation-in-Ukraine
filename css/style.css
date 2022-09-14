@@ -112,7 +112,6 @@
   background-color: #F5F7FB;
   width: 100%;
   max-width: 500px;
-  height: 600px;
   flex-direction: column;
   top: 100%;
   left: 57%;
@@ -121,7 +120,6 @@
 }
 .form__registr{
   font-family: "Mulish", sans-serif;
-
   display: flex;
   flex-direction: column;
   max-width: 460px;
@@ -140,6 +138,20 @@
 .form__registr, label:first-child{
   margin-top: 10px;
 }
+.submit__btn{
+  width: 100%;
+  font-weight: 700;
+  border: 1px solid #3c64b1;
+  background-color: #3c64b1;
+  color: #d9d9d9;
+  font-size: 16px;
+  margin-right: 24px;
+  padding: 14px 18px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+
 .burgerg__language{
   display: flex;
   padding-left: 20px;
@@ -585,8 +597,7 @@
     display: none;
   }
 }
-/*comment*
-/* line 8, ../New-project/Project/project/scss/style.scss */
+
 body {
   display: flex;
   flex-direction: column;
