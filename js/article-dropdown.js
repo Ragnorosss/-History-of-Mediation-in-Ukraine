@@ -1,5 +1,10 @@
 const articlebutton = document.querySelector('.articles-items__item')
 const articleDropMenu = document.querySelector('.article__dropmenu')
+
+const listsDropMenu = document.querySelectorAll('.dropmenu__lists')
+const listDropMenu = document.querySelectorAll('.dropmenu__list-item')
+const btnDropMenu = document.querySelectorAll('.dropdown__switch')
+
 const buttonimg = document.querySelector('.dropmenu__btn-active ')
 const articlepopup = document.querySelector('.article__popup')
 
@@ -17,10 +22,22 @@ articlebutton.addEventListener('click', function(){
      })*/ 
 
 })
+btnDropMenu.addEventListener('click', function(){
+    listsDropMenu.forEach(listDropMenu => {
+        btnDropMenu.forEach(listDropMenu => {
+            listDropMenu.classList.toggle('hidden')
+        });
+    });
+})
+
+
+
 
 buttonimg.addEventListener('click', function(){
     articlepopup.classList.toggle('hidden')
 })
+
+
 
 document.addEventListener('keydown', function (e) {
     if ( e.key === 'Tab' || e.key === 'Escape' ) {
