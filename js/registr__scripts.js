@@ -15,6 +15,7 @@ const formPassword = document.querySelector('.password ')
 const checkinput = document.querySelectorAll('.empty ')
 const checkRange = document.querySelectorAll('.range ')
 const errorEmpty = document.querySelectorAll('.error-empty')
+const errorPass = document.querySelectorAll('.error-password')
 
 LoginBtn.addEventListener('click', function(){
     formLogin.classList.toggle('hidden')
@@ -82,9 +83,11 @@ formSignin.addEventListener('submit', function (event) {
       for (let i = 0; i < checkRange.length; i++) {
         
         if ( !formPassword != patternsPass ) { 
-            submitBtnSignIn.addEventListener('click',function(){
-                document.querySelector('.error-password').classList.remove('hidden')
-            })
+            errorPass.forEach(errorPass => {
+                submitBtnSignIn.addEventListener('click', function(){
+                    errorPass.classList.remove('hidden')
+                })
+            });
         }
        
     }
