@@ -57,7 +57,6 @@ body {
   display: none;
 }
 
-
 /* Container */
 .container {
   width: 100%;
@@ -91,7 +90,7 @@ li {
   border: 1px solid #3457b2;
   color: #3457b2;
   font-size: 16px;
-  margin-right: -50px;
+  margin-right: -14px;
   padding: 14px 18px;
   border-radius: 12px;
 }
