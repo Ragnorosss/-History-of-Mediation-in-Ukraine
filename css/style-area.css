@@ -157,6 +157,17 @@
 .form__registr label:first-child{
   margin-top: 5px;
 }
+.error-empty{
+color: #ED0131;
+font-family: "Mulish", sans-serif;
+font-size: 12px;
+
+}
+.error-password{
+  color: #ED0131;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+}
 .submit__btn{
   width: 100%;
   font-weight: 700;
