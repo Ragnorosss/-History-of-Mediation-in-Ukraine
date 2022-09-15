@@ -76,7 +76,8 @@
                   </li>
                </ul>
             </nav>
-            <button class="header__button ">Стати автором</button>
+            <button class="header__login" id="log-in">Стати автором</button>
+            <button class="header__signup "id="sign-up">Увійти</button>
                <div class="language">
                   <img src="./icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
                   <img src="./icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
@@ -95,11 +96,26 @@
                      <input type="surname" placeholder="Введіть вашу фамілію">
                      <label for="#">Електронна адреса</label>
                      <input type="email" class="email empty" placeholder="Введіть вашу Електронну адресу">
+                     <div class="error-empty hidden">Error message</div>
                      <label for="#">Пароль</label>
                      <input type="password" class="password empty range" placeholder="Введіть пароль, з літер A-z та 4-9 ">
+                     <div class="error-empty hidden">Error message</div>
+                     <div class="error-password hidden">Error password</div>
                      <label for="#">Label</label>
                      <input type="text" placeholder="A complex form might...">
-                     <button class="submit__btn button">Відправити</button>
+                     <button class="submit__btn button">Зареєструватись</button>
+                  </form>
+               </div>
+               <div class="sign__in hidden">
+                  <form action="" class="form__signin" method="#">
+                     <label for="#">Електронна адреса</label>
+                     <input type="email" class="email empty" placeholder="Введіть вашу Електронну адресу">
+                     <div class="error-empty hidden">Error message</div>
+                     <label for="#">Пароль</label>
+                     <input type="password" class="password empty range" placeholder="Введіть пароль, з літер A-z та 4-9 ">
+                     <div class="error-empty hidden">Error message</div>
+                     <div class="error-password hidden">Error password</div>
+                     <button class="submit__btn-signin button">Увійти</button>
                   </form>
                </div>
             </div>
