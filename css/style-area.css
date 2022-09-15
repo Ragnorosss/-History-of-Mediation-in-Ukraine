@@ -60,14 +60,23 @@
 }
 
 /* line 16, ../Ban/Project-end/scss/_header.scss */
-.header__button-button{
+.header__login-button{
   font-family: "Mulish", sans-serif;
   font-weight: 700;
   border: 1px solid #3457b2;
   color: #3457b2;
   font-size: 16px;
-  margin-right: 24px;
+  margin-right: -50px;
   padding: 14px 18px;
+  border-radius: 12px;
+}
+.header__signup-button{
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  border: 1px solid #3457b2;
+  color: #3457b2;
+  font-size: 16px;
+  padding: 14px 49px;
   border-radius: 12px;
 }
 
@@ -145,6 +154,26 @@
   max-width: 460px;
   margin: 10px 16px;
 }
+.form__signin{
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  margin: 10px 16px;
+}
+
+.form__signin, input{ 
+  padding: 12px;
+  border-radius: 5px;
+  border-color: #282828;
+}
+.form__signin label{
+  margin-top: 56px;
+  margin-bottom: 10px;
+}
+.form__signin label:first-child{
+  margin-top: 5px;
+}
+
 .form_registr, input{ 
   padding: 12px;
   border-radius: 5px;
@@ -158,9 +187,9 @@
   margin-top: 5px;
 }
 .error-empty{
-color: #ED0131;
-font-family: "Mulish", sans-serif;
-font-size: 12px;
+  color: #ED0131;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
 
 }
 .error-password{
@@ -180,6 +209,34 @@ font-size: 12px;
   margin-top: 40px;
   cursor: pointer;
   border-radius: 12px;
+}
+
+.submit__btn-signin{
+  width: 100%;
+  font-weight: 700;
+  border: 1px solid #3c64b1;
+  background-color: #3c64b1;
+  color: #d9d9d9;
+  font-size: 16px;
+  margin-right: 24px;
+  padding: 14px 18px;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.sign__in{
+  position: absolute;
+  background-color: #F5F7FB;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  top: 100%;
+  left: 57%;
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  color: #282828;
+  filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
 }
 /* line 17, ../Ban/Project-end/scss/_main.scss */
 .articles .container {
