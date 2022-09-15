@@ -61,22 +61,38 @@
 }
 
 /* line 16, ../New-project/Project/project/scss/_header.scss */
-.header__button {
+.header__login {
+  font-weight: 700;
+  border: 1px solid #3c64b1;
+  color: #3c64b1;
+  font-size: 16px;
+  margin-right: -14px;
+  padding: 14px 18px;
+  border-radius: 12px;
+
+}
+.header__signup {
   font-weight: 700;
   border: 1px solid #3c64b1;
   color: #3c64b1;
   font-size: 16px;
   margin-right: 24px;
-  padding: 14px 18px;
+  padding: 14px 50px;
+  border-radius: 12px;
 }
 
 /* line 25, ../New-project/Project/project/scss/_header.scss */
-.header__button:hover {
+.header__login:hover {
   background-color: #3c64b1;
   color: #ffffff;
   transition: 0.5s;
 }
 
+.header__signup:hover {
+  background-color: #3c64b1;
+  color: #ffffff;
+  transition: 0.5s;
+}
 /* line 36, ../New-project/Project/project/scss/_header.scss */
 .nav__menu {
   display: flex;
@@ -110,33 +126,65 @@
 .registr{
   position: absolute;
   background-color: #F5F7FB;
-  width: 100%;
-  max-width: 500px;
+  display: flex;
+  width: 500px;
   flex-direction: column;
   top: 100%;
   left: 57%;
-  border-radius: 12px;
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  color: #282828;
   filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
 }
 .form__registr{
-  font-family: "Mulish", sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  margin: 10px 16px;
+}
+.form__signin{
   display: flex;
   flex-direction: column;
   max-width: 460px;
   margin: 10px 16px;
 }
 
-.form__registr > input{ 
+.form__signin, input{ 
   padding: 12px;
   border-radius: 5px;
-  border: 1px solid black;
+  border-color: #282828;
 }
-.form__registr, label{
+.form__signin label{
   margin-top: 56px;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
-.form__registr, label:first-child{
-  margin-top: 10px;
+.form__signin label:first-child{
+  margin-top: 5px;
+}
+
+.form_registr, input{ 
+  padding: 12px;
+  border-radius: 5px;
+  border-color: #282828;
+}
+.form__registr label{
+  margin-top: 56px;
+  margin-bottom: 10px;
+}
+.form__registr label:first-child{
+  margin-top: 5px;
+}
+.error-empty{
+  color: #ED0131;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+
+}
+.error-password{
+  color: #ED0131;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
 }
 .submit__btn{
   width: 100%;
@@ -149,8 +197,36 @@
   padding: 14px 18px;
   margin-top: 40px;
   cursor: pointer;
+  border-radius: 12px;
 }
 
+.submit__btn-signin{
+  width: 100%;
+  font-weight: 700;
+  border: 1px solid #3c64b1;
+  background-color: #3c64b1;
+  color: #d9d9d9;
+  font-size: 16px;
+  margin-right: 24px;
+  padding: 14px 18px;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.sign__in{
+  position: absolute;
+  background-color: #F5F7FB;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  top: 100%;
+  left: 57%;
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  color: #282828;
+  filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
+}
 
 .burgerg__language{
   display: flex;
