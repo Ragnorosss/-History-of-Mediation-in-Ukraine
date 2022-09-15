@@ -65,6 +65,7 @@
                </ul>
             </nav>
             <a href="#" class="header__button-button">Стати автором</a>
+            <a href="#" class="header__button-button">Увійти</a>
             <div class="language">
                <img src="./images/icons/ukr.png" alt="ukr" value="ukr" id="ukr-flag">
                <img src="./images/icons/rus.png" alt="rus" value="rus" id="rus-flag" style="display: none;">
@@ -91,6 +92,17 @@
                   <label for="#">Label</label>
                   <input type="text" placeholder="A complex form might...">
                   <button class="submit__btn button">Відправити</button>
+               </form>
+            </div>
+            <div class="sign__in hidden">
+               <form action="" class="form__registr" method="#">
+                  <label for="#">Електронна адреса</label>
+                  <input type="email" class="email empty" placeholder="Введіть вашу Електронну адресу">
+                  <div class="error-empty hidden">Error message</div>
+                  <label for="#">Пароль</label>
+                  <input type="password" class="password empty range" placeholder="Введіть пароль, з літер A-z та 4-9 ">
+                  <div class="error-empty hidden">Error message</div>
+                  <div class="error-password hidden">Error password</div>
                </form>
             </div>
          </div>
