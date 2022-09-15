@@ -15,12 +15,6 @@ buttonAuthor.addEventListener('click', function(){
 formRegistr.addEventListener('submit', function (event) {
     event.preventDefault()
     
-    const errorsEmpty = formRegistr.querySelectorAll('.error-empty')
-    const errorsRange = formRegistr.querySelectorAll('.error-range')
-    
-
-    
-
     for (let i = 0; i < checkinput.length; i++) {
         if (!checkinput[i].value) {
            
