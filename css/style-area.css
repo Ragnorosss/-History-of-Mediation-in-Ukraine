@@ -684,7 +684,7 @@
   margin-top: 22px;
 }
   @media (max-width: 1250px) {
-    .header__button-button{
+    .header__signup-button, .header__login-button{
       display: none;
     }
     .profile__content{
