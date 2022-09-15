@@ -17,7 +17,6 @@ formRegistr.addEventListener('submit', function (event) {
     
     for (let i = 0; i < checkinput.length; i++) {
         if (!checkinput[i].value) {
-           
             errorEmpty.forEach(errorEmpty => {
                 document.querySelector('.submit__btn').addEventListener('click', function(){
                     errorEmpty.classList.remove('hidden')
@@ -37,7 +36,6 @@ formRegistr.addEventListener('submit', function (event) {
       for (let i = 0; i < checkRange.length; i++) {
         
         if ( !formPassword != patternsPass ) { 
-       
             document.querySelector('.submit__btn').addEventListener('click',function(e){
                 document.querySelector('.error-password').classList.remove('hidden')
             })
