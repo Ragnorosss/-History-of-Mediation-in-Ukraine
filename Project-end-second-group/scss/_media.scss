@@ -1,0 +1,188 @@
+@media (max-width: 1250px) {
+  .profile {
+    &__content {
+      grid-template-areas: "info avatar" "bio bio" "video video";
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+    &__avatar {
+      align-self: center;
+    }
+    &__video {
+      width: 100%;
+      height: 100%;
+      justify-self: center;
+    }
+  }
+  .menu__btn {
+    display: block;
+  }
+
+  .header__wrapper {
+    justify-content: start;
+  }
+
+  .header__logo {
+    position: relative;
+    z-index: 1;
+  }
+
+  .button__item {
+    padding: 0 1%;
+  }
+
+  .hamburger-menu {
+    display: inline;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .language {
+    display: none;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .hero__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero__inner-titel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button__item {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 826px) {
+  .button__item {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .menu__button {
+    flex-wrap: wrap;
+  }
+
+  .button__item {
+    width: 50%;
+  }
+
+  .button__item:nth-child(2) {
+    border-radius: 0 21px 21px 0;
+  }
+
+  .button__item:nth-child(3) {
+    border-radius: 21px 0 0 21px;
+  }
+
+  .articles-items__item {
+    font-size: 24px;
+    .data {
+      font-size: 16px;
+    }
+  }
+
+  #forward {
+    grid-area: forward;
+  }
+
+  #back {
+    grid-area: back;
+  }
+
+  .articles-pagination {
+    grid-template-areas: "numbers numbers" "back forward";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+    .control-numbers {
+      grid-area: numbers;
+
+    }
+  }
+
+  .footer__wrapper::after {
+    bottom: 5%;
+  }
+
+  .profile{
+    .profile__work{
+      display: flex;
+      text-align: start;
+      color: white;
+    }
+  }
+
+
+
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+  .profile {
+    &__content {
+      grid-template-areas: "avatar" "info" "bio" "video";
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    &__avatar {
+      align-self: center;
+    }
+  }
+
+  .hero__button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero-button__link {
+    margin-right: 0;
+  }
+
+  .history__button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .copyryight {
+    margin-top: 12px;
+  }
+
+  .card__inner {
+    row-gap: 55px;
+  }
+
+  .button__item {
+    width: 100%;
+  }
+
+  .button__item:nth-child(1),
+  .button__item:nth-child(2),
+  .button__item:nth-child(3),
+  .button__item:nth-child(4) {
+    border-radius: 0;
+  }
+
+.articles-search {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}

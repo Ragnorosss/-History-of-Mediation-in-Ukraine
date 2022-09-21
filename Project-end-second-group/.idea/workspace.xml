@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a43a64f2-6b1b-45be-a5cc-8a3d03248c32" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-area.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-area.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/article-dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/article-dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style-area.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style-area.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Suite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Suite/.idea/React Suite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Suite/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Suite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Suite/my-app/.idea/my-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Suite/my-app/src/Btn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Suite/my-app/src/Notification.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react_course_1_lesson_4-main/project/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react_course_1_lesson_4-main/project/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react_course_1_lesson_4-main/project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react_course_1_lesson_4-main/project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/.idea/solid-proj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/css/burger.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/css/style-area.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/fonts/Inter-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/fonts/Inter-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/fonts/Mulish-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/fonts/Mulish-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/fonts/Mulish-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/fonts/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/fonts/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/avatar-on-head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/More info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/add-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/change-mode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/close_btn.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/eng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/filter logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/icon-pdf-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/icon-pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/rus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/search_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/start-video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/ukr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/icons/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/images/media-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/js/article-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/js/burgerofset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/js/dinamic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/js/lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/js/registr__sripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/js/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/prepros.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/scss/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/scss/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/scss/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solid-proj/Project-end-second-group/scss/style-area.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../what/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../what/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../what/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../what/.idea/what.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../what/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EnXQarEOb9am8lxeQ0kIR8sW31" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a43a64f2-6b1b-45be-a5cc-8a3d03248c32" name="Changes" comment="" />
+      <created>1663232312241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663232312241</updated>
+      <workItem from="1663232319268" duration="2056000" />
+      <workItem from="1663243483368" duration="2226000" />
+      <workItem from="1663314039579" duration="5693000" />
+      <workItem from="1663571518284" duration="8766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
