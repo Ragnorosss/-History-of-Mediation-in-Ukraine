@@ -391,6 +391,10 @@ li {
     display: block;
   }
 
+  .header__signup{display: none;}
+  
+  .header__login{display: none;}
+
   .header__wrapper {
     justify-content: start;
   }
