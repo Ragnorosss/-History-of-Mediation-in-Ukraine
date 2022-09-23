@@ -540,6 +540,8 @@
   .menu__btn {
     display: block;
   }
+  .header__signup{display: none;}
+  .header__login{display: none;}
   /* line 6, ../New-project/Project/project/scss/_media.scss */
   .header__wrapper {
     justify-content: start;
