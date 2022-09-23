@@ -27,14 +27,11 @@ document.querySelectorAll('.dropdown__switch').forEach(e => {
 });
 
 document.querySelectorAll('.articles-items').forEach(articlebutton => {
-    articlebutton.addEventListener('click', function(){
-        articleDropMenu.classList.toggle('hidden')
-    })
+        articlebutton.addEventListener("click", function(){
+            articleDropMenu.classList.toggle('hidden')
+        })
 });
 
-buttonimg.addEventListener('click', function(){
-    articlepopup.classList.toggle('hidden')
-})
 
 
 
