@@ -1,53 +1,22 @@
-/*Inter*/
-@font-face {
-  font-weight: 600;
-  font-family: "Inter";
-  src: url("../fonts/Inter-SemiBold.ttf");
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: "Inter";
-  src: url("../fonts/Inter-Regular.ttf");
-}
-
-/*Mulishr*/
-@font-face {
-  font-weight: 400;
-  font-family: "Mulish";
-  src: url("../fonts/Mulish-Regular.ttf") format("truetype");
-}
-
 @font-face {
   font-weight: 700;
-  font-family: "Mulish";
-  src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+  font-family: "Charelnk";
+  src: url("../fonts/Charelnk-Bold.ttf");
 }
 
-@font-face {
-  font-weight: 600;
-  font-family: "Mulish";
-  src: url("../fonts/Mulish-SemiBold.ttf") format("truetype");
-}
-
-/*Poppins*/
 @font-face {
   font-weight: 400;
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Regular.ttf");
+  font-family: "Charelnk";
+  src: url("../fonts/Charelnk-Regular.ttf");
 }
 
-@font-face {
-  font-weight: 600;
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-SemiBold.ttf");
-}
 
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
+
 [class*="-button"]:hover {
   background-color: #3457b2;
   color: #ffffff;
