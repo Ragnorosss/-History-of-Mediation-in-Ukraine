@@ -10,6 +10,8 @@
 
 *, ::before, ::after{
   box-sizing: border-box;
+  font-family: "Charelnk", sans-serif;
+
 }
 
  html {
