@@ -54,7 +54,6 @@ li {
 }
 
 .header__login{
-  font-family: "Mulish", sans-serif;
   font-weight: 700;
   border: 1px solid #3457b2;
   color: #3457b2;
@@ -64,7 +63,6 @@ li {
   border-radius: 12px;
 }
 .header__signup{
-  font-family: "Mulish", sans-serif;
   font-weight: 700;
   border: 1px solid #3457b2;
   color: #3457b2;
@@ -97,7 +95,6 @@ li {
 
 .menu-item__link {
   color: #373f41;
-  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
@@ -123,7 +120,6 @@ li {
   top: 100%;
   left: 57%;
   border-radius: 5px;
-  font-family: "Mulish", sans-serif;
   font-weight: 500;
   color: #282828;
   filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
@@ -168,13 +164,11 @@ li {
 }
 .error-empty{
   color: #ED0131;
-  font-family: "Mulish", sans-serif;
   font-size: 12px;
 
 }
 .error-password{
   color: #ED0131;
-  font-family: "Mulish", sans-serif;
   font-size: 12px;
 }
 .submit__btn{
@@ -213,8 +207,6 @@ li {
   top: 100%;
   left: 57%;
   border-radius: 5px;
-  font-family: "Mulish", sans-serif;
-  font-weight: 500;
   color: #282828;
   filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
 }
@@ -222,7 +214,6 @@ li {
 .burgerg__language{
   display: flex;
   padding-left: 20px;
-  font-family: "Mulish", sans-serif;
   font-size: 32px;
   font-weight: 700;
   padding-top: 10px;
@@ -319,25 +310,21 @@ li {
 .button {
   background-color: #3c64b1;
   color: #ffffff;
-  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 
 .titel {
-  font-family: "Mulish", sans-serif;
   font-weight: 700;
 }
 
 .subtitel {
-  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #737b7d;
 }
 
 #lang {
-  font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
