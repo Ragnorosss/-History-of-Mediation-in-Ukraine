@@ -431,6 +431,17 @@
   max-width: 105px;
 }
 
+.add__article-button{
+  width: 100%;
+  max-width: 860px;
+  color: #3C64B1;
+  border: 1px solid #3C64B1;
+  border-radius: 30px;
+  padding: 40px 0;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 100px;
+}
 
 .change__them{
   font-size: 13px;
