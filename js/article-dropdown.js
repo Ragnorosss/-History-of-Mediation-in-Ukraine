@@ -1,9 +1,3 @@
-const articlebutton = document.querySelectorAll('.articles-items__item')
-const articleDropMenu = document.querySelector('.article__dropmenu')
-
-const buttonimg = document.querySelector('.dropmenu__btn-active ')
-const articlepopup = document.querySelector('.article__popup')
-
 let intervalId;
 
 document.querySelectorAll('.dropdown__switch').forEach(e => {
@@ -26,18 +20,5 @@ document.querySelectorAll('.dropdown__switch').forEach(e => {
     });
 });
 
-document.querySelectorAll('.articles-items').forEach(articlebutton => {
-        articlebutton.addEventListener("click", function(){
-            articleDropMenu.classList.toggle('hidden')
-        })
-});
 
-
-
-
-document.addEventListener('keydown', function (e) {
-    if ( e.key === 'Tab' || e.key === 'Escape' ) {
-        articleDropMenu.classList.add('hidden')
-    }
-})
 
