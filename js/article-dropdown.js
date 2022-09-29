@@ -22,14 +22,10 @@ document.querySelectorAll('.dropdown__switch').forEach(e => {
 
 const articleWrapper = document.querySelectorAll('.dropmenu__buttons')
 
-const article_popup = document.querySelector('.article_popup')
-const dropmenuBtnPopup = document.querySelectorAll('.dropmenu__btn-button')
+const article_popup = document.querySelector('.article__popup')
+const popupbtn = document.querySelector('.download')
 
-articleWrapper.forEach(dropmenuBtnPopup =>{
-    dropmenuBtnPopup.addEventListener('click', function(){
-        article_popup.classlist.toggle('hidden')
-    })
+popupbtn.addEventListener('click',function(){
+    article_popup.classList.toggle('hidden')
 })
-
-
 
