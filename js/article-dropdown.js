@@ -1,3 +1,13 @@
+const articleElement = document.querySelectorAll('.article__dropmenu')
+
+
+const articlePopup = document.querySelector('.article__popup')
+
+const popupbtn = document.querySelector('.download')
+const popupCloseBtn = document.querySelector('.button_close')
+
+const themeAddBtn = document.querySelector('.change__them')
+
 let intervalId;
 
 document.querySelectorAll('.dropdown__switch').forEach(e => {
@@ -20,17 +30,13 @@ document.querySelectorAll('.dropdown__switch').forEach(e => {
     });
 });
 
-const articleWrapper = document.querySelectorAll('.dropmenu__buttons')
 
-const articlePopup = document.querySelector('.article__popup')
-const popupbtn = document.querySelector('.download')
-const popupCloseBtn = document.querySelector('.button_close')
-
-const articleBefor = document.querySelector('.article__popup::before')
-
-popupbtn.addEventListener('click',function(){
-    articlePopup.classList.toggle('hidden')
+articleElement.forEach(popupbtn =>{
+    popupbtn.addEventListener('click',function(){
+        articlePopup.classList.toggle('hidden')
+    })
 })
+
 
 popupCloseBtn.addEventListener('click',function(){
     articlePopup.classList.add('hidden')
