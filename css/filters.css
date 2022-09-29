@@ -193,3 +193,10 @@
   margin-left: 80px;
   width: 100%;
 }
+
+@media(min-width: 1100px) { 
+  .filters{
+    display: none;
+    position: absolute;
+  }
+}

@@ -48,11 +48,6 @@
   transition: 300ms;
 }
 
-/* On mouse-over, add a grey background color
-.container-dropdown:hover input ~ .checkmark-dropdown,
-.container-dropdown:hover input ~ .checkmark-topics-dropdown {
-  background-color: rgb(170, 170, 170);
-} */
 
 /* When the checkbox is checked, add a blue background */
 .container-dropdown input:checked ~ .checkmark-dropdown,
