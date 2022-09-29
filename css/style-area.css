@@ -392,6 +392,17 @@
   padding:20px 10px;
   z-index: 1;
 }
+
+.button_close{
+  position: absolute;
+  background: url(/images/icons/close_popup.svg);
+  width: 49px; 
+  height: 49px;
+  right: 5%;
+  top: 4%;
+  cursor: pointer;
+}
+
 .popup__titel{
   font-size: 32px;
   font-weight: 700;
