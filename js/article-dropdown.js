@@ -30,10 +30,27 @@ document.querySelectorAll('.dropdown__switch').forEach(e => {
 
 
 popupbtn.addEventListener('click',function(){
-        articlePopup.classList.toggle('hidden')
+    articlePopup.classList.toggle('hidden')
 })
 
 
 popupCloseBtn.addEventListener('click',function(){
     articlePopup.classList.add('hidden')
+})
+
+function addLists () { 
+    const creatWraper = document.createElement('div')
+    creatWraper.classList.add('dropmenu__list-items')
+    creatWraper.innerHTML =`
+    <button data-path="two" class="dropdown__switch">Тема 1</button>
+        <ul data-target="two" class="dropdown__inner hidden">
+            <li class="dropmenu__list-item">Тема 1</li>
+            <li class="dropmenu__list-item">Тема 2</li>
+            <li class="dropmenu__list-item">Тема 3</li>
+        </ul>
+    `;
+}
+
+themeAddBtn.addEventListener('click',function(){
+    addLists()
 })
