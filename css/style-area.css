@@ -8,7 +8,7 @@
 @font-face {
   font-weight: 400;
   font-family: "Charelnk";
-  src: url("../fonts/Charelnk-Regular.ttf");
+  src: url("../fonts/ChareInk-Regular.ttf");
 }
 
 
@@ -451,6 +451,7 @@
 }
 
 .change__them{
+  cursor: pointer;
   font-size: 13px;
   font-weight: 400;
   color: #3C64B1;

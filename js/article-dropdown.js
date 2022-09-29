@@ -1,5 +1,3 @@
-const articleElement = document.querySelectorAll('.article__dropmenu')
-
 
 const articlePopup = document.querySelector('.article__popup')
 
@@ -31,10 +29,8 @@ document.querySelectorAll('.dropdown__switch').forEach(e => {
 });
 
 
-articleElement.forEach(popupbtn =>{
-    popupbtn.addEventListener('click',function(){
+popupbtn.addEventListener('click',function(){
         articlePopup.classList.toggle('hidden')
-    })
 })
 
 
