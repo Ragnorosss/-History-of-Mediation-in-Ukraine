@@ -131,8 +131,8 @@
          <div class="articles-block">
             <div class="filters" id="filters">
                <form class="filter__form">
-               <ul>
-                  По перiодам
+               <ul class="filter__periods">
+                  <h2>По перiодам</h2>
                   <li>
                      <label class="container"><span class="filters__label">90-тi роки</span>
                         <input type="checkbox">
@@ -165,106 +165,69 @@
                </ul>
                <hr class="hr">
                <ul>
-                  По темам
+                  <h2>По темам</h2>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 1</span>
+                     <label class="container"><span class="filters__label">Судебная медиация</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 2</span>
+                     <label class="container"><span class="filters__label">Семейная медиация</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 3</span>
+                     <label class="container"><span class="filters__label">Восстановительное правосудие</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 4</span>
+                     <label class="container"><span class="filters__label">Медиация в бизнесе</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 5</span>
+                     <label class="container"><span class="filters__label">Школьная медиация</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 6</span>
+                     <label class="container"><span class="filters__label">Медиация в сообществах</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 7</span>
+                     <label class="container"><span class="filters__label">Медиация в организациях</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
+                        <span class="checkmark-topics topics-checkmark" ></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">Тема 8</span>
+                     <label class="container"><span class="filters__label">Диалог</span>
                         <input type="checkbox">
-                        <span class="checkmark-topics"></span>
-                     </label>
-                  </li>
-               </ul>
-               <hr class="hr">
-               <ul>
-                  По датi
-                  <li><input type="text" name="search-date" placeholder="Введiть начало" class="search-date"></li>
-                  <li><input type="text" name="search-date" placeholder="Введiть кiнець" class="search-date"></li>
-               </ul>
-               <div class="move-down-icon">
-                  <hr>
-                  <a href="#" onclick="scrollDown()"><svg xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="77px" height="19px" style="margin-top: 20px;">
-                        <image x="0px" y="0px" width="77px" height="19px"
-                           xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAATCAMAAADiU3AFAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAw1BMVEX///+tr7JUVVarrbCUlplISUrAwsaho6dTVFU9Pj9SU1Woqa2TlZhHSEqpqq1SU1SRk5bS09iJio1dXmCmp6poaWtnaGq5u76lpql8fX/S1NjAwcXR09doamxmZ2mqrK9HSEl7fX7Nz9NmaGmRkpW5ur68vcJHSUqQkZTO0NN7fX9naGu8vsLO0NR7fH6nqKxcXl+mqKu/wcWPkZOnqKuqq6+kpqmdnqGSk5aTlJeQkpSlp6pyc3WlpqpcXV6jpaj///9OvdwdAAAAQHRSTlMAM6A1UK8bP6O9ozhTrzijVQVflz2IiiQ9cAUbBYiKNbFyCopVJCCvVwpwiCAKcjqXOhtXOjU9RlVTVz18PZk/VyaWoQAAAAFiS0dEAIgFHUgAAAAHdElNRQfmCAULAxlIdP0uAAAA60lEQVQ4y63T6Q6CMAwAYFREqiAeIHhPEW/xvq/3fys7IoYQUCb0F+maL+1WuFQ6wyUTfFbgciLkCwlYkgwydYoiKKVyPKsiQ1V9f6tKLE/QAGq6J2EoAPXGX1bTb328FrvVBujoAQeOxzZvVwPS64cc6iZTf3wWyOBbgVVDbxjJkkZAxr+KJlOA2TwZi8bCRm/5tQTXa2VEvRDqKaGeELQSP+cN9uh6mUyW49n4g6z92Q21LFbLmXeL3s6b2aNl9/+xnP4O6B3dhZbyEZ8xPKh3ogt9loFc4lk0rtjSrU5i9+XG/YFX/4xS+QJmsBKHSUX9wQAAAABJRU5ErkJggg==" />
-                     </svg></a>
-               </div>
-               <hr class="hr">
-               <ul>
-                  По перiодам
-                  <li>
-                     <label class="container"><span class="filters__label">90-тi роки</span>
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">1998-2004</span>
+                     <label class="container"><span class="filters__label">Медиация как социальная услуга</span>
                         <input type="checkbox">
-                        <span class="checkmark"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                   <li>
-                     <label class="container"><span class="filters__label">2004-2010</span>
+                     <label class="container"><span class="filters__label">Медиация в потребительских конфликтах</span>
                         <input type="checkbox">
-                        <span class="checkmark"></span>
-                     </label>
-                  </li>
-                  <li>
-                     <label class="container"><span class="filters__label">2010-2014</span>
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                     </label>
-                  </li>
-                  <li>
-                     <label class="container"><span class="filters__label">2014-н.ч</span>
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
+                        <span class="checkmark-topics topics-checkmark"></span>
                      </label>
                   </li>
                </ul>
             </form>
-               <div style="height: 100px;" id="bott-search"></div>
             </div>
             <div class="search"></div>
             <div class="articles"></div>
