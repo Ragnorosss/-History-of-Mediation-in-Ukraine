@@ -33,8 +33,12 @@
 
 .filter__periods{
   text-align: center;
+  margin-right: 0px;
 }
-
+.filter__periods .filters__label{
+  text-align: center;
+  margin-left: 40px;
+}
 
 .filters li {
   font-size: 15px;
