@@ -38,19 +38,71 @@ popupCloseBtn.addEventListener('click',function(){
     articlePopup.classList.add('hidden')
 })
 
-function addLists () { 
-    const creatWraper = document.createElement('div')
-    creatWraper.classList.add('dropmenu__list-items')
-    creatWraper.innerHTML =`
-    <button data-path="two" class="dropdown__switch">Тема 1</button>
-        <ul data-target="two" class="dropdown__inner hidden">
-            <li class="dropmenu__list-item">Тема 1</li>
-            <li class="dropmenu__list-item">Тема 2</li>
-            <li class="dropmenu__list-item">Тема 3</li>
-        </ul>
-    `;
-}
+// let ulList = document.querySelector("dropmenu__lists");
+//
+// function addLists () {
+//     const creatWraper = document.createElement('div')
+//     creatWraper.classList.add('dropmenu__list-items')
+//     creatWraper.innerHTML =`
+//     <button data-path="two" class="dropdown__switch">Тема 1</button>
+//         <ul data-target="two" class="dropdown__inner hidden">
+//             <li class="dropmenu__list-item">Тема 1</li>
+//             <li class="dropmenu__list-item">Тема 2</li>
+//             <li class="dropmenu__list-item">Тема 3</li>
+//         </ul>
+//     `;
+//
+//     document.querySelector("dropmenu__lists").append(creatWraper);
+// }
+//
+// themeAddBtn.addEventListener('click',function(){
+//     addLists()
+// })
 
-themeAddBtn.addEventListener('click',function(){
-    addLists()
+// let ulList = document.querySelector(".change__them");
+// let countTopic = 0;
+//
+// ulList.addEventListener('click', (event) => {
+//     if(event.target.closest(".dropmenu__lists")){
+//         countTopic += 1
+//
+//         const creatWraper = document.createElement('div')
+//         creatWraper.classList.add('dropmenu__list-items')
+//         creatWraper.innerHTML =`
+//         <button data-path="two" class="dropdown__switch">Тема ${countTopic}</button>
+//             <ul data-target="two" class="dropdown__inner hidden">
+//                 <li class="dropmenu__list-item">Тема 1</li>
+//                 <li class="dropmenu__list-item">Тема 2</li>
+//                 <li class="dropmenu__list-item">Тема 3</li>
+//             </ul>
+//         `;
+//
+//         event.target.closest(".dropmenu__lists").append(creatWraper);
+//         console.log(event.target.closest(".dropmenu__lists"))
+//     }
+// })
+
+const ulList = document.querySelectorAll(".change__them");
+
+ulList.forEach(item => {
+
+    item.addEventListener('click', (event) => {
+        if(event.target.closest(".dropmenu__lists")){
+
+            const creatWraper = document.createElement('div')
+            creatWraper.classList.add('dropmenu__list-items')
+            creatWraper.innerHTML =`
+        <button data-path="two" class="dropdown__switch">Тема 1</button>
+            <ul data-target="two" class="dropdown__inner hidden">
+                <li class="dropmenu__list-item">Тема 1</li>
+                <li class="dropmenu__list-item">Тема 2</li>
+                <li class="dropmenu__list-item">Тема 3</li>
+            </ul>
+        `;
+
+            event.target.closest(".dropmenu__lists").append(creatWraper);
+            console.log(event.target.closest(".dropmenu__lists"))
+        }
+    })
+
 })

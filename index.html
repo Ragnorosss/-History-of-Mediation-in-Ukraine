@@ -137,19 +137,23 @@
             <div class="articles-search">
                <div class="articles-search__item" >
                   <img class="search-img" src="./images/icons/search_logo.png" />
-                  <input class="search-input" type="text" placeholder="Пошук по статтям..."></input>
+                  <input class="search-input" type="text" placeholder="Пошук по статтям...">
                </div>
             </div>
             <ul class="articles-items">
-               <div class="article__dropmenu hidden">
+               <div class="article__dropmenu ">
                   <div class="dropmenu__author">
                      <img src="/images/avatar.png" alt="" class="dropmenu__avatar article__item-img">
                      <div class="article__dropmenu-name">Name</div>
                   </div>
                   <div class="dropmenu__filter-items">
-                     <ul class="dropmenu__lists">
-                        <h2 class="dropmenu__titel">Назва статті</h2>
-                        <div class="dropmenu__list-items">
+
+                  <ul class="dropmenu__lists one">
+<!--                     <div class="dropmenu__lists-topics">-->
+
+                     <h2 class="dropmenu__titel">Назва статті</h2>
+                     <button class="change__them">Додати тему</button>
+                     <div class="dropmenu__list-items">
                            <button data-path="one" class="dropdown__switch">Період</button>
                            <ul data-target="one" class="dropdown__inner hidden">
                               <li class="dropmenu__list-item">90-ті</li>
@@ -158,32 +162,11 @@
                               <li class="dropmenu__list-item">2010-2014</li>
                            </ul>
                         </div>
-                        <div class="dropmenu__list-items">
-                           <button data-path="two" class="dropdown__switch">Тема 1</button>
-                           <ul data-target="two" class="dropdown__inner hidden">
-                              <li class="dropmenu__list-item">Тема 1</li>
-                              <li class="dropmenu__list-item">Тема 2</li>
-                              <li class="dropmenu__list-item">Тема 3</li>
-                           </ul>
-                        </div>
-                        <div class="dropmenu__list-items">
-                           <button data-path="three" class="dropdown__switch">Тема 2</button>
-                           <ul data-target="three" class="dropdown__inner hidden">
-                              <li class="dropmenu__list-item">Тема 1</li>
-                              <li class="dropmenu__list-item">Тема 2</li>
-                              <li class="dropmenu__list-item">Тема 3</li>
-                           </ul>
-                        </div>
-                        <div class="dropmenu__list-items">
-                           <button data-path="four" class="dropdown__switch">Тема 3</button>
-                           <ul data-target="four" class="dropdown__inner hidden">
-                              <li class="dropmenu__list-item">Тема 1</li>
-                              <li class="dropmenu__list-item">Тема 2</li>
-                              <li class="dropmenu__list-item">Тема 3</li>
-                           </ul>
-                        </div>
-                        <button class="change__them2">Додати тему</button>
-                     </ul>
+<!--                     </div>-->
+                  </ul>
+
+
+
                      <p class="dropmenu__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                      <div class="dropmenu__buttons">
                         <button class="dropmenu__btn-button ">Завантажити</button>
@@ -200,6 +183,7 @@
                   <div class="dropmenu__filter-items">
                      <ul class="dropmenu__lists">
                         <h2 class="dropmenu__titel">Назва статті</h2>
+                        <button class="change__them">Додати тему</button>
                         <div class="dropmenu__list-items">
                            <button data-path="one" class="dropdown__switch">Період</button>
                            <ul data-target="one" class="dropdown__inner hidden">
@@ -208,7 +192,6 @@
                               <li class="dropmenu__list-item">2004-2010</li>
                               <li class="dropmenu__list-item">2010-2014</li>
                            </ul>
-                           <button class="change__them">Додати тему</button>
                         </div>
                      </ul>
                      <p class="dropmenu__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
