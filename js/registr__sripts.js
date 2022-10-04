@@ -72,14 +72,6 @@ formSignin.addEventListener('submit', function (event) {
         }
     }
 
-    var patternsPass = {
-        'number':     '0-9',
-        'special':     '!@#$%^&*',
-        'latin_lower': 'a-z',
-        'latin_upper': 'A-Z'
-      };
-
-
       for (let i = 0; i < checkRange.length; i++) {
         
         if ( !formPassword != patternsPass ) { 
