@@ -39,7 +39,7 @@ formRegistr.addEventListener('submit', function (event) {
         }
     }
 
-    var patternsPass = {
+    let patternsPass = {
         'number':     '0-9',
         'special':     '!@#$%^&*',
         'latin_lower': 'a-z',
