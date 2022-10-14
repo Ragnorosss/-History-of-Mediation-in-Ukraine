@@ -95,7 +95,8 @@
   position: absolute;
   background-color: #F5F7FB;
   display: flex;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   flex-direction: column;
   top: 100%;
   left: 57%;
@@ -104,6 +105,7 @@
   font-weight: 500;
   color: #282828;
   filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
+  z-index: -1;
 }
 .form__registr{
   display: flex;
@@ -194,6 +196,7 @@
   font-weight: 500;
   color: #282828;
   filter: drop-shadow(1px 13px 29px  rgba(0, 0, 0, 0.26));
+  z-index: -1;
 }
 
 .burgerg__language{
@@ -440,6 +443,7 @@
   column-gap: 94px;
   margin-bottom: 41px;
   padding-top: 58px;
+  padding-bottom: 24px;
   justify-content: center;
   justify-items: center;
   line-height: 1.4em;
@@ -503,13 +507,19 @@
 }
 
 /* Test */
-@media (max-width: 1230px) {
+@media (max-width: 1270px) {
   /* line 2, ../New-project/Project/project/scss/_media.scss */
   .menu__btn {
     display: block;
   }
   .header__signup{display: none;}
   .header__login{display: none;}
+  .registr{
+    left: 30%;
+  }
+  .sign__in{
+    left: 30%;
+  }
   /* line 6, ../New-project/Project/project/scss/_media.scss */
   .header__wrapper {
     justify-content: start;
@@ -561,7 +571,11 @@
     padding-top: 38px;
   }
 }
-
+@media (min-width: 900px) and (max-width:1270px){
+  .sign__in{
+    left: 26%;
+  }
+}
 @media (max-width: 897px) {
   /* line 54, ../New-project/Project/project/scss/_media.scss */
   .source {
@@ -570,12 +584,24 @@
   .footer__wrapper::after {
     bottom: 8%;
   }
+  .registr{
+    left: 25%;
+  }
+  .sign__in{
+    left: 25%;
+  }
 }
 
 @media (max-width: 768px) {
   /* line 60, ../New-project/Project/project/scss/_media.scss */
   .video {
     min-height: 280px;
+  }
+  .registr{
+    left: 12%;
+  } 
+  .sign__in{
+    left: 10%;
   }
   /* line 64, ../New-project/Project/project/scss/_media.scss */
   .menu__button {
@@ -595,13 +621,30 @@
   }
 }
 
-@media (min-width: 280px) and (max-width: 410px) {
+@media (min-width: 280px) and (max-width: 630px) {
   /* line 82, ../New-project/Project/project/scss/_media.scss */
   .hero__button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+  }
+  .registr{
+    max-width: 99%;
+    left:0;
+  }
+  .sign__in{
+    width: 100%;
+    max-width: 99%;
+    left: 0%;
+  }
+  .form__signin{
+    width: 100%;
+    max-width: 95%;
+  }
+  .form__registr{
+    width: 100%;
+    max-width: 95%;
   }
   /* line 89, ../New-project/Project/project/scss/_media.scss */
   .hero-button__link {
@@ -656,6 +699,7 @@ body {
   max-width: 1360px;
   margin: 0 auto;
   padding: 0 15px;
+  position: relative;
 }
 
 /* line 21, ../New-project/Project/project/scss/style.scss */

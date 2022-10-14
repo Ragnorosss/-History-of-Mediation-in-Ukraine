@@ -8,6 +8,10 @@ const formSign = document.querySelector('.sign__in')
 const formRegistr = document.querySelector('.form__registr ')
 const formSignin = document.querySelector('.form__signin ')
 
+
+const burgerSignin = document.querySelector('.signin')
+const burgerLogin = document.querySelector('.login')
+
 const submitBtn = document.querySelector('.submit__btn ')
 const submitBtnSignIn = document.querySelector('.submit__btn-signin')
 const formEmail = document.querySelector('.email ')
@@ -25,6 +29,13 @@ SignInBtn.addEventListener('click', function(){
     formSign.classList.toggle('hidden')
 })
 
+burgerSignin.addEventListener('click', function(){
+    formSign.classList.toggle('hidden')
+})
+
+burgerLogin.addEventListener('click', function(){
+    formLogin.classList.toggle('hidden')
+})
 
 formRegistr.addEventListener('submit', function (event) {
     event.preventDefault()
@@ -72,13 +83,7 @@ formSignin.addEventListener('submit', function (event) {
         }
     }
 
-    var patternsPass = {
-        'number':     '0-9',
-        'special':     '!@#$%^&*',
-        'latin_lower': 'a-z',
-        'latin_upper': 'A-Z'
-      };
-
+ 
 
       for (let i = 0; i < checkRange.length; i++) {
         
