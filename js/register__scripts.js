@@ -21,21 +21,7 @@ const checkRange = document.querySelectorAll('.range ')
 const errorEmpty = document.querySelectorAll('.error-empty')
 const errorPass = document.querySelectorAll('.error-password')
 
-LoginBtn.addEventListener('click', function(){
-    formLogin.classList.toggle('hidden')
-})
 
-SignInBtn.addEventListener('click', function(){
-    formSign.classList.toggle('hidden')
-})
-
-burgerSignin.addEventListener('click', function(){
-    formSign.classList.toggle('hidden')
-})
-
-burgerLogin.addEventListener('click', function(){
-    formLogin.classList.toggle('hidden')
-})
 
 formRegistr.addEventListener('submit', function (event) {
     event.preventDefault()
@@ -50,7 +36,7 @@ formRegistr.addEventListener('submit', function (event) {
         }
     }
 
-    var patternsPass = {
+    let patternsPass = {
         'number':     '0-9',
         'special':     '!@#$%^&*',
         'latin_lower': 'a-z',
@@ -97,4 +83,20 @@ formSignin.addEventListener('submit', function (event) {
        
     }
    
+})
+
+LoginBtn.addEventListener('click', function(){
+    formLogin.classList.toggle('hidden')
+})
+
+SignInBtn.addEventListener('click', function(){
+    formSign.classList.toggle('hidden')
+})
+
+burgerSignin.addEventListener('click', function(){
+    formSign.classList.toggle('hidden')
+})
+
+burgerLogin.addEventListener('click', function(){
+    formLogin.classList.toggle('hidden')
 })
