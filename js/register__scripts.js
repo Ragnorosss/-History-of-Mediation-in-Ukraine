@@ -44,7 +44,7 @@ function validPassSignin(event) {
       for (let i = 0; i < checkRange.length; i++) {
         
         if ( !formPassword != patternsPass ) { 
-            document.querySelector('.submit__btn').addEventListener('click',function(e){
+                document.querySelector('.submit__btn').addEventListener('click',function(e){
                 document.querySelector('.error-password').classList.remove('hidden')
             })
         }
