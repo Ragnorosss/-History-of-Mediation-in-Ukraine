@@ -28,7 +28,6 @@ const patternsPass = {
     'latin_upper': 'A-Z'
   };
 
-
 function validPassSignin(event) {
     event.preventDefault()
     
