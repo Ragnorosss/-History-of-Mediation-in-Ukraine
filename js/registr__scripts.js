@@ -4,11 +4,13 @@ const SignInBtn = document.querySelector('#sign-up')
 const formLogin = document.querySelector('.registr')
 const formSign = document.querySelector('.sign__in')
 
-const burgerSignin = document.querySelector('.signin')
-const burgerLogin = document.querySelector('.login')
 
 const formRegistr = document.querySelector('.form__registr ')
 const formSignin = document.querySelector('.form__signin ')
+
+
+const burgerSignin = document.querySelector('.signin')
+const burgerLogin = document.querySelector('.login')
 
 const submitBtn = document.querySelector('.submit__btn ')
 const submitBtnSignIn = document.querySelector('.submit__btn-signin')
@@ -19,8 +21,14 @@ const checkRange = document.querySelectorAll('.range ')
 const errorEmpty = document.querySelectorAll('.error-empty')
 const errorPass = document.querySelectorAll('.error-password')
 
+const patternsPass = {
+    'number':     '0-9',
+    'special':     '!@#$%^&*',
+    'latin_lower': 'a-z',
+    'latin_upper': 'A-Z'
+  };
 
-formRegistr.addEventListener('submit', function (event) {
+function validPassSignin(event) {
     event.preventDefault()
     
     for (let i = 0; i < checkinput.length; i++) {
@@ -33,27 +41,19 @@ formRegistr.addEventListener('submit', function (event) {
         }
     }
 
-    var patternsPass = {
-        'number':     '0-9',
-        'special':     '!@#$%^&*',
-        'latin_lower': 'a-z',
-        'latin_upper': 'A-Z'
-      };
-
-
       for (let i = 0; i < checkRange.length; i++) {
         
         if ( !formPassword != patternsPass ) { 
-            document.querySelector('.submit__btn').addEventListener('click',function(e){
+                document.querySelector('.submit__btn').addEventListener('click',function(e){
                 document.querySelector('.error-password').classList.remove('hidden')
             })
         }
        
     }
    
-})
+}
 
-formSignin.addEventListener('submit', function (event) {
+function validPassLogin(event){
     event.preventDefault()
     
     for (let i = 0; i < checkinput.length; i++) {
@@ -66,13 +66,7 @@ formSignin.addEventListener('submit', function (event) {
         }
     }
 
-    var patternsPass = {
-        'number':     '0-9',
-        'special':     '!@#$%^&*',
-        'latin_lower': 'a-z',
-        'latin_upper': 'A-Z'
-      };
-
+ 
 
       for (let i = 0; i < checkRange.length; i++) {
         
@@ -85,8 +79,14 @@ formSignin.addEventListener('submit', function (event) {
         }
        
     }
+}
+
+
+formSignin.addEventListener('submit', validPassLogin)
    
-})
+
+formRegistr.addEventListener('submit',validPassSignin ) 
+
 
 LoginBtn.addEventListener('click', function(){
     formLogin.classList.toggle('hidden')
