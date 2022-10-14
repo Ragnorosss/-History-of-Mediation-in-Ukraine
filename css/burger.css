@@ -26,6 +26,7 @@
   width: 35px;
   height: 45px;
   cursor: pointer;
+  z-index: 1;
 }
 .menu__btn > span,
 .menu__btn > span::before,
