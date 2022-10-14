@@ -4,6 +4,8 @@ const SignInBtn = document.querySelector('#sign-up')
 const formLogin = document.querySelector('.registr')
 const formSign = document.querySelector('.sign__in')
 
+const burgerSignin = document.querySelector('.signin')
+const burgerLogin = document.querySelector('.login')
 
 const formRegistr = document.querySelector('.form__registr ')
 const formSignin = document.querySelector('.form__signin ')
@@ -16,14 +18,6 @@ const checkinput = document.querySelectorAll('.empty ')
 const checkRange = document.querySelectorAll('.range ')
 const errorEmpty = document.querySelectorAll('.error-empty')
 const errorPass = document.querySelectorAll('.error-password')
-
-LoginBtn.addEventListener('click', function(){
-    formLogin.classList.toggle('hidden')
-})
-
-SignInBtn.addEventListener('click', function(){
-    formSign.classList.toggle('hidden')
-})
 
 
 formRegistr.addEventListener('submit', function (event) {
@@ -92,4 +86,20 @@ formSignin.addEventListener('submit', function (event) {
        
     }
    
+})
+
+LoginBtn.addEventListener('click', function(){
+    formLogin.classList.toggle('hidden')
+})
+
+SignInBtn.addEventListener('click', function(){
+    formSign.classList.toggle('hidden')
+})
+
+burgerSignin.addEventListener('click', function(){
+    formSign.classList.toggle('hidden')
+})
+
+burgerLogin.addEventListener('click', function(){
+    formLogin.classList.toggle('hidden')
 })
